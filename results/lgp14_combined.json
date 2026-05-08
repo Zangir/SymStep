@@ -1,0 +1,842 @@
+{
+  "lgp14_haiku": {
+    "summary": {
+      "direct": {
+        "correct": 2,
+        "total": 14,
+        "calls": 14,
+        "contradictions": 0
+      },
+      "cot": {
+        "correct": 0,
+        "total": 14,
+        "calls": 14,
+        "contradictions": 0
+      },
+      "self_refine": {
+        "correct": 5,
+        "total": 14,
+        "calls": 28,
+        "contradictions": 0
+      },
+      "symstep": {
+        "correct": 12,
+        "total": 14,
+        "calls": 98,
+        "contradictions": 0
+      },
+      "symstep_g": {
+        "correct": 14,
+        "total": 14,
+        "calls": 99,
+        "contradictions": 0
+      }
+    },
+    "per_puzzle": [
+      {
+        "puzzle": "E1-Pets",
+        "difficulty": "easy",
+        "direct": {
+          "correct": false,
+          "calls": 1,
+          "time": 5.7
+        },
+        "cot": {
+          "correct": false,
+          "calls": 1,
+          "time": 6.6
+        },
+        "self_refine": {
+          "correct": false,
+          "calls": 2,
+          "time": 10.6
+        },
+        "symstep": {
+          "correct": true,
+          "calls": 5,
+          "time": 20.7
+        },
+        "symstep_g": {
+          "correct": true,
+          "calls": 4,
+          "time": 18.8
+        }
+      },
+      {
+        "puzzle": "E2-Jobs",
+        "difficulty": "easy",
+        "direct": {
+          "correct": true,
+          "calls": 1,
+          "time": 6.3
+        },
+        "cot": {
+          "correct": false,
+          "calls": 1,
+          "time": 8.7
+        },
+        "self_refine": {
+          "correct": false,
+          "calls": 2,
+          "time": 10.5
+        },
+        "symstep": {
+          "correct": true,
+          "calls": 6,
+          "time": 23.6
+        },
+        "symstep_g": {
+          "correct": true,
+          "calls": 4,
+          "time": 18.2
+        }
+      },
+      {
+        "puzzle": "M1-Houses",
+        "difficulty": "medium",
+        "direct": {
+          "correct": false,
+          "calls": 1,
+          "time": 7.0
+        },
+        "cot": {
+          "correct": false,
+          "calls": 1,
+          "time": 7.4
+        },
+        "self_refine": {
+          "correct": false,
+          "calls": 2,
+          "time": 11.1
+        },
+        "symstep": {
+          "correct": false,
+          "calls": 2,
+          "time": 12.3
+        },
+        "symstep_g": {
+          "correct": true,
+          "calls": 7,
+          "time": 28.5
+        }
+      },
+      {
+        "puzzle": "M2-Nationals",
+        "difficulty": "medium",
+        "direct": {
+          "correct": false,
+          "calls": 1,
+          "time": 24.0
+        },
+        "cot": {
+          "correct": false,
+          "calls": 1,
+          "time": 23.6
+        },
+        "self_refine": {
+          "correct": false,
+          "calls": 2,
+          "time": 36.7
+        },
+        "symstep": {
+          "correct": true,
+          "calls": 6,
+          "time": 27.2,
+          "contradictions": 0
+        },
+        "symstep_g": {
+          "correct": true,
+          "calls": 6,
+          "time": 28.6,
+          "contradictions": 0
+        }
+      },
+      {
+        "puzzle": "H1-Full",
+        "difficulty": "hard",
+        "direct": {
+          "correct": false,
+          "calls": 1,
+          "time": 9.0
+        },
+        "cot": {
+          "correct": false,
+          "calls": 1,
+          "time": 8.7
+        },
+        "self_refine": {
+          "correct": true,
+          "calls": 2,
+          "time": 13.9
+        },
+        "symstep": {
+          "correct": true,
+          "calls": 10,
+          "time": 61.9
+        },
+        "symstep_g": {
+          "correct": true,
+          "calls": 9,
+          "time": 46.5
+        }
+      },
+      {
+        "puzzle": "H2-Full",
+        "difficulty": "hard",
+        "direct": {
+          "correct": false,
+          "calls": 1,
+          "time": 9.2
+        },
+        "cot": {
+          "correct": false,
+          "calls": 1,
+          "time": 10.6
+        },
+        "self_refine": {
+          "correct": true,
+          "calls": 2,
+          "time": 14.8
+        },
+        "symstep": {
+          "correct": false,
+          "calls": 8,
+          "time": 50.9
+        },
+        "symstep_g": {
+          "correct": true,
+          "calls": 10,
+          "time": 55.1
+        }
+      },
+      {
+        "puzzle": "M3-Hobby",
+        "difficulty": "medium",
+        "direct": {
+          "correct": false,
+          "calls": 1,
+          "time": 5.3
+        },
+        "cot": {
+          "correct": false,
+          "calls": 1,
+          "time": 6.8
+        },
+        "self_refine": {
+          "correct": false,
+          "calls": 2,
+          "time": 10.1
+        },
+        "symstep": {
+          "correct": true,
+          "calls": 7,
+          "time": 28.5
+        },
+        "symstep_g": {
+          "correct": true,
+          "calls": 7,
+          "time": 29.5
+        }
+      },
+      {
+        "puzzle": "M4-PetFruit",
+        "difficulty": "medium",
+        "direct": {
+          "correct": false,
+          "calls": 1,
+          "time": 6.8
+        },
+        "cot": {
+          "correct": false,
+          "calls": 1,
+          "time": 7.3
+        },
+        "self_refine": {
+          "correct": true,
+          "calls": 2,
+          "time": 14.2
+        },
+        "symstep": {
+          "correct": true,
+          "calls": 7,
+          "time": 31.8
+        },
+        "symstep_g": {
+          "correct": true,
+          "calls": 6,
+          "time": 24.8
+        }
+      },
+      {
+        "puzzle": "H3-5People",
+        "difficulty": "hard",
+        "direct": {
+          "correct": false,
+          "calls": 1,
+          "time": 5.7
+        },
+        "cot": {
+          "correct": false,
+          "calls": 1,
+          "time": 7.9
+        },
+        "self_refine": {
+          "correct": false,
+          "calls": 2,
+          "time": 12.9
+        },
+        "symstep": {
+          "correct": true,
+          "calls": 9,
+          "time": 40.9
+        },
+        "symstep_g": {
+          "correct": true,
+          "calls": 9,
+          "time": 42.5
+        }
+      },
+      {
+        "puzzle": "E3-Sport",
+        "difficulty": "easy",
+        "direct": {
+          "correct": true,
+          "calls": 1,
+          "contradictions": 0,
+          "time": 5.8
+        },
+        "cot": {
+          "correct": false,
+          "calls": 1,
+          "contradictions": 0,
+          "time": 7.3
+        },
+        "self_refine": {
+          "correct": false,
+          "calls": 2,
+          "contradictions": 0,
+          "time": 13.9
+        },
+        "symstep": {
+          "correct": true,
+          "calls": 5,
+          "contradictions": 0,
+          "time": 20.9
+        },
+        "symstep_g": {
+          "correct": true,
+          "calls": 4,
+          "contradictions": 0,
+          "time": 16.6
+        }
+      },
+      {
+        "puzzle": "E4-Music",
+        "difficulty": "easy",
+        "direct": {
+          "correct": false,
+          "calls": 1,
+          "contradictions": 0,
+          "time": 5.8
+        },
+        "cot": {
+          "correct": false,
+          "calls": 1,
+          "contradictions": 0,
+          "time": 5.8
+        },
+        "self_refine": {
+          "correct": false,
+          "calls": 2,
+          "contradictions": 0,
+          "time": 11.2
+        },
+        "symstep": {
+          "correct": true,
+          "calls": 5,
+          "contradictions": 0,
+          "time": 23.6
+        },
+        "symstep_g": {
+          "correct": true,
+          "calls": 5,
+          "contradictions": 0,
+          "time": 21.1
+        }
+      },
+      {
+        "puzzle": "M5-Cities",
+        "difficulty": "medium",
+        "direct": {
+          "correct": false,
+          "calls": 1,
+          "contradictions": 0,
+          "time": 8.7
+        },
+        "cot": {
+          "correct": false,
+          "calls": 1,
+          "contradictions": 0,
+          "time": 8.0
+        },
+        "self_refine": {
+          "correct": false,
+          "calls": 2,
+          "contradictions": 0,
+          "time": 12.5
+        },
+        "symstep": {
+          "correct": true,
+          "calls": 7,
+          "contradictions": 0,
+          "time": 33.3
+        },
+        "symstep_g": {
+          "correct": true,
+          "calls": 7,
+          "contradictions": 0,
+          "time": 34.2
+        }
+      },
+      {
+        "puzzle": "H4-Full",
+        "difficulty": "hard",
+        "direct": {
+          "correct": false,
+          "calls": 1,
+          "contradictions": 0,
+          "time": 11.0
+        },
+        "cot": {
+          "correct": false,
+          "calls": 1,
+          "contradictions": 0,
+          "time": 16.8
+        },
+        "self_refine": {
+          "correct": true,
+          "calls": 2,
+          "contradictions": 0,
+          "time": 18.3
+        },
+        "symstep": {
+          "correct": true,
+          "calls": 11,
+          "contradictions": 0,
+          "time": 72.2
+        },
+        "symstep_g": {
+          "correct": true,
+          "calls": 10,
+          "contradictions": 0,
+          "time": 67.2
+        }
+      },
+      {
+        "puzzle": "H5-Full",
+        "difficulty": "hard",
+        "direct": {
+          "correct": false,
+          "calls": 1,
+          "contradictions": 0,
+          "time": 10.6
+        },
+        "cot": {
+          "correct": false,
+          "calls": 1,
+          "contradictions": 0,
+          "time": 13.2
+        },
+        "self_refine": {
+          "correct": true,
+          "calls": 2,
+          "contradictions": 0,
+          "time": 16.2
+        },
+        "symstep": {
+          "correct": true,
+          "calls": 10,
+          "contradictions": 0,
+          "time": 47.9
+        },
+        "symstep_g": {
+          "correct": true,
+          "calls": 11,
+          "contradictions": 0,
+          "time": 56.4
+        }
+      }
+    ]
+  },
+  "lgp10_sonnet": {
+    "summary": {
+      "direct": {
+        "correct": 0,
+        "total": 10,
+        "calls": 10
+      },
+      "cot": {
+        "correct": 0,
+        "total": 10,
+        "calls": 10
+      },
+      "self_refine": {
+        "correct": 0,
+        "total": 10,
+        "calls": 20
+      },
+      "symstep": {
+        "correct": 9,
+        "total": 10,
+        "calls": 87
+      },
+      "symstep_g": {
+        "correct": 9,
+        "total": 10,
+        "calls": 84
+      }
+    },
+    "per_puzzle": [
+      {
+        "puzzle": "E1-Pets",
+        "difficulty": "easy",
+        "direct": {
+          "correct": false,
+          "calls": 1,
+          "contradictions": 0,
+          "time": 5.5
+        },
+        "cot": {
+          "correct": false,
+          "calls": 1,
+          "contradictions": 0,
+          "time": 7.4
+        },
+        "self_refine": {
+          "correct": false,
+          "calls": 2,
+          "contradictions": 0,
+          "time": 12.8
+        },
+        "symstep": {
+          "correct": true,
+          "calls": 5,
+          "contradictions": 0,
+          "time": 16.3
+        },
+        "symstep_g": {
+          "correct": true,
+          "calls": 5,
+          "contradictions": 0,
+          "time": 13.7
+        }
+      },
+      {
+        "puzzle": "E2-Jobs",
+        "difficulty": "easy",
+        "direct": {
+          "correct": false,
+          "calls": 1,
+          "contradictions": 0,
+          "time": 7.0
+        },
+        "cot": {
+          "correct": false,
+          "calls": 1,
+          "contradictions": 0,
+          "time": 9.3
+        },
+        "self_refine": {
+          "correct": false,
+          "calls": 2,
+          "contradictions": 0,
+          "time": 14.4
+        },
+        "symstep": {
+          "correct": true,
+          "calls": 9,
+          "contradictions": 0,
+          "time": 34.7
+        },
+        "symstep_g": {
+          "correct": true,
+          "calls": 4,
+          "contradictions": 0,
+          "time": 20.0
+        }
+      },
+      {
+        "puzzle": "M1-Houses",
+        "difficulty": "medium",
+        "direct": {
+          "correct": false,
+          "calls": 1,
+          "contradictions": 0,
+          "time": 9.8
+        },
+        "cot": {
+          "correct": false,
+          "calls": 1,
+          "contradictions": 0,
+          "time": 9.3
+        },
+        "self_refine": {
+          "correct": false,
+          "calls": 2,
+          "contradictions": 0,
+          "time": 16.8
+        },
+        "symstep": {
+          "correct": true,
+          "calls": 8,
+          "contradictions": 0,
+          "time": 35.3
+        },
+        "symstep_g": {
+          "correct": true,
+          "calls": 10,
+          "contradictions": 0,
+          "time": 55.3
+        }
+      },
+      {
+        "puzzle": "M2-Nationals",
+        "difficulty": "medium",
+        "direct": {
+          "correct": false,
+          "calls": 1,
+          "contradictions": 0,
+          "time": 17.9
+        },
+        "cot": {
+          "correct": false,
+          "calls": 1,
+          "contradictions": 0,
+          "time": 12.8
+        },
+        "self_refine": {
+          "correct": false,
+          "calls": 2,
+          "contradictions": 0,
+          "time": 21.2
+        },
+        "symstep": {
+          "correct": true,
+          "calls": 10,
+          "contradictions": 0,
+          "time": 109.2
+        },
+        "symstep_g": {
+          "correct": true,
+          "calls": 11,
+          "contradictions": 0,
+          "time": 103.6
+        }
+      },
+      {
+        "puzzle": "H1-Full",
+        "difficulty": "hard",
+        "direct": {
+          "correct": false,
+          "calls": 1,
+          "contradictions": 0,
+          "time": 10.8
+        },
+        "cot": {
+          "correct": false,
+          "calls": 1,
+          "contradictions": 0,
+          "time": 12.4
+        },
+        "self_refine": {
+          "correct": false,
+          "calls": 2,
+          "contradictions": 0,
+          "time": 15.7
+        },
+        "symstep": {
+          "correct": true,
+          "calls": 12,
+          "contradictions": 0,
+          "time": 43.5
+        },
+        "symstep_g": {
+          "correct": true,
+          "calls": 11,
+          "contradictions": 0,
+          "time": 41.4
+        }
+      },
+      {
+        "puzzle": "H2-Full",
+        "difficulty": "hard",
+        "direct": {
+          "correct": false,
+          "calls": 1,
+          "contradictions": 0,
+          "time": 10.7
+        },
+        "cot": {
+          "correct": false,
+          "calls": 1,
+          "contradictions": 0,
+          "time": 11.9
+        },
+        "self_refine": {
+          "correct": false,
+          "calls": 2,
+          "contradictions": 0,
+          "time": 19.0
+        },
+        "symstep": {
+          "correct": true,
+          "calls": 11,
+          "contradictions": 0,
+          "time": 45.0
+        },
+        "symstep_g": {
+          "correct": false,
+          "calls": 12,
+          "contradictions": 0,
+          "time": 50.6
+        }
+      },
+      {
+        "puzzle": "E3-Sport",
+        "difficulty": "easy",
+        "direct": {
+          "correct": false,
+          "calls": 1,
+          "contradictions": 0,
+          "time": 7.9
+        },
+        "cot": {
+          "correct": false,
+          "calls": 1,
+          "contradictions": 0,
+          "time": 8.9
+        },
+        "self_refine": {
+          "correct": false,
+          "calls": 2,
+          "contradictions": 0,
+          "time": 15.1
+        },
+        "symstep": {
+          "correct": true,
+          "calls": 10,
+          "contradictions": 0,
+          "time": 36.1
+        },
+        "symstep_g": {
+          "correct": true,
+          "calls": 9,
+          "contradictions": 0,
+          "time": 33.8
+        }
+      },
+      {
+        "puzzle": "M3-Hobby",
+        "difficulty": "medium",
+        "direct": {
+          "correct": false,
+          "calls": 1,
+          "contradictions": 0,
+          "time": 5.9
+        },
+        "cot": {
+          "correct": false,
+          "calls": 1,
+          "contradictions": 0,
+          "time": 7.5
+        },
+        "self_refine": {
+          "correct": false,
+          "calls": 2,
+          "contradictions": 0,
+          "time": 12.4
+        },
+        "symstep": {
+          "correct": true,
+          "calls": 9,
+          "contradictions": 0,
+          "time": 33.1
+        },
+        "symstep_g": {
+          "correct": true,
+          "calls": 7,
+          "contradictions": 0,
+          "time": 22.3
+        }
+      },
+      {
+        "puzzle": "M4-PetFruit",
+        "difficulty": "medium",
+        "direct": {
+          "correct": false,
+          "calls": 1,
+          "contradictions": 0,
+          "time": 7.5
+        },
+        "cot": {
+          "correct": false,
+          "calls": 1,
+          "contradictions": 0,
+          "time": 9.2
+        },
+        "self_refine": {
+          "correct": false,
+          "calls": 2,
+          "contradictions": 0,
+          "time": 16.7
+        },
+        "symstep": {
+          "correct": true,
+          "calls": 7,
+          "contradictions": 0,
+          "time": 28.3
+        },
+        "symstep_g": {
+          "correct": true,
+          "calls": 6,
+          "contradictions": 0,
+          "time": 24.8
+        }
+      },
+      {
+        "puzzle": "H3-5People",
+        "difficulty": "hard",
+        "direct": {
+          "correct": false,
+          "calls": 1,
+          "contradictions": 0,
+          "time": 7.2
+        },
+        "cot": {
+          "correct": false,
+          "calls": 1,
+          "contradictions": 0,
+          "time": 8.6
+        },
+        "self_refine": {
+          "correct": false,
+          "calls": 2,
+          "contradictions": 0,
+          "time": 15.4
+        },
+        "symstep": {
+          "correct": false,
+          "calls": 6,
+          "contradictions": 0,
+          "time": 25.3
+        },
+        "symstep_g": {
+          "correct": true,
+          "calls": 9,
+          "contradictions": 0,
+          "time": 35.6
+        }
+      }
+    ]
+  }
+}

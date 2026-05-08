@@ -1,0 +1,259 @@
+{
+  "model": "haiku",
+  "summary": {
+    "direct": {
+      "correct": 7,
+      "total": 8,
+      "calls": 8,
+      "contradictions": 0,
+      "time": 40.862865686416626
+    },
+    "cot": {
+      "correct": 8,
+      "total": 8,
+      "calls": 8,
+      "contradictions": 0,
+      "time": 41.69922924041748
+    },
+    "symstep": {
+      "correct": 8,
+      "total": 8,
+      "calls": 19,
+      "contradictions": 0,
+      "time": 85.09069013595581
+    },
+    "symstep_g": {
+      "correct": 8,
+      "total": 8,
+      "calls": 19,
+      "contradictions": 0,
+      "time": 85.43805003166199
+    }
+  },
+  "per_problem": [
+    {
+      "puzzle": "MWP-E1-Salaries",
+      "difficulty": "easy",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 4.1
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 3.7
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 4.0
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 3.9
+      }
+    },
+    {
+      "puzzle": "MWP-E2-Ages",
+      "difficulty": "easy",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 3.9
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 5.5
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 3.9
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 4.2
+      }
+    },
+    {
+      "puzzle": "MWP-E3-Distances",
+      "difficulty": "easy",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 4.4
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 4.6
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 4.0
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 4.0
+      }
+    },
+    {
+      "puzzle": "MWP-M1-Store",
+      "difficulty": "medium",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 5.4
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 5.0
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 4,
+        "contradictions": 0,
+        "time": 21.6
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 4,
+        "contradictions": 0,
+        "time": 19.4
+      }
+    },
+    {
+      "puzzle": "MWP-M2-Speed",
+      "difficulty": "medium",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 6.6
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 5.3
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 3,
+        "contradictions": 0,
+        "time": 13.5
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 3,
+        "contradictions": 0,
+        "time": 12.8
+      }
+    },
+    {
+      "puzzle": "MWP-M3-Investment",
+      "difficulty": "medium",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 5.1
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 5.6
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 4,
+        "contradictions": 0,
+        "time": 16.6
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 4,
+        "contradictions": 0,
+        "time": 20.7
+      }
+    },
+    {
+      "puzzle": "MWP-H1-Workers",
+      "difficulty": "hard",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 6.1
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 6.0
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 3.9
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 4.2
+      }
+    },
+    {
+      "puzzle": "MWP-H2-Mixture",
+      "difficulty": "hard",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 5.2
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 6.1
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 4,
+        "contradictions": 0,
+        "time": 17.6
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 4,
+        "contradictions": 0,
+        "time": 16.3
+      }
+    }
+  ]
+}
