@@ -1,0 +1,1052 @@
+{
+  "experiment": "zebralogic_bench",
+  "model": "haiku",
+  "n_puzzles": 35,
+  "summary": {
+    "direct": {
+      "correct": 0,
+      "total": 35,
+      "calls": 35,
+      "contradictions": 0,
+      "time": 350.32122707366943
+    },
+    "cot": {
+      "correct": 0,
+      "total": 35,
+      "calls": 35,
+      "contradictions": 0,
+      "time": 369.2515048980713
+    },
+    "symstep": {
+      "correct": 28,
+      "total": 35,
+      "calls": 226,
+      "contradictions": 22,
+      "time": 1857.6738703250885
+    },
+    "symstep_g": {
+      "correct": 34,
+      "total": 35,
+      "calls": 224,
+      "contradictions": 19,
+      "time": 1697.8226809501648
+    }
+  },
+  "per_puzzle": [
+    {
+      "puzzle": "lgp-test-2x3-3",
+      "difficulty": "easy",
+      "size": "2x3",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 6.6
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 8.2
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 6,
+        "contradictions": 0,
+        "time": 32.4
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 4,
+        "contradictions": 0,
+        "time": 18.4
+      }
+    },
+    {
+      "puzzle": "lgp-test-3x3-5",
+      "difficulty": "medium",
+      "size": "3x3",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 10.9
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 10.5
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 8,
+        "contradictions": 0,
+        "time": 49.3
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 8,
+        "contradictions": 0,
+        "time": 51.4
+      }
+    },
+    {
+      "puzzle": "lgp-test-2x3-23",
+      "difficulty": "easy",
+      "size": "2x3",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 12.6
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 19.1
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 3,
+        "contradictions": 0,
+        "time": 76.9
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 3,
+        "contradictions": 0,
+        "time": 29.1
+      }
+    },
+    {
+      "puzzle": "lgp-test-2x4-8",
+      "difficulty": "easy",
+      "size": "2x4",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 32.4
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 20.2
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 6,
+        "contradictions": 1,
+        "time": 83.5
+      },
+      "symstep_g": {
+        "correct": false,
+        "calls": 7,
+        "contradictions": 2,
+        "time": 159.3
+      }
+    },
+    {
+      "puzzle": "lgp-test-3x3-22",
+      "difficulty": "medium",
+      "size": "3x3",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 15.7
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 10.8
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 7,
+        "contradictions": 0,
+        "time": 53.3
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 7,
+        "contradictions": 0,
+        "time": 49.0
+      }
+    },
+    {
+      "puzzle": "lgp-test-3x4-30",
+      "difficulty": "medium",
+      "size": "3x4",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 18.0
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 12.9
+      },
+      "symstep": {
+        "correct": false,
+        "calls": 7,
+        "contradictions": 1,
+        "time": 106.8
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 12,
+        "contradictions": 1,
+        "time": 101.8
+      }
+    },
+    {
+      "puzzle": "lgp-test-2x3-7",
+      "difficulty": "easy",
+      "size": "2x3",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 5.5
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 5.3
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 6,
+        "contradictions": 1,
+        "time": 33.0
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 5,
+        "contradictions": 1,
+        "time": 26.0
+      }
+    },
+    {
+      "puzzle": "lgp-test-2x4-27",
+      "difficulty": "easy",
+      "size": "2x4",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 6.9
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 6.6
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 5,
+        "contradictions": 1,
+        "time": 33.7
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 5,
+        "contradictions": 1,
+        "time": 39.5
+      }
+    },
+    {
+      "puzzle": "lgp-test-3x3-24",
+      "difficulty": "medium",
+      "size": "3x3",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 11.0
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 10.2
+      },
+      "symstep": {
+        "correct": false,
+        "calls": 7,
+        "contradictions": 0,
+        "time": 64.5
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 6,
+        "contradictions": 0,
+        "time": 36.5
+      }
+    },
+    {
+      "puzzle": "lgp-test-3x4-38",
+      "difficulty": "medium",
+      "size": "3x4",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 10.3
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 13.6
+      },
+      "symstep": {
+        "correct": false,
+        "calls": 9,
+        "contradictions": 2,
+        "time": 70.5
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 9,
+        "contradictions": 1,
+        "time": 68.2
+      }
+    },
+    {
+      "puzzle": "lgp-test-3x3-13",
+      "difficulty": "medium",
+      "size": "3x3",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 14.4
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 10.5
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 9,
+        "contradictions": 1,
+        "time": 90.9
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 8,
+        "contradictions": 1,
+        "time": 65.2
+      }
+    },
+    {
+      "puzzle": "lgp-test-2x3-25",
+      "difficulty": "easy",
+      "size": "2x3",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 6.7
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 6.5
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 3,
+        "contradictions": 0,
+        "time": 21.1
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 3,
+        "contradictions": 0,
+        "time": 16.0
+      }
+    },
+    {
+      "puzzle": "lgp-test-2x4-16",
+      "difficulty": "easy",
+      "size": "2x4",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 6.7
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 7.6
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 5,
+        "contradictions": 1,
+        "time": 32.1
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 5,
+        "contradictions": 1,
+        "time": 29.6
+      }
+    },
+    {
+      "puzzle": "lgp-test-3x3-19",
+      "difficulty": "medium",
+      "size": "3x3",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 9.6
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 12.0
+      },
+      "symstep": {
+        "correct": false,
+        "calls": 8,
+        "contradictions": 1,
+        "time": 59.0
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 6,
+        "contradictions": 0,
+        "time": 36.7
+      }
+    },
+    {
+      "puzzle": "lgp-test-2x4-20",
+      "difficulty": "easy",
+      "size": "2x4",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 6.3
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 6.3
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 6,
+        "contradictions": 1,
+        "time": 31.0
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 6,
+        "contradictions": 0,
+        "time": 32.0
+      }
+    },
+    {
+      "puzzle": "lgp-test-3x3-10",
+      "difficulty": "medium",
+      "size": "3x3",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 9.5
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 8.8
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 8,
+        "contradictions": 1,
+        "time": 53.2
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 8,
+        "contradictions": 1,
+        "time": 44.0
+      }
+    },
+    {
+      "puzzle": "lgp-test-3x4-1",
+      "difficulty": "medium",
+      "size": "3x4",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 11.3
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 14.7
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 10,
+        "contradictions": 0,
+        "time": 60.7
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 12,
+        "contradictions": 1,
+        "time": 80.2
+      }
+    },
+    {
+      "puzzle": "lgp-test-2x3-29",
+      "difficulty": "easy",
+      "size": "2x3",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 5.5
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 6.1
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 5,
+        "contradictions": 1,
+        "time": 26.0
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 5,
+        "contradictions": 1,
+        "time": 29.7
+      }
+    },
+    {
+      "puzzle": "lgp-test-2x4-13",
+      "difficulty": "easy",
+      "size": "2x4",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 6.6
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 7.1
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 4,
+        "contradictions": 0,
+        "time": 19.8
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 5,
+        "contradictions": 0,
+        "time": 25.5
+      }
+    },
+    {
+      "puzzle": "lgp-test-3x3-37",
+      "difficulty": "medium",
+      "size": "3x3",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 9.6
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 11.8
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 7,
+        "contradictions": 1,
+        "time": 55.5
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 7,
+        "contradictions": 0,
+        "time": 43.1
+      }
+    },
+    {
+      "puzzle": "lgp-test-3x4-36",
+      "difficulty": "medium",
+      "size": "3x4",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 13.9
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 15.5
+      },
+      "symstep": {
+        "correct": false,
+        "calls": 7,
+        "contradictions": 1,
+        "time": 89.8
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 9,
+        "contradictions": 1,
+        "time": 72.8
+      }
+    },
+    {
+      "puzzle": "lgp-test-2x3-24",
+      "difficulty": "easy",
+      "size": "2x3",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 6.2
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 7.3
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 4,
+        "contradictions": 1,
+        "time": 26.5
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 4,
+        "contradictions": 1,
+        "time": 19.5
+      }
+    },
+    {
+      "puzzle": "lgp-test-2x4-17",
+      "difficulty": "easy",
+      "size": "2x4",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 8.7
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 8.8
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 7,
+        "contradictions": 1,
+        "time": 41.1
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 7,
+        "contradictions": 1,
+        "time": 51.7
+      }
+    },
+    {
+      "puzzle": "lgp-test-3x4-10",
+      "difficulty": "medium",
+      "size": "3x4",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 8.7
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 12.7
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 9,
+        "contradictions": 0,
+        "time": 80.7
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 8,
+        "contradictions": 0,
+        "time": 61.7
+      }
+    },
+    {
+      "puzzle": "lgp-test-2x4-39",
+      "difficulty": "easy",
+      "size": "2x4",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 7.4
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 7.3
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 6,
+        "contradictions": 1,
+        "time": 29.6
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 6,
+        "contradictions": 1,
+        "time": 52.2
+      }
+    },
+    {
+      "puzzle": "lgp-test-3x3-21",
+      "difficulty": "medium",
+      "size": "3x3",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 13.0
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 18.4
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 7,
+        "contradictions": 1,
+        "time": 58.7
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 6,
+        "contradictions": 0,
+        "time": 51.5
+      }
+    },
+    {
+      "puzzle": "lgp-test-2x3-30",
+      "difficulty": "easy",
+      "size": "2x3",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 6.5
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 6.9
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 4,
+        "contradictions": 0,
+        "time": 21.1
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 3,
+        "contradictions": 0,
+        "time": 13.8
+      }
+    },
+    {
+      "puzzle": "lgp-test-3x3-29",
+      "difficulty": "medium",
+      "size": "3x3",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 11.1
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 14.6
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 9,
+        "contradictions": 1,
+        "time": 171.2
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 8,
+        "contradictions": 1,
+        "time": 97.8
+      }
+    },
+    {
+      "puzzle": "lgp-test-2x3-19",
+      "difficulty": "easy",
+      "size": "2x3",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 5.4
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 5.7
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 4,
+        "contradictions": 0,
+        "time": 20.3
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 4,
+        "contradictions": 0,
+        "time": 25.4
+      }
+    },
+    {
+      "puzzle": "lgp-test-2x4-3",
+      "difficulty": "easy",
+      "size": "2x4",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 7.4
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 8.5
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 6,
+        "contradictions": 1,
+        "time": 35.2
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 5,
+        "contradictions": 1,
+        "time": 34.6
+      }
+    },
+    {
+      "puzzle": "lgp-test-3x3-34",
+      "difficulty": "medium",
+      "size": "3x3",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 8.9
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 10.9
+      },
+      "symstep": {
+        "correct": false,
+        "calls": 6,
+        "contradictions": 1,
+        "time": 37.2
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 7,
+        "contradictions": 1,
+        "time": 55.4
+      }
+    },
+    {
+      "puzzle": "lgp-test-3x4-39",
+      "difficulty": "medium",
+      "size": "3x4",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 16.0
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 12.8
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 10,
+        "contradictions": 0,
+        "time": 79.3
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 10,
+        "contradictions": 0,
+        "time": 74.9
+      }
+    },
+    {
+      "puzzle": "lgp-test-2x3-1",
+      "difficulty": "easy",
+      "size": "2x3",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 5.6
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 6.5
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 3,
+        "contradictions": 0,
+        "time": 23.3
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 3,
+        "contradictions": 0,
+        "time": 15.4
+      }
+    },
+    {
+      "puzzle": "lgp-test-2x4-37",
+      "difficulty": "easy",
+      "size": "2x4",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 6.3
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 8.7
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 7,
+        "contradictions": 1,
+        "time": 39.7
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 6,
+        "contradictions": 1,
+        "time": 32.0
+      }
+    },
+    {
+      "puzzle": "lgp-test-3x3-25",
+      "difficulty": "medium",
+      "size": "3x3",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 9.1
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 15.7
+      },
+      "symstep": {
+        "correct": false,
+        "calls": 8,
+        "contradictions": 0,
+        "time": 51.0
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 7,
+        "contradictions": 0,
+        "time": 57.9
+      }
+    }
+  ]
+}

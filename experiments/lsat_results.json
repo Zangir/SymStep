@@ -1,0 +1,472 @@
+{
+  "experiment": "lsat_ar",
+  "model": "haiku",
+  "n": 15,
+  "summary": {
+    "direct": {
+      "correct": 15,
+      "total": 15,
+      "calls": 15,
+      "contradictions": 0,
+      "time": 505.51469802856445
+    },
+    "cot": {
+      "correct": 13,
+      "total": 15,
+      "calls": 15,
+      "contradictions": 0,
+      "time": 504.8489100933075
+    },
+    "symstep": {
+      "correct": 15,
+      "total": 15,
+      "calls": 89,
+      "contradictions": 0,
+      "time": 2408.91619849205
+    },
+    "symstep_g": {
+      "correct": 15,
+      "total": 15,
+      "calls": 92,
+      "contradictions": 3,
+      "time": 2544.0302562713623
+    }
+  },
+  "per_problem": [
+    {
+      "id": 0,
+      "query": "For the school paper, five students\u2014Jiang, Kramer, Lopez, Megregian, and O'Neill",
+      "correct": "E",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 60.6
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 88.0
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 5,
+        "contradictions": 0,
+        "time": 462.1
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 6,
+        "contradictions": 0,
+        "time": 411.1
+      }
+    },
+    {
+      "id": 1,
+      "query": "A maintenance company that takes service requests from three clients\u2014Image, Soli",
+      "correct": "E",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 53.0
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 53.2
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 6,
+        "contradictions": 0,
+        "time": 131.1
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 5,
+        "contradictions": 0,
+        "time": 331.6
+      }
+    },
+    {
+      "id": 2,
+      "query": "The organizer of a reading club will select at least five and at most six works ",
+      "correct": "D",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 28.4
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 21.9
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 5,
+        "contradictions": 0,
+        "time": 123.9
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 6,
+        "contradictions": 0,
+        "time": 184.2
+      }
+    },
+    {
+      "id": 3,
+      "query": "Four art historians\u2014Farley, Garcia, Holden, and Jiang\u2014will give a series of four",
+      "correct": "B",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 53.9
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 61.1
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 9,
+        "contradictions": 0,
+        "time": 334.5
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 5,
+        "contradictions": 0,
+        "time": 259.1
+      }
+    },
+    {
+      "id": 4,
+      "query": "A chorus director is planning to audition exactly six singers: Kammer, Lugo, Tri",
+      "correct": "E",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 29.7
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 32.8
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 6,
+        "contradictions": 0,
+        "time": 167.0
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 10,
+        "contradictions": 3,
+        "time": 200.0
+      }
+    },
+    {
+      "id": 5,
+      "query": "Four students will be assigned to a history project in which they will search ar",
+      "correct": "E",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 28.7
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 30.4
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 4,
+        "contradictions": 0,
+        "time": 58.1
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 5,
+        "contradictions": 0,
+        "time": 102.1
+      }
+    },
+    {
+      "id": 6,
+      "query": "A naturalist will give five lectures, each on a different type of bird: oysterca",
+      "correct": "B",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 49.9
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 28.3
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 6,
+        "contradictions": 0,
+        "time": 181.4
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 4,
+        "contradictions": 0,
+        "time": 96.4
+      }
+    },
+    {
+      "id": 7,
+      "query": "A chorus director is planning to audition exactly six singers: Kammer, Lugo, Tri",
+      "correct": "D",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 12.6
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 13.3
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 4,
+        "contradictions": 0,
+        "time": 114.6
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 5,
+        "contradictions": 0,
+        "time": 67.5
+      }
+    },
+    {
+      "id": 8,
+      "query": "A software company employs exactly seven sales representatives\u2014Kim, Mahr, Parra,",
+      "correct": "B",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 10.1
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 12.5
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 5,
+        "contradictions": 0,
+        "time": 58.0
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 4,
+        "contradictions": 0,
+        "time": 93.4
+      }
+    },
+    {
+      "id": 9,
+      "query": "A publisher is planning to publish six cookbooks\u2014K, L, M, N, O, and P\u2014over the c",
+      "correct": "A",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 14.8
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 14.7
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 3,
+        "contradictions": 0,
+        "time": 35.7
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 7,
+        "contradictions": 0,
+        "time": 77.4
+      }
+    },
+    {
+      "id": 10,
+      "query": "For the school paper, five students\u2014Jiang, Kramer, Lopez, Megregian, and O'Neill",
+      "correct": "D",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 74.0
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 51.3
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 6,
+        "contradictions": 0,
+        "time": 158.2
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 9,
+        "contradictions": 0,
+        "time": 288.4
+      }
+    },
+    {
+      "id": 11,
+      "query": "A loading dock consists of exactly six bays numbered 1 through 6 consecutively f",
+      "correct": "A",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 27.7
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 19.1
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 5,
+        "contradictions": 0,
+        "time": 88.0
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 5,
+        "contradictions": 0,
+        "time": 97.4
+      }
+    },
+    {
+      "id": 12,
+      "query": "Four students will be assigned to a history project in which they will search ar",
+      "correct": "A",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 28.5
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 26.6
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 10,
+        "contradictions": 0,
+        "time": 137.9
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 5,
+        "contradictions": 0,
+        "time": 97.4
+      }
+    },
+    {
+      "id": 13,
+      "query": "An author is planning to write a mystery novel consisting of seven chapters, cha",
+      "correct": "D",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 22.3
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 39.8
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 8,
+        "contradictions": 0,
+        "time": 298.0
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 6,
+        "contradictions": 0,
+        "time": 156.0
+      }
+    },
+    {
+      "id": 14,
+      "query": "A publisher is planning to publish six cookbooks\u2014K, L, M, N, O, and P\u2014over the c",
+      "correct": "C",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 11.2
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 11.9
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 7,
+        "contradictions": 0,
+        "time": 60.3
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 10,
+        "contradictions": 0,
+        "time": 82.2
+      }
+    }
+  ]
+}

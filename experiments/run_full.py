@@ -17,6 +17,7 @@ Usage:
 
 import os, sys, re, json, time, copy, argparse, statistics
 from typing import Dict, List, Tuple
+from ci_utils import wilson_ci, ci_table
 
 # ── Import from existing modules ─────────────────────────────────────────────
 sys.path.insert(0, os.path.dirname(__file__))
@@ -27,11 +28,14 @@ from symstep import (
     run_direct, run_cot, run_self_refine, run_symstep,
     Puzzle, PUZZLES as LGP6_PUZZLES,
 )
-from extended import NEW_PUZZLES
+from extended import NEW_PUZZLES, EXTRA_PUZZLES
 
 # ── Full benchmark: LGP-14 ───────────────────────────────────────────────────
 
 LGP14_PUZZLES = LGP6_PUZZLES + NEW_PUZZLES
+
+# LGP-20: adds 6 additional verified puzzles for robustness validation
+LGP20_PUZZLES = LGP14_PUZZLES + EXTRA_PUZZLES
 
 # Subset: original LGP-10 (LGP6 + first 4 from NEW_PUZZLES: E3, M3, M4, H3)
 LGP10_PUZZLES = LGP6_PUZZLES + NEW_PUZZLES[:4]
@@ -144,16 +148,22 @@ def run_experiment(puzzles, methods, model_name, tag=""):
     return results, per_puzzle
 
 
-def print_summary(results, per_puzzle=None, diff_breakdown=False):
-    print(f"\n  {'Method':<14} {'Acc%':>6} {'Avg calls':>10} {'Avg contra':>12}")
-    print(f"  {'-'*50}")
+def print_summary(results, per_puzzle=None, diff_breakdown=False, show_ci=True):
+    n_total = next((r["total"] for r in results.values() if r["total"] > 0), 0)
+    header = f"  {'Method':<14} {'Acc%':>6} {'95% CI':>16} {'Avg calls':>10} {'Avg contra':>12}"
+    print(header)
+    print(f"  {'-'*60}")
     for m, r in results.items():
         if r["total"] == 0:
             continue
-        acc    = r["correct"]        / r["total"] * 100
-        acalls = r["calls"]          / r["total"]
-        acont  = r["contradictions"] / r["total"]
-        print(f"  {m:<14} {acc:>5.0f}%  {acalls:>9.1f}  {acont:>11.2f}")
+        k   = r["correct"]
+        n   = r["total"]
+        acc = k / n * 100
+        lo, hi = wilson_ci(k, n)
+        ci_str = f"[{100*lo:.0f},{100*hi:.0f}]" if show_ci else ""
+        acalls = r["calls"]          / n
+        acont  = r["contradictions"] / n
+        print(f"  {m:<14} {acc:>5.0f}%  {ci_str:>15}  {acalls:>9.1f}  {acont:>11.2f}")
 
     if diff_breakdown and per_puzzle:
         print()
@@ -164,7 +174,8 @@ def print_summary(results, per_puzzle=None, diff_breakdown=False):
             print(f"  {diff.upper()} ({len(subset)} puzzles):")
             for m in results:
                 n = sum(1 for r in subset if r[m]["correct"])
-                print(f"    {m:<14} {n}/{len(subset)}")
+                lo, hi = wilson_ci(n, len(subset))
+                print(f"    {m:<14} {n}/{len(subset)}  [{100*lo:.0f},{100*hi:.0f}]")
 
 # ── Experiment 1: LGP-14 main results ─────────────────────────────────────────
 
@@ -236,6 +247,43 @@ def exp_ablation(n_runs=3, out_dir="."):
 
 # ── Experiment 3: Sonnet model comparison on LGP-10 ──────────────────────────
 
+# ── Experiment 4 (ZebraLogicBench) is defined in zebralogic_bench.py ─────────
+
+def exp_zebralogic(n: int = 120, out_dir: str = "."):
+    from zebralogic_bench import load_zebralogic, run_zebralogic_exp
+    print("\n" + "=" * 70)
+    print(f"EXPERIMENT: ZebraLogicBench  n={n}  model={_sym.MODEL}")
+    print("=" * 70)
+    puzzles = load_zebralogic(sizes=["2*3", "2*4", "3*3", "3*4"], n=n)
+    return run_zebralogic_exp(
+        puzzles,
+        out_path=os.path.join(out_dir, "zebralogic_results.json"),
+    )
+
+
+def exp_gsm8k(n: int = 100, out_dir: str = "."):
+    from math_bench import run_gsm8k_exp
+    print("\n" + "=" * 70)
+    print(f"EXPERIMENT: GSM8K  n={n}  model={_sym.MODEL}")
+    print("=" * 70)
+    return run_gsm8k_exp(n=n, out_path=os.path.join(out_dir, "gsm8k_results.json"))
+
+
+def exp_aquarat(n: int = 100, out_dir: str = "."):
+    from math_bench import run_aquarat_exp
+    print("\n" + "=" * 70)
+    print(f"EXPERIMENT: AQUA-RAT  n={n}  model={_sym.MODEL}")
+    print("=" * 70)
+    return run_aquarat_exp(n=n, out_path=os.path.join(out_dir, "aquarat_results.json"))
+
+
+def exp_lsat(n: int = None, out_dir: str = "."):
+    from lsat_bench import run_lsat_exp
+    print("\n" + "=" * 70)
+    print(f"EXPERIMENT: AR-LSAT (Analytical Reasoning)  model={_sym.MODEL}")
+    print("=" * 70)
+    return run_lsat_exp(n=n, out_path=os.path.join(out_dir, "lsat_results.json"))
+
 def exp_sonnet(out_dir="."):
     orig_model = _sym.MODEL
     _sym.MODEL = "sonnet"
@@ -263,10 +311,17 @@ def exp_sonnet(out_dir="."):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--exp", choices=["main", "ablation", "sonnet", "verify", "all"],
+    parser.add_argument("--exp",
+                        choices=["main", "ablation", "sonnet", "verify",
+                                 "lgp20", "zebralogic", "gsm8k", "aquarat",
+                                 "lsat", "all"],
                         default="all")
+    parser.add_argument("--zl_n", type=int, default=120,
+                        help="Number of ZebraLogicBench puzzles to run")
     parser.add_argument("--n_runs", type=int, default=3,
                         help="Number of runs for ablation experiment")
+    parser.add_argument("--math_n", type=int, default=100,
+                        help="Number of GSM8K / AQUA-RAT problems to run")
     parser.add_argument("--out_dir", default=".",
                         help="Directory to write result JSON files")
     args = parser.parse_args()
@@ -284,10 +339,44 @@ if __name__ == "__main__":
     if args.exp in ("main", "all"):
         exp_main(out_dir=args.out_dir)
 
+    if args.exp in ("lgp20",):
+        exp_lgp20(out_dir=args.out_dir)
+
     if args.exp in ("ablation", "all"):
         exp_ablation(n_runs=args.n_runs, out_dir=args.out_dir)
 
     if args.exp in ("sonnet", "all"):
         exp_sonnet(out_dir=args.out_dir)
 
+    if args.exp in ("zebralogic", "all"):
+        exp_zebralogic(n=args.zl_n, out_dir=args.out_dir)
+
+    if args.exp in ("gsm8k", "all"):
+        exp_gsm8k(n=args.math_n, out_dir=args.out_dir)
+
+    if args.exp in ("aquarat", "all"):
+        exp_aquarat(n=args.math_n, out_dir=args.out_dir)
+
+    if args.exp in ("lsat", "all"):
+        exp_lsat(n=args.math_n, out_dir=args.out_dir)
+
     print("\nAll done.")
+
+
+# ── Experiment 4: LGP-20 extended benchmark ──────────────────────────────────
+
+def exp_lgp20(out_dir="."):
+    print("\n" + "=" * 70)
+    print(f"EXPERIMENT 4: LGP-20 extended benchmark  (model={_sym.MODEL})")
+    print("=" * 70)
+
+    results, per_puzzle = run_experiment(LGP20_PUZZLES, METHODS, _sym.MODEL)
+    print_summary(results, per_puzzle, diff_breakdown=True)
+
+    out = {"experiment": "lgp20_extended", "model": _sym.MODEL,
+           "summary": results, "per_puzzle": per_puzzle}
+    path = os.path.join(out_dir, "lgp20_results.json")
+    with open(path, "w") as f:
+        json.dump(out, f, indent=2)
+    print(f"\n  Saved → {path}")
+    return out

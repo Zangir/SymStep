@@ -1,0 +1,203 @@
+{
+  "model": "haiku",
+  "summary": {
+    "direct": {
+      "correct": 4,
+      "total": 6,
+      "calls": 6,
+      "contradictions": 0,
+      "time": 38.91822123527527
+    },
+    "cot": {
+      "correct": 5,
+      "total": 6,
+      "calls": 6,
+      "contradictions": 0,
+      "time": 38.25853157043457
+    },
+    "symstep": {
+      "correct": 6,
+      "total": 6,
+      "calls": 20,
+      "contradictions": 0,
+      "time": 91.90498375892639
+    },
+    "symstep_g": {
+      "correct": 6,
+      "total": 6,
+      "calls": 20,
+      "contradictions": 0,
+      "time": 132.00719118118286
+    }
+  },
+  "per_problem": [
+    {
+      "problem": "FIN-E1-SimpleInterest",
+      "difficulty": "easy",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 4.5
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 5.7
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 3,
+        "contradictions": 0,
+        "time": 12.2
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 3,
+        "contradictions": 0,
+        "time": 11.7
+      }
+    },
+    {
+      "problem": "FIN-E2-GrossMargin",
+      "difficulty": "easy",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 4.9
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 5.6
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 2,
+        "contradictions": 0,
+        "time": 11.0
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 2,
+        "contradictions": 0,
+        "time": 7.7
+      }
+    },
+    {
+      "problem": "FIN-M1-CompoundInterest",
+      "difficulty": "medium",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 4.9
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 6.0
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 2,
+        "contradictions": 0,
+        "time": 9.0
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 2,
+        "contradictions": 0,
+        "time": 10.3
+      }
+    },
+    {
+      "problem": "FIN-M2-BreakEven",
+      "difficulty": "medium",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 6.2
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 7.8
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 3,
+        "contradictions": 0,
+        "time": 12.5
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 3,
+        "contradictions": 0,
+        "time": 11.6
+      }
+    },
+    {
+      "problem": "FIN-H1-Portfolio",
+      "difficulty": "hard",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 6.9
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 7.2
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 6,
+        "contradictions": 0,
+        "time": 26.7
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 6,
+        "contradictions": 0,
+        "time": 75.8
+      }
+    },
+    {
+      "problem": "FIN-H2-TaxBracket",
+      "difficulty": "hard",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 11.4
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 6.0
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 4,
+        "contradictions": 0,
+        "time": 20.5
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 4,
+        "contradictions": 0,
+        "time": 14.8
+      }
+    }
+  ]
+}

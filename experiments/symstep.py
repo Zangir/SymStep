@@ -503,24 +503,90 @@ def answer_format(p: Puzzle) -> str:
     )
 
 def parse_solution(text: str, p: Puzzle) -> Dict[str, Dict[str, str]]:
-    """Extract person→attr→value from LLM output."""
+    """Extract person→attr→value from LLM output.
+
+    Robust to verbose/concise outputs (Haiku and Sonnet).  Strategy:
+    1. For each person, find ALL occurrences of their name in the text.
+    2. For each occurrence, search a 500-char window for attr=value patterns.
+    3. Also accept natural-language patterns: "person is|has|: value".
+    4. Fallback: search the full text for "PersonName … attr … Value" proximity.
+    """
     result: Dict[str, Dict[str, str]] = {}
+    text_lower = text.lower()
+
     for person in p.people:
         result[person] = {}
+        person_lower = person.lower()
+
+        # Collect all starting positions where this person's name appears.
+        person_positions = [m.start() for m in re.finditer(
+            rf"(?i)\b{re.escape(person)}\b", text
+        )]
+        if not person_positions:
+            continue
+
         for attr, vals in p.attributes.items():
-            # look for attr=Value or attr: Value patterns near the person's name
-            pattern = rf"(?i){re.escape(attr)}\s*[=:]\s*(\w+)"
-            # restrict search to ~200 chars after person's name
-            person_match = re.search(rf"(?i){re.escape(person)}", text)
-            if person_match:
-                snippet = text[person_match.start():person_match.start()+200]
-                m = re.search(pattern, snippet)
-                if m:
-                    raw = m.group(1).strip()
-                    for v in vals:
-                        if v.lower() == raw.lower():
-                            result[person][attr] = v
+            val_lower = {v.lower(): v for v in vals}
+            found = False
+
+            # --- Strategy 1: scan 500-char window around each mention of person ---
+            for pos in person_positions:
+                # Look both before (50 chars) and after (500 chars) the name
+                snippet = text[max(0, pos - 50): pos + 500]
+                # Patterns: attr=Val, attr: Val, attr is Val, attr - Val
+                patterns = [
+                    rf"(?i)\b{re.escape(attr)}\s*[=:\-]\s*([A-Za-z][A-Za-z0-9_\-]*)",
+                    rf"(?i)\b{re.escape(attr)}\s+is\s+([A-Za-z][A-Za-z0-9_\-]*)",
+                    rf"(?i)\b{re.escape(attr)}\s+(?:of\s+)?([A-Za-z][A-Za-z0-9_\-]*)",
+                ]
+                for pat in patterns:
+                    m = re.search(pat, snippet)
+                    if m:
+                        raw = m.group(1).strip().rstrip(".,;)")
+                        if raw.lower() in val_lower:
+                            result[person][attr] = val_lower[raw.lower()]
+                            found = True
                             break
+                if found:
+                    break
+
+            if found:
+                continue
+
+            # --- Strategy 2: look for any value directly adjacent to person name ---
+            for pos in person_positions:
+                snippet = text[max(0, pos - 20): pos + 300]
+                for v in vals:
+                    if re.search(rf"(?i)\b{re.escape(v)}\b", snippet):
+                        # Make sure no other person's name intervenes
+                        intervening = False
+                        for other in p.people:
+                            if other != person:
+                                other_m = re.search(
+                                    rf"(?i)\b{re.escape(other)}\b", snippet
+                                )
+                                if other_m:
+                                    v_m = re.search(rf"(?i)\b{re.escape(v)}\b", snippet)
+                                    if v_m and other_m.start() < v_m.start():
+                                        intervening = True
+                                        break
+                        if not intervening:
+                            result[person][attr] = v
+                            found = True
+                            break
+                if found:
+                    break
+
+            if found:
+                continue
+
+            # --- Strategy 3: full-text search for attr=Val near person ---
+            for v in vals:
+                pattern_global = rf"(?i)\b{re.escape(person)}\b[^.!?\n]{{0,200}}\b{re.escape(v)}\b"
+                if re.search(pattern_global, text):
+                    result[person][attr] = v
+                    break
+
     return result
 
 def check_solution(got: Dict[str, Dict[str, str]], expected: Dict[str, Dict[str, str]]) -> bool:
@@ -628,7 +694,7 @@ def run_direct(p: Puzzle) -> Tuple[bool, int, float, int]:
 
 # ── Method 2: Chain-of-Thought ────────────────────────────────────────────────
 
-def run_cot(p: Puzzle) -> Tuple[bool, int, float, int]:
+def run_cot(p: Puzzle, save_trace: bool = False) -> Tuple[bool, int, float, int]:
     t0 = time.time()
     prompt = (
         puzzle_text(p)
@@ -639,6 +705,15 @@ def run_cot(p: Puzzle) -> Tuple[bool, int, float, int]:
     response = call_llm(prompt)
     got = parse_solution(response, p)
     correct = check_solution(got, p.solution)
+    if save_trace and not correct:
+        trace_file = f"cot_failure_{p.name.replace('-','_').lower()}.txt"
+        with open(trace_file, "w") as f:
+            f.write(f"=== CoT FAILURE TRACE: {p.name} ===\n\n")
+            f.write("PROMPT:\n" + prompt + "\n\n")
+            f.write("RESPONSE:\n" + response + "\n\n")
+            f.write(f"PARSED: {got}\n")
+            f.write(f"EXPECTED: {p.solution}\n")
+        print(f"    [trace saved → {trace_file}]")
     return correct, 1, time.time() - t0, 0
 
 # ── Method 3: Self-Refine ─────────────────────────────────────────────────────

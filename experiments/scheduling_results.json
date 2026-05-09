@@ -1,0 +1,289 @@
+{
+  "model": "haiku",
+  "summary": {
+    "direct": {
+      "correct": 0,
+      "total": 6,
+      "calls": 6,
+      "contradictions": 0,
+      "time": 66.17068219184875
+    },
+    "cot": {
+      "correct": 0,
+      "total": 6,
+      "calls": 6,
+      "contradictions": 0,
+      "time": 62.68922662734985
+    },
+    "self_refine": {
+      "correct": 2,
+      "total": 6,
+      "calls": 12,
+      "contradictions": 0,
+      "time": 279.2355532646179
+    },
+    "logic_lm": {
+      "correct": 0,
+      "total": 6,
+      "calls": 6,
+      "contradictions": 0,
+      "time": 314.6718978881836
+    },
+    "symstep": {
+      "correct": 5,
+      "total": 6,
+      "calls": 44,
+      "contradictions": 0,
+      "time": 231.6642394065857
+    },
+    "symstep_g": {
+      "correct": 4,
+      "total": 6,
+      "calls": 41,
+      "contradictions": 0,
+      "time": 435.0624842643738
+    }
+  },
+  "per_puzzle": [
+    {
+      "puzzle": "SP-E1-Workshop",
+      "difficulty": "easy",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 6.8
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 8.8
+      },
+      "self_refine": {
+        "correct": true,
+        "calls": 2,
+        "contradictions": 0,
+        "time": 11.9
+      },
+      "logic_lm": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 31.5
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 4,
+        "contradictions": 0,
+        "time": 27.6
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 4,
+        "contradictions": 0,
+        "time": 21.6
+      }
+    },
+    {
+      "puzzle": "SP-E2-Lab",
+      "difficulty": "easy",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 21.1
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 11.7
+      },
+      "self_refine": {
+        "correct": false,
+        "calls": 2,
+        "contradictions": 0,
+        "time": 14.2
+      },
+      "logic_lm": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 51.2
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 5,
+        "contradictions": 0,
+        "time": 19.8
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 5,
+        "contradictions": 0,
+        "time": 213.3
+      }
+    },
+    {
+      "puzzle": "SP-M1-Projects",
+      "difficulty": "medium",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 8.2
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 9.2
+      },
+      "self_refine": {
+        "correct": true,
+        "calls": 2,
+        "contradictions": 0,
+        "time": 204.6
+      },
+      "logic_lm": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 59.8
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 7,
+        "contradictions": 0,
+        "time": 38.3
+      },
+      "symstep_g": {
+        "correct": false,
+        "calls": 7,
+        "contradictions": 0,
+        "time": 35.4
+      }
+    },
+    {
+      "puzzle": "SP-M2-Research",
+      "difficulty": "medium",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 9.7
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 10.1
+      },
+      "self_refine": {
+        "correct": false,
+        "calls": 2,
+        "contradictions": 0,
+        "time": 16.5
+      },
+      "logic_lm": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 51.5
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 7,
+        "contradictions": 0,
+        "time": 38.4
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 7,
+        "contradictions": 0,
+        "time": 41.8
+      }
+    },
+    {
+      "puzzle": "SP-H1-Department",
+      "difficulty": "hard",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 10.1
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 10.6
+      },
+      "self_refine": {
+        "correct": false,
+        "calls": 2,
+        "contradictions": 0,
+        "time": 17.6
+      },
+      "logic_lm": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 63.3
+      },
+      "symstep": {
+        "correct": false,
+        "calls": 11,
+        "contradictions": 0,
+        "time": 58.1
+      },
+      "symstep_g": {
+        "correct": false,
+        "calls": 9,
+        "contradictions": 0,
+        "time": 58.4
+      }
+    },
+    {
+      "puzzle": "SP-H2-EventCrew",
+      "difficulty": "hard",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 10.2
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 12.2
+      },
+      "self_refine": {
+        "correct": false,
+        "calls": 2,
+        "contradictions": 0,
+        "time": 14.5
+      },
+      "logic_lm": {
+        "correct": false,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 57.5
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 10,
+        "contradictions": 0,
+        "time": 49.5
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 9,
+        "contradictions": 0,
+        "time": 64.5
+      }
+    }
+  ]
+}

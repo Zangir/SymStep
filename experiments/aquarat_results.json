@@ -1,0 +1,912 @@
+{
+  "experiment": "aquarat",
+  "model": "haiku",
+  "n": 35,
+  "summary": {
+    "direct": {
+      "correct": 30,
+      "total": 35,
+      "calls": 35,
+      "contradictions": 0,
+      "time": 545.1370785236359
+    },
+    "cot": {
+      "correct": 31,
+      "total": 35,
+      "calls": 35,
+      "contradictions": 0,
+      "time": 529.9369642734528
+    },
+    "symstep": {
+      "correct": 23,
+      "total": 35,
+      "calls": 285,
+      "contradictions": 5,
+      "time": 2898.1701023578644
+    },
+    "symstep_g": {
+      "correct": 31,
+      "total": 35,
+      "calls": 194,
+      "contradictions": 6,
+      "time": 3246.4950149059296
+    }
+  },
+  "per_problem": [
+    {
+      "id": 0,
+      "question": "At Daifu university, 24% of all students are members of both a chess club and a ",
+      "correct": "B",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "time": 6.3
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "time": 8.2
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 2,
+        "time": 15.0
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 3,
+        "time": 24.0
+      }
+    },
+    {
+      "id": 1,
+      "question": "A sales person gets a 10% commission on each sale he makes. How many sales of $2",
+      "correct": "D",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "time": 4.6
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "time": 4.6
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 3,
+        "time": 18.0
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 3,
+        "time": 12.7
+      }
+    },
+    {
+      "id": 2,
+      "question": "Suppose you want to arrange your English, Hindi, Mathematics, History, Geography",
+      "correct": "B",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "time": 4.9
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "time": 4.1
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 15,
+        "time": 70.7
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 2,
+        "time": 8.4
+      }
+    },
+    {
+      "id": 3,
+      "question": "A rectangle has a length of 8 centimeters and a width of 3 centimeters. Find the",
+      "correct": "B",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "time": 4.2
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "time": 3.2
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 3,
+        "time": 13.9
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 3,
+        "time": 11.8
+      }
+    },
+    {
+      "id": 4,
+      "question": "20 marbles were pulled out of a bag of only white marbles, painted black, and th",
+      "correct": "D",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "time": 7.4
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "time": 7.7
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 3,
+        "time": 24.3
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 5,
+        "time": 28.2
+      }
+    },
+    {
+      "id": 5,
+      "question": "If the population of a city increases by 5 % annually, what will be the populati",
+      "correct": "B",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "time": 5.4
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "time": 4.9
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 3,
+        "time": 12.0
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 4,
+        "time": 15.6
+      }
+    },
+    {
+      "id": 6,
+      "question": "The sum of the digits of a three digit number is 17, and the sum of the squares ",
+      "correct": "A",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "time": 25.5
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "time": 31.5
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 9,
+        "time": 99.4
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 5,
+        "time": 93.1
+      }
+    },
+    {
+      "id": 7,
+      "question": "What should come in place of the question mark(?) in each of the following quest",
+      "correct": "A",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "time": 11.8
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "time": 8.1
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 6,
+        "time": 80.5
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 4,
+        "time": 41.7
+      }
+    },
+    {
+      "id": 8,
+      "question": "In a survey of students, each student selected from a list of 10 songs the 2 son",
+      "correct": "D",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "time": 5.3
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "time": 4.9
+      },
+      "symstep": {
+        "correct": false,
+        "calls": 15,
+        "time": 72.0
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 4,
+        "time": 24.0
+      }
+    },
+    {
+      "id": 9,
+      "question": "A man walks at 5 kmph for 6 hrs and at 4 kmph for 12 hrs. His average speed is",
+      "correct": "A",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "time": 4.5
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "time": 4.3
+      },
+      "symstep": {
+        "correct": false,
+        "calls": 15,
+        "time": 79.4
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 7,
+        "time": 34.1
+      }
+    },
+    {
+      "id": 10,
+      "question": "The manufacturer of tyres is offering a 20% discount on the price of its tubeles",
+      "correct": "E",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "time": 6.0
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "time": 6.0
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 4,
+        "time": 22.4
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 4,
+        "time": 19.4
+      }
+    },
+    {
+      "id": 11,
+      "question": "If the probability that Stock A will increase in value during the next month is ",
+      "correct": "B",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "time": 8.6
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "time": 9.0
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 3,
+        "time": 29.3
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 7,
+        "time": 49.9
+      }
+    },
+    {
+      "id": 12,
+      "question": "A man spends Rs. 3500 per month and saves 12 1/2% of his income. His monthly inc",
+      "correct": "C",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "time": 5.1
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "time": 5.2
+      },
+      "symstep": {
+        "correct": false,
+        "calls": 15,
+        "time": 73.8
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 3,
+        "time": 15.1
+      }
+    },
+    {
+      "id": 13,
+      "question": "When I was 2 years old, my brother was half my age. Now I am 60 years old, how o",
+      "correct": "A",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "time": 5.1
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "time": 4.3
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 5,
+        "time": 21.3
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 3,
+        "time": 11.9
+      }
+    },
+    {
+      "id": 14,
+      "question": "The average (arithmetic mean) of the weight of 10 vehicles is 12.2 tons. The ave",
+      "correct": "A",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "time": 5.4
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "time": 6.2
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 8,
+        "time": 47.6
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 6,
+        "time": 24.4
+      }
+    },
+    {
+      "id": 15,
+      "question": "How many ways A boy can reach the top of stairs which contain 10 steps, when he ",
+      "correct": "B",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "time": 6.3
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "time": 6.8
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 12,
+        "time": 51.5
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 11,
+        "time": 58.5
+      }
+    },
+    {
+      "id": 16,
+      "question": "If x<0, y>0, and |x^3| > |y^2|, which of the following must be true?",
+      "correct": "B",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "time": 146.6
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "time": 122.4
+      },
+      "symstep": {
+        "correct": false,
+        "calls": 14,
+        "time": 824.7
+      },
+      "symstep_g": {
+        "correct": false,
+        "calls": 15,
+        "time": 1109.2
+      }
+    },
+    {
+      "id": 17,
+      "question": "A box contains a certain number of balls, marked successively from 1 to n. If th",
+      "correct": "A",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "time": 7.1
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "time": 6.9
+      },
+      "symstep": {
+        "correct": false,
+        "calls": 15,
+        "time": 116.9
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 5,
+        "time": 32.3
+      }
+    },
+    {
+      "id": 18,
+      "question": "The bus fare of one adult is Rs. 140 from Ranchi to Patna and bus fare of a chil",
+      "correct": "E",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "time": 4.2
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "time": 3.8
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 8,
+        "time": 35.6
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 5,
+        "time": 18.2
+      }
+    },
+    {
+      "id": 19,
+      "question": "All 250 files on Sam's hard drive are infected by either a virus or a worm or bo",
+      "correct": "C",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "time": 8.4
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "time": 11.9
+      },
+      "symstep": {
+        "correct": false,
+        "calls": 15,
+        "time": 113.5
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 6,
+        "time": 38.0
+      }
+    },
+    {
+      "id": 20,
+      "question": "A certain liquid passes through a drain at a rate of w/25 gallons every x second",
+      "correct": "C",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "time": 5.7
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "time": 6.1
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 12,
+        "time": 164.8
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 9,
+        "time": 113.3
+      }
+    },
+    {
+      "id": 21,
+      "question": "Q is as much younger than R as he is older than T. If the sum of the ages of R a",
+      "correct": "D",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "time": 9.8
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "time": 9.8
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 4,
+        "time": 74.5
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 3,
+        "time": 56.4
+      }
+    },
+    {
+      "id": 22,
+      "question": "If Jill needed to buy 10 bottles of soda for a party in which 8 people attended,",
+      "correct": "C",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "time": 8.0
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "time": 7.2
+      },
+      "symstep": {
+        "correct": false,
+        "calls": 3,
+        "time": 14.7
+      },
+      "symstep_g": {
+        "correct": false,
+        "calls": 3,
+        "time": 14.0
+      }
+    },
+    {
+      "id": 23,
+      "question": "Three friends Alan, Roger and Peter attempt to answer a question on an exam. Ala",
+      "correct": "A",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "time": 25.7
+      },
+      "cot": {
+        "correct": false,
+        "calls": 1,
+        "time": 17.3
+      },
+      "symstep": {
+        "correct": false,
+        "calls": 10,
+        "time": 75.4
+      },
+      "symstep_g": {
+        "correct": false,
+        "calls": 11,
+        "time": 115.6
+      }
+    },
+    {
+      "id": 24,
+      "question": "Allen starts from X, goes to Y. At the same time Bob starts from Y and goes towa",
+      "correct": "E",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "time": 139.1
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "time": 133.3
+      },
+      "symstep": {
+        "correct": false,
+        "calls": 1,
+        "time": 49.1
+      },
+      "symstep_g": {
+        "correct": false,
+        "calls": 15,
+        "time": 891.2
+      }
+    },
+    {
+      "id": 25,
+      "question": "Sachin was twice as old as Ajay 10 years back. How old is Ajay today if Sachin w",
+      "correct": "D",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "time": 6.3
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "time": 5.6
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 5,
+        "time": 20.6
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 4,
+        "time": 18.7
+      }
+    },
+    {
+      "id": 26,
+      "question": "A number of friends decided to go on a picnic and planned to spend Rs. 96 on eat",
+      "correct": "A",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "time": 8.0
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "time": 7.2
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 1,
+        "time": 8.2
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 1,
+        "time": 8.6
+      }
+    },
+    {
+      "id": 27,
+      "question": "In a class, 8% of total students are interested in Football. 4/5 of total studen",
+      "correct": "E",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "time": 5.2
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "time": 5.8
+      },
+      "symstep": {
+        "correct": false,
+        "calls": 15,
+        "time": 109.2
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 7,
+        "time": 37.8
+      }
+    },
+    {
+      "id": 28,
+      "question": "Car \u2018X\u2019 covers a distance of 320 kms in 8 hours and car \u2018Y\u2019 covers a distance of",
+      "correct": "C",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "time": 4.2
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "time": 4.1
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 5,
+        "time": 21.9
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 4,
+        "time": 14.9
+      }
+    },
+    {
+      "id": 29,
+      "question": "Fernando purchased a university meal plan that allows him to have a total of 3 l",
+      "correct": "A",
+      "direct": {
+        "correct": false,
+        "calls": 1,
+        "time": 7.7
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "time": 7.2
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 6,
+        "time": 39.1
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 7,
+        "time": 123.3
+      }
+    },
+    {
+      "id": 30,
+      "question": "A grocery sells a bag of ice for $1.25, and makes 20% profit. If it sells 500 ba",
+      "correct": "A",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "time": 12.3
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "time": 30.9
+      },
+      "symstep": {
+        "correct": false,
+        "calls": 15,
+        "time": 185.2
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 9,
+        "time": 64.6
+      }
+    },
+    {
+      "id": 31,
+      "question": "Anna has 4 books. If she decide to arrange the 4 books in every possible combina",
+      "correct": "D",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "time": 9.2
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "time": 6.8
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 3,
+        "time": 31.6
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 3,
+        "time": 32.4
+      }
+    },
+    {
+      "id": 32,
+      "question": "Alex and Jacob works at a toy shop that make toys. Alex takes 7 hours to make a ",
+      "correct": "A",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "time": 7.4
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "time": 7.1
+      },
+      "symstep": {
+        "correct": false,
+        "calls": 15,
+        "time": 134.5
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 2,
+        "time": 19.9
+      }
+    },
+    {
+      "id": 33,
+      "question": "The cross-section of a canal is shaped like a trapezium. If the canal is 10 m wi",
+      "correct": "D",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "time": 4.9
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "time": 4.8
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 4,
+        "time": 16.7
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 4,
+        "time": 14.9
+      }
+    },
+    {
+      "id": 34,
+      "question": "Jim filled his dog's bowl with dog food. Starting at 8:00 am, Jim's dog ate exac",
+      "correct": "A",
+      "direct": {
+        "correct": true,
+        "calls": 1,
+        "time": 8.7
+      },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "time": 12.8
+      },
+      "symstep": {
+        "correct": true,
+        "calls": 13,
+        "time": 130.9
+      },
+      "symstep_g": {
+        "correct": true,
+        "calls": 7,
+        "time": 50.4
+      }
+    }
+  ]
+}
