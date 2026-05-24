@@ -12,7 +12,9 @@ from symstep import (PUZZLES, ConstraintPropagator, call_llm,
 # ── Guidance-only: MRV hint after every turn, but NO contradiction detection ──
 
 def run_guidance_only(p):
-    """LLM gets MRV hints but violations are NOT reported — only accepted."""
+    """LLM gets MRV hints; the propagator runs silently to compute MRV and
+    track possibility sets, but contradiction messages are NOT sent to the LLM.
+    The LLM receives only directional hints, never explicit error feedback."""
     from symstep import ConstraintPropagator
     t0 = time.time()
     prop = ConstraintPropagator(p)
