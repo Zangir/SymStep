@@ -271,6 +271,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--n", type=int, default=None,
                         help="Number of problems (default: all 230)")
+    parser.add_argument("--out", default="lsat_results.json",
+                        help="Output JSON path")
     parser.add_argument("--dry-run", action="store_true",
                         help="Load dataset and print sample, no LLM calls")
     args = parser.parse_args()
@@ -285,4 +287,4 @@ if __name__ == "__main__":
               "→ Answer:", _gold_letter(item["gold"], item["choices"]))
         print("Dry run done.")
     else:
-        run_lsat_exp(n=args.n)
+        run_lsat_exp(n=args.n, out_path=args.out)
