@@ -245,6 +245,54 @@ def exp_ablation(n_runs=3, out_dir="."):
     print(f"\n  Saved → {path}")
     return out
 
+# ── Experiment: LGP-14 multi-run (N runs, main benchmark) ───────────────────
+
+def exp_lgp14_multirun(n_runs=3, out_dir="."):
+    """Run LGP-14 N times and report mean ± std per method.
+
+    Addresses single-run reproducibility concern for the main benchmark.
+    Expected result: SymStep+G mean=100% std=0, mirroring the N=3 ablation.
+    """
+    import statistics as _stats
+    print("\n" + "=" * 70)
+    print(f"EXPERIMENT: LGP-14 multi-run  N={n_runs}  model={_sym.MODEL}")
+    print("=" * 70)
+
+    all_runs = []
+    for run_idx in range(n_runs):
+        print(f"\n--- Run {run_idx + 1}/{n_runs} ---")
+        results, per_puzzle = run_experiment(LGP14_PUZZLES, METHODS, _sym.MODEL,
+                                             tag=f"run{run_idx + 1}")
+        all_runs.append({"run": run_idx + 1, "results": results, "per_puzzle": per_puzzle})
+
+    # Aggregate across runs
+    agg = {m: [] for m in METHODS}
+    for run in all_runs:
+        for m, r in run["results"].items():
+            agg[m].append(r["correct"] / r["total"] * 100)
+
+    print("\n" + "=" * 70)
+    print("LGP-14 MULTI-RUN SUMMARY")
+    print("=" * 70)
+    print(f"  {'Method':<14} {'Mean Acc%':>10} {'Std%':>8} {'Min%':>8} {'Max%':>8}")
+    print(f"  {'-'*54}")
+    stats_out = {}
+    for m, accs in agg.items():
+        mean_acc = _stats.mean(accs)
+        std_acc  = _stats.stdev(accs) if len(accs) > 1 else 0.0
+        print(f"  {m:<14} {mean_acc:>9.1f}  {std_acc:>7.1f}  {min(accs):>7.0f}  {max(accs):>7.0f}")
+        stats_out[m] = {"mean_acc_pct": round(mean_acc, 1), "std_acc_pct": round(std_acc, 1),
+                        "min": min(accs), "max": max(accs), "run_accs": accs}
+
+    out = {"experiment": "lgp14_multirun", "model": _sym.MODEL,
+           "n_runs": n_runs, "statistics": stats_out, "all_runs": all_runs}
+    path = os.path.join(out_dir, "lgp14_multirun.json")
+    with open(path, "w") as f:
+        json.dump(out, f, indent=2)
+    print(f"\n  Saved → {path}")
+    return out
+
+
 # ── Experiment 3: Sonnet model comparison on LGP-10 ──────────────────────────
 
 # ── Experiment 4 (ZebraLogicBench) is defined in zebralogic_bench.py ─────────
@@ -313,7 +361,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--exp",
                         choices=["main", "ablation", "sonnet", "verify",
-                                 "lgp20", "zebralogic", "gsm8k", "aquarat",
+                                 "lgp20", "lgp14_multirun",
+                                 "zebralogic", "gsm8k", "aquarat",
                                  "lsat", "all"],
                         default="all")
     parser.add_argument("--zl_n", type=int, default=120,
@@ -341,6 +390,9 @@ if __name__ == "__main__":
 
     if args.exp in ("lgp20",):
         exp_lgp20(out_dir=args.out_dir)
+
+    if args.exp in ("lgp14_multirun",):
+        exp_lgp14_multirun(n_runs=args.n_runs, out_dir=args.out_dir)
 
     if args.exp in ("ablation", "all"):
         exp_ablation(n_runs=args.n_runs, out_dir=args.out_dir)
