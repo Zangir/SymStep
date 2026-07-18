@@ -3,25 +3,25 @@
   "model": "sonnet",
   "summary": {
     "direct": {
-      "correct": 0,
+      "correct": 10,
       "total": 10,
       "calls": 10,
       "contradictions": 0,
-      "time": 90.2189109325409
+      "time": 96.72249341011047
     },
     "cot": {
-      "correct": 0,
+      "correct": 10,
       "total": 10,
       "calls": 10,
       "contradictions": 0,
-      "time": 97.20273923873901
+      "time": 105.24951481819153
     },
     "self_refine": {
-      "correct": 0,
+      "correct": 10,
       "total": 10,
       "calls": 20,
       "contradictions": 0,
-      "time": 159.53852081298828
+      "time": 175.18997168540955
     },
     "symstep": {
       "correct": 9,
@@ -43,22 +43,22 @@
       "puzzle": "E1-Pets",
       "difficulty": "easy",
       "direct": {
-        "correct": false,
+        "correct": true,
         "calls": 1,
         "contradictions": 0,
-        "time": 5.5
+        "time": 8.1
       },
       "cot": {
-        "correct": false,
+        "correct": true,
         "calls": 1,
         "contradictions": 0,
-        "time": 7.4
+        "time": 7.5
       },
       "self_refine": {
-        "correct": false,
+        "correct": true,
         "calls": 2,
         "contradictions": 0,
-        "time": 12.8
+        "time": 14.8
       },
       "symstep": {
         "correct": true,
@@ -77,22 +77,22 @@
       "puzzle": "E2-Jobs",
       "difficulty": "easy",
       "direct": {
-        "correct": false,
+        "correct": true,
         "calls": 1,
         "contradictions": 0,
-        "time": 7.0
+        "time": 8.5
       },
       "cot": {
-        "correct": false,
+        "correct": true,
         "calls": 1,
         "contradictions": 0,
-        "time": 9.3
+        "time": 9.6
       },
       "self_refine": {
-        "correct": false,
+        "correct": true,
         "calls": 2,
         "contradictions": 0,
-        "time": 14.4
+        "time": 15.8
       },
       "symstep": {
         "correct": true,
@@ -111,22 +111,22 @@
       "puzzle": "M1-Houses",
       "difficulty": "medium",
       "direct": {
-        "correct": false,
+        "correct": true,
         "calls": 1,
         "contradictions": 0,
-        "time": 9.8
+        "time": 10.0
       },
       "cot": {
-        "correct": false,
+        "correct": true,
         "calls": 1,
         "contradictions": 0,
-        "time": 9.3
+        "time": 13.4
       },
       "self_refine": {
-        "correct": false,
+        "correct": true,
         "calls": 2,
         "contradictions": 0,
-        "time": 16.8
+        "time": 18.2
       },
       "symstep": {
         "correct": true,
@@ -145,22 +145,22 @@
       "puzzle": "M2-Nationals",
       "difficulty": "medium",
       "direct": {
-        "correct": false,
+        "correct": true,
         "calls": 1,
         "contradictions": 0,
-        "time": 17.9
+        "time": 10.4
       },
       "cot": {
-        "correct": false,
+        "correct": true,
         "calls": 1,
         "contradictions": 0,
         "time": 12.8
       },
       "self_refine": {
-        "correct": false,
+        "correct": true,
         "calls": 2,
         "contradictions": 0,
-        "time": 21.2
+        "time": 20.8
       },
       "symstep": {
         "correct": true,
@@ -179,22 +179,22 @@
       "puzzle": "H1-Full",
       "difficulty": "hard",
       "direct": {
-        "correct": false,
-        "calls": 1,
-        "contradictions": 0,
-        "time": 10.8
-      },
-      "cot": {
-        "correct": false,
+        "correct": true,
         "calls": 1,
         "contradictions": 0,
         "time": 12.4
       },
+      "cot": {
+        "correct": true,
+        "calls": 1,
+        "contradictions": 0,
+        "time": 11.0
+      },
       "self_refine": {
-        "correct": false,
+        "correct": true,
         "calls": 2,
         "contradictions": 0,
-        "time": 15.7
+        "time": 18.8
       },
       "symstep": {
         "correct": true,
@@ -213,22 +213,22 @@
       "puzzle": "H2-Full",
       "difficulty": "hard",
       "direct": {
-        "correct": false,
+        "correct": true,
         "calls": 1,
         "contradictions": 0,
-        "time": 10.7
+        "time": 13.1
       },
       "cot": {
-        "correct": false,
+        "correct": true,
         "calls": 1,
         "contradictions": 0,
-        "time": 11.9
+        "time": 14.6
       },
       "self_refine": {
-        "correct": false,
+        "correct": true,
         "calls": 2,
         "contradictions": 0,
-        "time": 19.0
+        "time": 23.3
       },
       "symstep": {
         "correct": true,
@@ -247,22 +247,22 @@
       "puzzle": "E3-Sport",
       "difficulty": "easy",
       "direct": {
-        "correct": false,
+        "correct": true,
         "calls": 1,
         "contradictions": 0,
         "time": 7.9
       },
       "cot": {
-        "correct": false,
+        "correct": true,
         "calls": 1,
         "contradictions": 0,
-        "time": 8.9
+        "time": 9.3
       },
       "self_refine": {
-        "correct": false,
+        "correct": true,
         "calls": 2,
         "contradictions": 0,
-        "time": 15.1
+        "time": 14.8
       },
       "symstep": {
         "correct": true,
@@ -281,22 +281,22 @@
       "puzzle": "M3-Hobby",
       "difficulty": "medium",
       "direct": {
-        "correct": false,
+        "correct": true,
         "calls": 1,
         "contradictions": 0,
-        "time": 5.9
+        "time": 4.7
       },
       "cot": {
-        "correct": false,
+        "correct": true,
         "calls": 1,
         "contradictions": 0,
-        "time": 7.5
+        "time": 9.3
       },
       "self_refine": {
-        "correct": false,
+        "correct": true,
         "calls": 2,
         "contradictions": 0,
-        "time": 12.4
+        "time": 12.7
       },
       "symstep": {
         "correct": true,
@@ -315,22 +315,22 @@
       "puzzle": "M4-PetFruit",
       "difficulty": "medium",
       "direct": {
-        "correct": false,
+        "correct": true,
         "calls": 1,
         "contradictions": 0,
-        "time": 7.5
+        "time": 7.8
       },
       "cot": {
-        "correct": false,
+        "correct": true,
         "calls": 1,
         "contradictions": 0,
-        "time": 9.2
+        "time": 8.8
       },
       "self_refine": {
-        "correct": false,
+        "correct": true,
         "calls": 2,
         "contradictions": 0,
-        "time": 16.7
+        "time": 17.1
       },
       "symstep": {
         "correct": true,
@@ -349,22 +349,22 @@
       "puzzle": "H3-5People",
       "difficulty": "hard",
       "direct": {
-        "correct": false,
+        "correct": true,
         "calls": 1,
         "contradictions": 0,
-        "time": 7.2
+        "time": 13.8
       },
       "cot": {
-        "correct": false,
+        "correct": true,
         "calls": 1,
         "contradictions": 0,
-        "time": 8.6
+        "time": 8.9
       },
       "self_refine": {
-        "correct": false,
+        "correct": true,
         "calls": 2,
         "contradictions": 0,
-        "time": 15.4
+        "time": 19.0
       },
       "symstep": {
         "correct": false,
@@ -379,5 +379,6 @@
         "time": 35.6
       }
     }
-  ]
+  ],
+  "parser": "answer-block (Strategy 0); corrected for Sonnet verbose output"
 }

@@ -506,18 +506,45 @@ def parse_solution(text: str, p: Puzzle) -> Dict[str, Dict[str, str]]:
     """Extract person→attr→value from LLM output.
 
     Robust to verbose/concise outputs (Haiku and Sonnet).  Strategy:
+    0. Answer-block lines: parse each person's attributes only from the line
+       that *begins* with that person's name (ignoring markdown emphasis such
+       as ``**Alice:**``), so verbose reasoning cannot bleed one person's
+       values onto another. This is the canonical answer format and the most
+       reliable signal for both concise (Haiku) and verbose (Sonnet) outputs.
     1. For each person, find ALL occurrences of their name in the text.
     2. For each occurrence, search a 500-char window for attr=value patterns.
     3. Also accept natural-language patterns: "person is|has|: value".
     4. Fallback: search the full text for "PersonName … attr … Value" proximity.
     """
-    result: Dict[str, Dict[str, str]] = {}
-    text_lower = text.lower()
+    result: Dict[str, Dict[str, str]] = {person: {} for person in p.people}
+
+    # --- Strategy 0: structured answer block, parsed line-by-line ----------
+    # A line such as "Alice: color=Red, pet=Cat" or "**Bob:** color=Blue" is
+    # anchored to a single person; we extract attr=value pairs from that line
+    # ONLY. Later answer lines overwrite earlier ones (the final block wins).
+    name_anchor = {
+        person: re.compile(rf"^[|*#>_\s\-]*{re.escape(person)}\b[*_:\s\-]*", re.IGNORECASE)
+        for person in p.people
+    }
+    for line in text.splitlines():
+        for person in p.people:
+            m = name_anchor[person].match(line)
+            if not m:
+                continue
+            rest = line[m.end():]
+            for attr, vals in p.attributes.items():
+                val_lower = {v.lower(): v for v in vals}
+                am = re.search(
+                    rf"(?i)\b{re.escape(attr)}\s*[=:\-]?\s*([A-Za-z][A-Za-z0-9_\-]*)",
+                    rest,
+                )
+                if am:
+                    raw = am.group(1).strip().rstrip(".,;)")
+                    if raw.lower() in val_lower:
+                        result[person][attr] = val_lower[raw.lower()]
+            break  # this line is anchored to one person; don't test others
 
     for person in p.people:
-        result[person] = {}
-        person_lower = person.lower()
-
         # Collect all starting positions where this person's name appears.
         person_positions = [m.start() for m in re.finditer(
             rf"(?i)\b{re.escape(person)}\b", text
@@ -526,6 +553,8 @@ def parse_solution(text: str, p: Puzzle) -> Dict[str, Dict[str, str]]:
             continue
 
         for attr, vals in p.attributes.items():
+            if attr in result[person]:
+                continue  # already resolved by the answer-block strategy
             val_lower = {v.lower(): v for v in vals}
             found = False
 

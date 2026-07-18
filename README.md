@@ -3,9 +3,9 @@
 > **Chain-of-thought: 0%. Logic-LM: 0%. SymStep+G: 97–100%.**  
 > *One idea. One propagator. Six benchmarks.*
 
-[![Paper](https://img.shields.io/badge/Paper-NILA@IJCAI--2026-blue)](https://anonymous.4open.science/r/SymStep-3B04)
-[![Anonymous](https://img.shields.io/badge/Review-Anonymous-lightgrey)](https://anonymous.4open.science/r/SymStep-3B04)
+[![Venue](https://img.shields.io/badge/NILA%20@%20IJCAI--2026-blue)](https://github.com/Zangir/SymStep)
 [![Python](https://img.shields.io/badge/Python-3.9%2B-green)](https://python.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Model](https://img.shields.io/badge/Model-Claude%20Haiku%20%2F%20Sonnet-orange)](https://anthropic.com)
 
 ---
@@ -133,6 +133,7 @@ SymStep/
 ├── README.md
 ├── experiments/
 │   ├── symstep.py              # Core engine: LGP-14, SP-6, Logic-LM baseline
+│   ├── extended.py             # LGP-14 puzzle set (E3–H5) used by the runners
 │   ├── math_reasoning.py       # MWP-8: arithmetic word problems
 │   ├── fin_reasoning.py        # FIN-6: financial reasoning
 │   ├── ablation.py             # Component ablation: verification vs. guidance
@@ -163,7 +164,7 @@ SymStep/
 **Requirements:** Python 3.9+, [Claude Code CLI](https://claude.ai/code) installed and authenticated.
 
 ```bash
-git clone https://anonymous.4open.science/r/SymStep-3B04
+git clone https://github.com/Zangir/SymStep.git
 cd SymStep
 
 # Run all methods on LGP-14 (logical grid puzzles)
@@ -252,14 +253,16 @@ Zero-variance reproducibility confirmed across all guided configurations.
 
 ```bibtex
 @inproceedings{symstep2026,
-  title     = {SymStep: Per-Step Symbolic Verification Reaches 97\% on
-               Published Benchmarks Where Chain-of-Thought Scores 0\%},
+  title     = {SymStep: Symbolic Step Verification for Logical Reasoning},
+  author    = {Usmanova, Aida and Gao, Rui and Azizov, Dilshod and Usbeck, Ricardo and Iklassov, Zangir},
   booktitle = {NILA Workshop @ IJCAI-ECAI 2026},
-  year      = {2026},
-  note      = {Anonymous submission}
+  year      = {2026}
 }
 ```
 
 ---
 
-*Anonymous submission under review. Author and institution information omitted.*
+By Aida Usmanova, Rui Gao, Dilshod Azizov, Ricardo Usbeck, and Zangir Iklassov
+(Leuphana University of Lüneburg · MBZUAI). Maintained by
+[Zangir Iklassov](https://github.com/Zangir). If SymStep is useful to you,
+please ⭐ the repo — issues and pull requests are welcome.

@@ -1,4 +1,6 @@
 paper/
+paper.zip
+*.zip
 texput.log
 .DS_Store
 __pycache__/
@@ -19,5 +21,4 @@ experiments/ablation_results.json
 experiments/new_puzzles_results.json
 experiments/extended_results.json
 experiments/run_new.py
-experiments/extended.py
 experiments/README.md
