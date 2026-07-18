@@ -8,6 +8,12 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Model](https://img.shields.io/badge/Model-Claude%20Haiku%20%2F%20Sonnet-orange)](https://anthropic.com)
 
+<p align="center">
+  <img src="assets/symstep.png" alt="SymStep pipeline: the LLM emits one DEDUCE claim at a time; a constraint propagator verifies it, cascades arc-consistency, and either accepts (with an optional MRV hint) or reports the exact contradiction to revise." width="100%">
+</p>
+
+<p align="center"><em>One claim at a time. The propagator verifies every step — no inconsistent fact is ever accepted.</em></p>
+
 ---
 
 ## The Problem: Every Unverified Step Is a Ticking Time Bomb
