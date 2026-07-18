@@ -1,0 +1,7 @@
+# Core benchmarks (LGP-14, SP-6, MWP-8, FIN-6) need only the Python standard
+# library — the puzzles are defined in code and the LLM is called via the
+# Claude Code CLI, so no API-client package is required.
+#
+# The external published benchmarks (ZebraLogicBench, AR-LSAT, AQUA-RAT, GSM8K)
+# are pulled from the Hugging Face Hub and need the `datasets` library:
+datasets>=2.14

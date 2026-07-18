@@ -161,13 +161,17 @@ SymStep/
 
 ## Quickstart
 
-**Requirements:** Python 3.9+, [Claude Code CLI](https://claude.ai/code) installed and authenticated.
+**Requirements:** Python 3.9+, and the [Claude Code CLI](https://claude.ai/code) installed and authenticated (SymStep calls the model through the `claude` CLI, so no API key or client library is needed).
 
 ```bash
 git clone https://github.com/Zangir/SymStep.git
 cd SymStep
 
-# Run all methods on LGP-14 (logical grid puzzles)
+# Optional: only needed for the external Hugging Face benchmarks
+# (ZebraLogicBench, AR-LSAT, AQUA-RAT, GSM8K)
+pip install -r requirements.txt
+
+# Run all methods on LGP-14 (logical grid puzzles) — no extra deps
 python3 experiments/symstep.py
 
 # Run ZebraLogicBench (external published benchmark)
