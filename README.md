@@ -3,6 +3,7 @@
 > **Chain-of-thought: 0%. Logic-LM: 0%. SymStep+G: 97–100%.**  
 > *One idea. One propagator. Six benchmarks.*
 
+[![GitHub stars](https://img.shields.io/github/stars/Zangir/SymStep?style=social)](https://github.com/Zangir/SymStep/stargazers)
 [![Venue](https://img.shields.io/badge/NILA%20@%20IJCAI--2026-blue)](https://github.com/Zangir/SymStep)
 [![Python](https://img.shields.io/badge/Python-3.9%2B-green)](https://python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -13,6 +14,8 @@
 </p>
 
 <p align="center"><em>One claim at a time. The propagator verifies every step — no inconsistent fact is ever accepted.</em></p>
+
+<p align="center"><b>⭐ If this is useful, star the repo — it helps others find it.</b></p>
 
 ---
 
@@ -256,6 +259,22 @@ All results are single-run on Claude Haiku (`claude-haiku-4-5`) unless noted. Mu
 | **SymStep+G** | **100.0%** | **0.0** | **18/18 pass** |
 
 Zero-variance reproducibility confirmed across all guided configurations.
+
+---
+
+## Contributing
+
+SymStep is deliberately small — one outer loop, one `DEDUCE` format, one symbolic
+verifier per domain. That makes it easy to extend, and contributions are very welcome:
+
+- **New domains.** Add a verifier (a propagator or tracker) for a new problem type — temporal ordering, graph coloring, routing, or your own. The LLM loop stays unchanged.
+- **New backends.** Swap the Claude CLI call in `symstep.py:call_llm` for another model (OpenAI, local models, an API-key client).
+- **New benchmarks.** Wire up another logic/reasoning dataset and share the numbers.
+- **Better guidance.** Try alternatives to MRV (degree heuristics, learned guidance) and report what moves the needle.
+
+Open an issue to discuss an idea, or send a PR. If you build on SymStep, we'd love to hear about it.
+
+If the project is useful to you, please **⭐ star it** — it genuinely helps others discover the work.
 
 ---
 
