@@ -22,3 +22,7 @@ experiments/new_puzzles_results.json
 experiments/extended_results.json
 experiments/run_new.py
 experiments/README.md
+graphstep/kb_cache.sqlite
+poster/
+graphstep/data/
+graphstep/**/__pycache__/

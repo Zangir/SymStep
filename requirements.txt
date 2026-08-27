@@ -5,3 +5,9 @@
 # The external published benchmarks (ZebraLogicBench, AR-LSAT, AQUA-RAT, GSM8K)
 # are pulled from the Hugging Face Hub and need the `datasets` library:
 datasets>=2.14
+
+# GraphStep (graphstep/) additionally uses:
+spacy>=3.7          # dependency parsing (+ `python -m spacy download en_core_web_sm`)
+z3-solver>=4.12     # arithmetic entailment in the world model
+nltk>=3.8           # WordNet grounding (downloads wordnet on first use)
+networkx>=3.0       # graph reachability

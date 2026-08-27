@@ -1,0 +1,47 @@
+{
+  "4*4": {
+    "n": 10,
+    "excluded": 0,
+    "certified_solved": 10,
+    "template_coverage": 0.96,
+    "llm_calls": 4,
+    "statuses": {
+      "SOLVED": 10
+    },
+    "time_s": 24.3
+  },
+  "4*6": {
+    "n": 10,
+    "excluded": 0,
+    "certified_solved": 10,
+    "template_coverage": 0.951,
+    "llm_calls": 7,
+    "statuses": {
+      "SOLVED": 10
+    },
+    "time_s": 35.0
+  },
+  "5*5": {
+    "n": 10,
+    "excluded": 0,
+    "certified_solved": 10,
+    "template_coverage": 0.97,
+    "llm_calls": 5,
+    "statuses": {
+      "SOLVED": 10
+    },
+    "time_s": 29.9
+  },
+  "6*6": {
+    "n": 10,
+    "excluded": 2,
+    "certified_solved": 8,
+    "template_coverage": 0.966,
+    "llm_calls": 7,
+    "statuses": {
+      "EXCLUDED:duplicate value names across attributes": 2,
+      "SOLVED": 8
+    },
+    "time_s": 37.8
+  }
+}

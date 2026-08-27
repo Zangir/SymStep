@@ -1,0 +1,278 @@
+{
+  "lgp20": {
+    "label": "LGP-20",
+    "correct": 20,
+    "total": 20,
+    "llm_calls": 0,
+    "rows": [
+      {
+        "puzzle": "E1-Pets",
+        "status": "SOLVED",
+        "correct": true,
+        "template_parsed": 5,
+        "clues": 5,
+        "llm_calls": 0,
+        "nodes": 1,
+        "time_s": 0.002
+      },
+      {
+        "puzzle": "E2-Jobs",
+        "status": "SOLVED",
+        "correct": true,
+        "template_parsed": 5,
+        "clues": 5,
+        "llm_calls": 0,
+        "nodes": 3,
+        "time_s": 0.002
+      },
+      {
+        "puzzle": "M1-Houses",
+        "status": "SOLVED",
+        "correct": true,
+        "template_parsed": 6,
+        "clues": 6,
+        "llm_calls": 0,
+        "nodes": 2,
+        "time_s": 0.001
+      },
+      {
+        "puzzle": "M2-Nationals",
+        "status": "SOLVED",
+        "correct": true,
+        "template_parsed": 8,
+        "clues": 8,
+        "llm_calls": 0,
+        "nodes": 3,
+        "time_s": 0.002
+      },
+      {
+        "puzzle": "H1-Full",
+        "status": "SOLVED",
+        "correct": true,
+        "template_parsed": 9,
+        "clues": 9,
+        "llm_calls": 0,
+        "nodes": 3,
+        "time_s": 0.002
+      },
+      {
+        "puzzle": "H2-Full",
+        "status": "SOLVED",
+        "correct": true,
+        "template_parsed": 9,
+        "clues": 9,
+        "llm_calls": 0,
+        "nodes": 3,
+        "time_s": 0.002
+      },
+      {
+        "puzzle": "E3-Sport",
+        "status": "SOLVED",
+        "correct": true,
+        "template_parsed": 4,
+        "clues": 4,
+        "llm_calls": 0,
+        "nodes": 2,
+        "time_s": 0.002
+      },
+      {
+        "puzzle": "M3-Hobby",
+        "status": "SOLVED",
+        "correct": true,
+        "template_parsed": 6,
+        "clues": 6,
+        "llm_calls": 0,
+        "nodes": 1,
+        "time_s": 0.002
+      },
+      {
+        "puzzle": "M4-PetFruit",
+        "status": "SOLVED",
+        "correct": true,
+        "template_parsed": 7,
+        "clues": 7,
+        "llm_calls": 0,
+        "nodes": 2,
+        "time_s": 0.002
+      },
+      {
+        "puzzle": "H3-5People",
+        "status": "SOLVED",
+        "correct": true,
+        "template_parsed": 8,
+        "clues": 8,
+        "llm_calls": 0,
+        "nodes": 2,
+        "time_s": 0.003
+      },
+      {
+        "puzzle": "E4-Music",
+        "status": "SOLVED",
+        "correct": true,
+        "template_parsed": 4,
+        "clues": 4,
+        "llm_calls": 0,
+        "nodes": 2,
+        "time_s": 0.002
+      },
+      {
+        "puzzle": "M5-Cities",
+        "status": "SOLVED",
+        "correct": true,
+        "template_parsed": 7,
+        "clues": 7,
+        "llm_calls": 0,
+        "nodes": 2,
+        "time_s": 0.003
+      },
+      {
+        "puzzle": "H4-Full",
+        "status": "SOLVED",
+        "correct": true,
+        "template_parsed": 10,
+        "clues": 10,
+        "llm_calls": 0,
+        "nodes": 4,
+        "time_s": 0.003
+      },
+      {
+        "puzzle": "H5-Full",
+        "status": "SOLVED",
+        "correct": true,
+        "template_parsed": 10,
+        "clues": 10,
+        "llm_calls": 0,
+        "nodes": 3,
+        "time_s": 0.003
+      },
+      {
+        "puzzle": "E5-Colors",
+        "status": "SOLVED",
+        "correct": true,
+        "template_parsed": 4,
+        "clues": 4,
+        "llm_calls": 0,
+        "nodes": 3,
+        "time_s": 0.002
+      },
+      {
+        "puzzle": "E6-School",
+        "status": "SOLVED",
+        "correct": true,
+        "template_parsed": 5,
+        "clues": 5,
+        "llm_calls": 0,
+        "nodes": 2,
+        "time_s": 0.001
+      },
+      {
+        "puzzle": "M6-Travel",
+        "status": "SOLVED",
+        "correct": true,
+        "template_parsed": 8,
+        "clues": 8,
+        "llm_calls": 0,
+        "nodes": 2,
+        "time_s": 0.003
+      },
+      {
+        "puzzle": "M7-Food",
+        "status": "SOLVED",
+        "correct": true,
+        "template_parsed": 7,
+        "clues": 7,
+        "llm_calls": 0,
+        "nodes": 2,
+        "time_s": 0.003
+      },
+      {
+        "puzzle": "H6-Full",
+        "status": "SOLVED",
+        "correct": true,
+        "template_parsed": 10,
+        "clues": 10,
+        "llm_calls": 0,
+        "nodes": 2,
+        "time_s": 0.004
+      },
+      {
+        "puzzle": "H7-5People",
+        "status": "SOLVED",
+        "correct": true,
+        "template_parsed": 9,
+        "clues": 9,
+        "llm_calls": 0,
+        "nodes": 2,
+        "time_s": 0.003
+      }
+    ]
+  },
+  "sp6": {
+    "label": "SP-6",
+    "correct": 6,
+    "total": 6,
+    "llm_calls": 0,
+    "rows": [
+      {
+        "puzzle": "SP-E1-Workshop",
+        "status": "SOLVED",
+        "correct": true,
+        "template_parsed": 5,
+        "clues": 5,
+        "llm_calls": 0,
+        "nodes": 2,
+        "time_s": 0.002
+      },
+      {
+        "puzzle": "SP-E2-Lab",
+        "status": "SOLVED",
+        "correct": true,
+        "template_parsed": 6,
+        "clues": 6,
+        "llm_calls": 0,
+        "nodes": 1,
+        "time_s": 0.002
+      },
+      {
+        "puzzle": "SP-M1-Projects",
+        "status": "SOLVED",
+        "correct": true,
+        "template_parsed": 7,
+        "clues": 7,
+        "llm_calls": 0,
+        "nodes": 1,
+        "time_s": 0.004
+      },
+      {
+        "puzzle": "SP-M2-Research",
+        "status": "SOLVED",
+        "correct": true,
+        "template_parsed": 9,
+        "clues": 9,
+        "llm_calls": 0,
+        "nodes": 1,
+        "time_s": 0.003
+      },
+      {
+        "puzzle": "SP-H1-Department",
+        "status": "SOLVED",
+        "correct": true,
+        "template_parsed": 11,
+        "clues": 11,
+        "llm_calls": 0,
+        "nodes": 2,
+        "time_s": 0.005
+      },
+      {
+        "puzzle": "SP-H2-EventCrew",
+        "status": "SOLVED",
+        "correct": true,
+        "template_parsed": 9,
+        "clues": 9,
+        "llm_calls": 0,
+        "nodes": 2,
+        "time_s": 0.005
+      }
+    ]
+  }
+}

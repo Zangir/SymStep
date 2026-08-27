@@ -1,0 +1,237 @@
+[
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 1,
+   "statements": 1,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 5,
+   "quarantined": 0
+  },
+  "frame": {
+   "op": "REMOVE",
+   "op_provenance": "hand",
+   "theme_kind": "OCCURRENCE",
+   "selectors": [
+    "FIRST",
+    "LAST"
+   ],
+   "item": "character",
+   "source": "string"
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 3,
+   "failures": 0
+  },
+  "code": "def remove_Occ(arg0, arg1):\n    s = arg0\n    i = s.find(arg1)\n    if i != -1:\n        s = s[:i] + s[i+1:]\n    j = s.rfind(arg1)\n    if j != -1:\n        s = s[:j] + s[j+1:]\n    return s",
+  "_row": 0
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "frame: ungrounded verb: 'sort'"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 3,
+   "quarantined": 0
+  },
+  "_row": 1
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "frame: imperative framing with no inner action verb"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 3,
+   "quarantined": 0
+  },
+  "_row": 2
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "frame: ungrounded verb: 'find'"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 3,
+   "quarantined": 0
+  },
+  "_row": 3
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "frame: imperative framing with no inner action verb"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 3,
+   "quarantined": 0
+  },
+  "_row": 4
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "frame: ungrounded verb: 'join'"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 4,
+   "quarantined": 0
+  },
+  "_row": 5
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "frame: imperative framing with no inner action verb"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 3,
+   "quarantined": 0
+  },
+  "_row": 6
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "frame: imperative framing with no inner action verb"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 3,
+   "quarantined": 0
+  },
+  "_row": 7
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "frame: ungrounded verb: 'find'"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 3,
+   "quarantined": 0
+  },
+  "_row": 8
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "frame: imperative framing with no inner action verb"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 6,
+   "quarantined": 0
+  },
+  "_row": 9
+ }
+]

@@ -1,0 +1,11114 @@
+[
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 0,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "below",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 1,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 2,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "below",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 3,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "below",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 4,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 5,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 6,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 7,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 8,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "right",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 9,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "right",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 10,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 11,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 12,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 13,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 14,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 15,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 16,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 17,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 18,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 19,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 20,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 21,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 22,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 23,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "below",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 24,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "below",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 25,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 26,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 27,
+  "_correct": true
+ },
+ {
+  "status": "UNDETERMINED",
+  "reasons": [
+   "relative direction not forced"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 28
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 29,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 30,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 31,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "below",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 32,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "right",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 33,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "right",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 34,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "right",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 35,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "right",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 36,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 37,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 38,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 39,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 40
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 41,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "below",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 42,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 43,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 44,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 45,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 46,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 47,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 48,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 1,
+   "unread": [],
+   "inert": 1
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 1,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 49,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 50,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": "below",
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 51,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 52,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 53,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 54,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 55
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": "below",
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 56,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 2 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 11,
+   "unread": [],
+   "inert": 11
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 57
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 58,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 59,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": "below",
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 60,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 61,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 62,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 63
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": "overlap",
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 64,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 65,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 66,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 67
+ },
+ {
+  "status": "UNDETERMINED",
+  "reasons": [
+   "relative direction not forced"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 68
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 69
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": "right",
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 70,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 71
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 72,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 73,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 74,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": "overlap",
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 75,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 76,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 77
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 78,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 79
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 80,
+  "_correct": true
+ },
+ {
+  "status": "UNDETERMINED",
+  "reasons": [
+   "relative direction not forced"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 81
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 82,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 11,
+   "unread": [],
+   "inert": 11
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 83,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 84,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 85,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": "overlap",
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 86,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": "right",
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 87,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 88
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 89
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 90,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 91,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 92
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 93,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 94,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 95,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 96,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 97
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 98,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 99,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 100,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 101,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "below",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 102,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 103,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "below",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 104,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 105,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 106,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 107,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 108,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 109,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 110,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 111,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "below",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 112,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 113,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 114,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 115,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 116,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "below",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 117,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 118
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 119,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 120,
+  "_correct": true
+ },
+ {
+  "status": "UNDETERMINED",
+  "reasons": [
+   "relative direction not forced"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 121
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 122,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "overlap",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 123,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 124,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 125,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 126,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 127,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "right",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 128,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 129,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "right",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 130,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 131,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 132,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 133,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 134,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 135,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 136,
+  "_correct": true
+ },
+ {
+  "status": "UNDETERMINED",
+  "reasons": [
+   "relative direction not forced"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 137
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 138,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 139,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 140,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "right",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 141,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "below",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 142,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 143,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 144
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "right",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 145,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 146,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 147,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 148,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 2,
+   "unread": [],
+   "inert": 2
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 2,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 149,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 150,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 151,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 152,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 153
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 154
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 155,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 156,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "overlap",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 157,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": "below",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 158,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "overlap",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 159,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 160,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 161,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "overlap",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 162,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 163,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "overlap",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 164,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "right",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 165,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 166
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 167
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 168,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 169,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "below",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 170,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 171,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 172,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 173,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 174,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 175,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 176,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 177,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 178,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 179,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 180,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "right",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 181,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "right",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 182,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 183,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "below",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 184,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 185,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 186,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 187,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 188
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 189,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 190,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 191
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 192,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 193
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "right",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 194,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 195,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 196,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 197,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 198,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 3,
+   "unread": [],
+   "inert": 3
+  },
+  "answer": "below",
+  "evidence": {
+   "statements": 3,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 199,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 200
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 201,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 202
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": "right",
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 203,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 204,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 205
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 206
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 207,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 208,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 209
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 210,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": "overlap",
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 211,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 212,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 213,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 214,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 215,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 216,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 217,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 218
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 219,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 220
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": "below",
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 221,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": "below",
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 222,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 223,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 224,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": "overlap",
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 225,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 226,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 227
+ },
+ {
+  "status": "UNDETERMINED",
+  "reasons": [
+   "relative direction not forced"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 228
+ },
+ {
+  "status": "UNDETERMINED",
+  "reasons": [
+   "relative direction not forced"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 229
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 230,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 231,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 232,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": "below",
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 233,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 234,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 235
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 236
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 237,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 2 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 238
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 239,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 240,
+  "_correct": true
+ },
+ {
+  "status": "UNDETERMINED",
+  "reasons": [
+   "relative direction not forced"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 241
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": "below",
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 242,
+  "_correct": true
+ },
+ {
+  "status": "UNDETERMINED",
+  "reasons": [
+   "relative direction not forced"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 243
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": "below",
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 244,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 245,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 246,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 247,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 248
+ },
+ {
+  "status": "UNDETERMINED",
+  "reasons": [
+   "relative direction not forced"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 4,
+   "unread": [],
+   "inert": 4
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 4,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 249
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 250,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 251,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 252,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": "right",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 253,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": "right",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 254,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 255
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 256,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 257,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": "below",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 258,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 259,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 260,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 261
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 262,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": "right",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 263,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 264
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 265
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 266,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 267,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": "right",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 268,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 269,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 270,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 271,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 272
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 273,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 274,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 275,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 276
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 277,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 278,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 279,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 280,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": "below",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 281,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 282
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 283,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 284,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 285,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": "overlap",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 286,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 287
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 288,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": "overlap",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 289,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 290
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 291,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": "overlap",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 292,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": "below",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 293,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 294,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": "below",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 295,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 296,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 297,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 298,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 299,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 300,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 301,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 302,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": "below",
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 303,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 304,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": "overlap",
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 305,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 306,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 307,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 308
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 309
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 310,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 311,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 312
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 313
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 314
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 315,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 316,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 317
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 318,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 319,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 320,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 321,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 322,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 323,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": "right",
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 324,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 325,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 326,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 327,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 328
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": "overlap",
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 329,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 330
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 331,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 3 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 332
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 333,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 334,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": "below",
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 335,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 336,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 337,
+  "_correct": true
+ },
+ {
+  "status": "UNDETERMINED",
+  "reasons": [
+   "relative direction not forced"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 338
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 339,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 340,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 341,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": "below",
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 342,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 343
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": "overlap",
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 344,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": "right",
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 345,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 346
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 347
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 348,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": "right",
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 349,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 350,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 351,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": "right",
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 352,
+  "_correct": false
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 353
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 354,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 355
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 356,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 357,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": "below",
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 358,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 359,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 360,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 361,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 362,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 363
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": "below",
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 364,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 365,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 366
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 367,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 368
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 369
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 370,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 371,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 372,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": "overlap",
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 373,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 374
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 375
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 376
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 377,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 378,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 379,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 380,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": "below",
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 381,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 382,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": "right",
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 383,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": "below",
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 384,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 385
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 386
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 387,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 388,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 389,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 390,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": "overlap",
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 391,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 392,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 393,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 394,
+  "_correct": true
+ },
+ {
+  "status": "UNDETERMINED",
+  "reasons": [
+   "relative direction not forced"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 395
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 396,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 397
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": "right",
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 398,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 399,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 400
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 401,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 402,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 2 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 403
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 2 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 404
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 405
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 406,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 407,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": "overlap",
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 408,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 409,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 2 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 410
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": "overlap",
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 411,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 412,
+  "_correct": true
+ },
+ {
+  "status": "UNDETERMINED",
+  "reasons": [
+   "relative direction not forced"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 413
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 414,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 415,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 416
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 417,
+  "_correct": true
+ },
+ {
+  "status": "UNDETERMINED",
+  "reasons": [
+   "relative direction not forced"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 418
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 419
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 420,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 421
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 422,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 423,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 424
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": "right",
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 425,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 426
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 427,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 428,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 429,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 430,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 431,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": "below",
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 432,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 433,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 434
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 435,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 436
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 437,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 438,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 439
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 440,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 441,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 442
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 443,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 3 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 444
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 445,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": "below",
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 446,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 447,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 448,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": "overlap",
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 449,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 450,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 451,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 452,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": "right",
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 453,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 454,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 455
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 456,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": "below",
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 457,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 458,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": "overlap",
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 459,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 460,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 461
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 462
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 463,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": "below",
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 464,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": "below",
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 465,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 466
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": "overlap",
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 467,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": "lower-left",
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 468,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 469,
+  "_correct": true
+ },
+ {
+  "status": "UNDETERMINED",
+  "reasons": [
+   "relative direction not forced"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 470
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": "overlap",
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 471,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 472
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 473
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 474
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 475,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 476,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 477,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 478
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 479
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 480,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 481,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 482,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 483
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 484,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 485,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": "below",
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 486,
+  "_correct": true
+ },
+ {
+  "status": "UNDETERMINED",
+  "reasons": [
+   "relative direction not forced"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 487
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": "left",
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 488,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": "upper-left",
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 489,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": "overlap",
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 490,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": "lower-right",
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 491,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": "right",
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 492,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 493
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": "overlap",
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 494,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 495
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": "upper-right",
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 496,
+  "_correct": true
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 497
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 498
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": "above",
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 499,
+  "_correct": true
+ }
+]

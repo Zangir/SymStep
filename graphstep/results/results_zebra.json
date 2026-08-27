@@ -1,0 +1,37 @@
+{
+  "2*3": {
+    "n": 20,
+    "excluded": 0,
+    "certified_solved": 20,
+    "template_coverage": 1.0,
+    "llm_calls": 0,
+    "statuses": {
+      "SOLVED": 20
+    },
+    "time_s": 0.0
+  },
+  "4*5": {
+    "n": 20,
+    "excluded": 2,
+    "certified_solved": 18,
+    "template_coverage": 1.0,
+    "llm_calls": 0,
+    "statuses": {
+      "SOLVED": 18,
+      "EXCLUDED:duplicate value names across attributes": 2
+    },
+    "time_s": 1.3
+  },
+  "6*6": {
+    "n": 20,
+    "excluded": 5,
+    "certified_solved": 15,
+    "template_coverage": 1.0,
+    "llm_calls": 0,
+    "statuses": {
+      "EXCLUDED:duplicate value names across attributes": 5,
+      "SOLVED": 15
+    },
+    "time_s": 3.9
+  }
+}

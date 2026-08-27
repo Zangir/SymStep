@@ -278,6 +278,22 @@ If the project is useful to you, please **⭐ star it** — it genuinely helps o
 
 ---
 
+## GraphStep: the successor framework
+
+SymStep verifies an LLM's reasoning step by step. Its successor,
+**[GraphStep](graphstep/)**, removes the LLM from the loop entirely: one
+general algorithm reads any input (logic puzzles, code-synthesis tasks,
+stories, open prose), compiles what it understood into a typed constraint
+graph or logical rules, and reasons symbolically — every answer certified,
+every failure a named refusal, **zero LLM calls** across all benchmarks:
+ZebraLogicBench 959/959 certified, BBH logical deduction 750/750 and
+web-of-lies 250/250, ProofWriter 800/800, the 20-task story-QA suite at
+98.3%, plus certified program synthesis. No per-task code exists anywhere
+(enforced by CI); a benchmark is only where samples come from. See
+[graphstep/README.md](graphstep/README.md).
+
+---
+
 ## Citation
 
 ```bibtex

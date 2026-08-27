@@ -1,0 +1,6502 @@
+[
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 0,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 1,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 2,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 3,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 4,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 5,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 6,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 7,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 8,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 9,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 10,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 11,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 12,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 13,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 14,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 15,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 16,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 17,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 18,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 19,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 20,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 21,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 22,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 23,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 24,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 25,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 26,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 27,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 28,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 29,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 30,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 31,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 32,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 33,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 34,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 35,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 36,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 37,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 38,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 39,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 40,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 41,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 42,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 43,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 44,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 45,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 46,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 47,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 48,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 49,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 50,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 51,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 52,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 53,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 54,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 55,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 56,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 57,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 58,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 59,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 60,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 61,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 62,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 63,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 64,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 65,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 66,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 67,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 68,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 69,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 70,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 71,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 72,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 73,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 74,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 75,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 76,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 77,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 78,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 79,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 80,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 81,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 82,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 83,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 84,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 85,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 86,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 87,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 88,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 89,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 90,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 91,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 92,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 93,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 94,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 95,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 96,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 97,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 98,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 99,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 100,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 101,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 102,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 103,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 104,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 105,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 106,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 107,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 108,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 109,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 110,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 111,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 112,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 113,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 114,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 115,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 116,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 117,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 118,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 119,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 120,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 121,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 122,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 123,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 124,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 125,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 126,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 127,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 128,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 129,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 130,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 131,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 132,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 133,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 134,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 135,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 136,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 137,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 138,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 139,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 140,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 141,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 142,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 143,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 144,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 145,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 146,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 147,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 148,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 149,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 150,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 151,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 152,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 153,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 154,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 155,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 156,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 157,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 158,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 159,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 160,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 161,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 162,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 163,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 164,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 165,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 166,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 167,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 168,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 169,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 170,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 171,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 172,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 173,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 174,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 175,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 176,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 177,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 178,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 179,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 180,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 181,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 182,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 183,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 184,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 185,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 186,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 187,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 188,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 189,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 190,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 191,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 192,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 193,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 194,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 195,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 196,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 197,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 198,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 199,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 200,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 201,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 202,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 203,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 204,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 205,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 206,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 207,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 208,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 209,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 210,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 211,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 212,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 213,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 214,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 215,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 216,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 217,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 218,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 219,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 220,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 221,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 222,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 223,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 224,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 225,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 226,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 227,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 228,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 229,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 230,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 231,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 232,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 233,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 234,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 235,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 236,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 237,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 238,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 239,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 240,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 241,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 242,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 243,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 244,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 245,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 246,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "Yes",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 247,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 248,
+  "_correct": true
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 5,
+   "statements": 5,
+   "unread": [],
+   "inert": 0
+  },
+  "answer": "No",
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 249,
+  "_correct": true
+ }
+]

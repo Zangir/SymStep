@@ -1,0 +1,5861 @@
+[
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 30 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 34,
+   "unread": [],
+   "inert": 34
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 34,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 0
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "nothing licensed any variables"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "_row": 1
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 2
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 4 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 3
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 5,
+   "unread": [],
+   "inert": 5
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 5,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 4
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 5 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 5
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 2 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 6
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 11,
+   "unread": [],
+   "inert": 11
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 7
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 2 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 8
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "nothing licensed any variables"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "_row": 9
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "nothing licensed any variables"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 11,
+   "unread": [],
+   "inert": 11
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "_row": 10
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": {
+   "(A)L, P, S, R, O, T, F, H": 1,
+   "(B)O, T, P, F, S, H, R, L": 2,
+   "(C)P, T, F, S, L, R, O, H": 3,
+   "(D)P, T, F, S, O, R, L, H": 4,
+   "(E)T, F, P, R, O, L, S, H": 5
+  },
+  "evidence": {
+   "statements": 8,
+   "groups": 1,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "assumptions": [
+   "positions are labels; group 'choices' pinned"
+  ],
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 11,
+  "_correct": false
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": {
+   "(A)second": 1,
+   "(B)third": 2,
+   "(C)fourth": 3,
+   "(D)sixth": 4,
+   "(E)seventh": 5
+  },
+  "evidence": {
+   "statements": 8,
+   "groups": 1,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "assumptions": [
+   "positions are labels; group 'choices' pinned"
+  ],
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 12,
+  "_correct": false
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "nothing licensed any variables"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "_row": 13
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "nothing licensed any variables"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "_row": 14
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": {
+   "(A)F, H, P": 1,
+   "(B)H, P. L": 2,
+   "(C)O, P, R": 3,
+   "(D)O, P, T": 4,
+   "(E)P, R, T": 5
+  },
+  "evidence": {
+   "statements": 8,
+   "groups": 1,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "assumptions": [
+   "positions are labels; group 'choices' pinned"
+  ],
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 15,
+  "_correct": false
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "nothing licensed any variables"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "_row": 16
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": {
+   "(A)first": 1,
+   "(B)third": 2,
+   "(C)fourth": 3,
+   "(D)sixth": 4,
+   "(E)seventh": 5
+  },
+  "evidence": {
+   "statements": 8,
+   "groups": 1,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "assumptions": [
+   "positions are labels; group 'choices' pinned"
+  ],
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 17,
+  "_correct": false
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 3 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 18
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 5 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 11,
+   "unread": [],
+   "inert": 11
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 19
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 7 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 11,
+   "unread": [],
+   "inert": 11
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 20
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 3 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 21
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 7 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 11,
+   "unread": [],
+   "inert": 11
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 22
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 7 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 11,
+   "unread": [],
+   "inert": 11
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 23
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": {
+   "(A)F, G, K, P, Q": 1,
+   "(B)G, H, K, L, M": 2,
+   "(C)G, H, K, L, R": 3,
+   "(D)H, K, M, P, R": 4,
+   "(E)H, L, M, P, Q": 5
+  },
+  "evidence": {
+   "statements": 8,
+   "groups": 1,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "assumptions": [
+   "positions are labels; group 'choices' pinned"
+  ],
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 24,
+  "_correct": false
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 12,
+   "unread": [],
+   "inert": 12
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 25
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": {
+   "(A)G": 1,
+   "(B)H": 2,
+   "(C)K": 3,
+   "(D)M": 4,
+   "(E)P": 5
+  },
+  "evidence": {
+   "statements": 8,
+   "groups": 1,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "assumptions": [
+   "positions are labels; group 'choices' pinned"
+  ],
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 26,
+  "_correct": false
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 2 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 12,
+   "unread": [],
+   "inert": 12
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 27
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "nothing licensed any variables"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "_row": 28
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 29
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": {
+   "(A)grain": 1,
+   "(B)livestock": 2,
+   "(C)machinery": 3,
+   "(D)produce": 4,
+   "(E)textiles": 5
+  },
+  "evidence": {
+   "statements": 7,
+   "groups": 1,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "assumptions": [
+   "positions are labels; group 'choices' pinned"
+  ],
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 30,
+  "_correct": false
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": {
+   "(A)two": 1,
+   "(B)three": 2,
+   "(C)four": 3,
+   "(D)five": 4,
+   "(E)six": 5
+  },
+  "evidence": {
+   "statements": 7,
+   "groups": 1,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "assumptions": [
+   "positions are labels; group 'choices' pinned"
+  ],
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 31,
+  "_correct": false
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": {
+   "(A)bay 1": 1,
+   "(B)bay 2": 2,
+   "(C)bay 3": 3,
+   "(D)bay 5": 4,
+   "(E)bay 6": 5
+  },
+  "evidence": {
+   "statements": 7,
+   "groups": 1,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "assumptions": [
+   "positions are labels; group 'choices' pinned"
+  ],
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 32,
+  "_correct": false
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 11,
+   "unread": [],
+   "inert": 11
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 33
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "nothing licensed any variables"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 11,
+   "unread": [],
+   "inert": 11
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "_row": 34
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": {
+   "(A)two": 1,
+   "(B)three": 2,
+   "(C)four": 3,
+   "(D)five": 4,
+   "(E)six": 5
+  },
+  "evidence": {
+   "statements": 7,
+   "groups": 1,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "assumptions": [
+   "positions are labels; group 'choices' pinned"
+  ],
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 35,
+  "_correct": false
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 2 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 36
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": {
+   "(A)one": 1,
+   "(B)two": 2,
+   "(C)three": 3,
+   "(D)four": 4,
+   "(E)five": 5
+  },
+  "evidence": {
+   "statements": 7,
+   "groups": 1,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "assumptions": [
+   "positions are labels; group 'choices' pinned"
+  ],
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 37,
+  "_correct": false
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "nothing licensed any variables"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 11,
+   "unread": [],
+   "inert": 11
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "_row": 38
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 6 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 11,
+   "unread": [],
+   "inert": 11
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 39
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 2 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 11,
+   "unread": [],
+   "inert": 11
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 40
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 4 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 11,
+   "unread": [],
+   "inert": 11
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 41
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": {
+   "(A)Lopez": 1,
+   "(B)O'Neill": 2,
+   "(C)Jiang, Lopez": 3,
+   "(D)Kramer, O'Neill": 4,
+   "(E)Lopez, Megregian": 5
+  },
+  "evidence": {
+   "statements": 6,
+   "groups": 1,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "assumptions": [
+   "positions are labels; group 'choices' pinned"
+  ],
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 42,
+  "_correct": false
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "1 statement(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 1,
+   "statements": 10,
+   "unread": [
+    "Kramer and O'Neill both review Tamerlane."
+   ],
+   "inert": 8
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "_row": 43
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "6 statement(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 1,
+   "statements": 10,
+   "unread": [
+    "Kramer and O'Neill both review Tamerlane.",
+    "Answer Choices: (A)Megregian does not review Undulation.",
+    "(B)O'Neill does not review Undulation.",
+    "(C)Jiang reviews Undulation.",
+    "(D)Lopez reviews Tamerlane.",
+    "(E)O'Neill reviews Sunset."
+   ],
+   "inert": 3
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "_row": 44
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "1 statement(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 1,
+   "statements": 6,
+   "unread": [
+    "Kramer and O'Neill both review Tamerlane."
+   ],
+   "inert": 4
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "_row": 45
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "6 statement(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 1,
+   "statements": 10,
+   "unread": [
+    "Kramer and O'Neill both review Tamerlane.",
+    "Answer Choices: (A)Jiang reviews Sunset.",
+    "(B)Lopez reviews Undulation.",
+    "(C)Megregian reviews Sunset.",
+    "(D)Megregian reviews Tamerlane.",
+    "(E)O'Neill reviews Undulation."
+   ],
+   "inert": 3
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "_row": 46
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 3 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 47
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 5 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 12,
+   "unread": [],
+   "inert": 12
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 48
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 3 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 12,
+   "unread": [],
+   "inert": 12
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 49
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": {
+   "(A)none": 1,
+   "(B)two": 2,
+   "(C)three": 3,
+   "(D)four": 4,
+   "(E)five": 5
+  },
+  "evidence": {
+   "statements": 8,
+   "groups": 1,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "assumptions": [
+   "positions are labels; group 'choices' pinned"
+  ],
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 50,
+  "_correct": false
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 5 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 12,
+   "unread": [],
+   "inert": 12
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 51
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 2 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 12,
+   "unread": [],
+   "inert": 12
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 52
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 3 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 53
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "nothing licensed any variables"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "_row": 54
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "nothing licensed any variables"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "_row": 55
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 5 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 12,
+   "unread": [],
+   "inert": 12
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 56
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 5 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 12,
+   "unread": [],
+   "inert": 12
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 57
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 2 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 12,
+   "unread": [],
+   "inert": 12
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 58
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 3 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 59
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 3 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 12,
+   "unread": [],
+   "inert": 12
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 60
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "nothing licensed any variables"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 12,
+   "unread": [],
+   "inert": 12
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "_row": 61
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 5 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 12,
+   "unread": [],
+   "inert": 12
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 62
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 5 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 12,
+   "unread": [],
+   "inert": 12
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 63
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 7 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 12,
+   "unread": [],
+   "inert": 12
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 64
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": {
+   "(A)F, M": 1,
+   "(B)F, H, M": 2,
+   "(C)G, H, K": 3,
+   "(D)F, G, M, O": 4,
+   "(E)G, H, L, M": 5
+  },
+  "evidence": {
+   "statements": 8,
+   "groups": 1,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "assumptions": [
+   "positions are labels; group 'choices' pinned"
+  ],
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 65,
+  "_correct": false
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 5 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 12,
+   "unread": [],
+   "inert": 12
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 66
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 9 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 12,
+   "unread": [],
+   "inert": 12
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 67
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": {
+   "(A)H, I": 1,
+   "(B)I, L": 2,
+   "(C)H, I, L": 3,
+   "(D)I, K, L": 4,
+   "(E)F, I, M": 5
+  },
+  "evidence": {
+   "statements": 8,
+   "groups": 1,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "assumptions": [
+   "positions are labels; group 'choices' pinned"
+  ],
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 68,
+  "_correct": false
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 5 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 12,
+   "unread": [],
+   "inert": 12
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 69
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 5 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 70
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": {
+   "(A)Rebecca": 1,
+   "(B)Olivia": 2,
+   "(C)Nessa": 3,
+   "(D)Kevin": 4,
+   "(E)Julio": 5
+  },
+  "evidence": {
+   "statements": 7,
+   "groups": 1,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "assumptions": [
+   "positions are labels; group 'choices' pinned"
+  ],
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 71,
+  "_correct": false
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 5 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 72
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "nothing licensed any variables"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 11,
+   "unread": [],
+   "inert": 11
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "_row": 73
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": {
+   "(A)one": 1,
+   "(B)two": 2,
+   "(C)three": 3,
+   "(D)four": 4,
+   "(E)five": 5
+  },
+  "evidence": {
+   "statements": 7,
+   "groups": 1,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "assumptions": [
+   "positions are labels; group 'choices' pinned"
+  ],
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 74,
+  "_correct": false
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 4 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 75
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 7 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 11,
+   "unread": [],
+   "inert": 11
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 76
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 7 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 11,
+   "unread": [],
+   "inert": 11
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 77
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "nothing licensed any variables"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "_row": 78
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 5 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 11,
+   "unread": [],
+   "inert": 11
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 79
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 6 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 11,
+   "unread": [],
+   "inert": 11
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 80
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 3 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 81
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 4 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 11,
+   "unread": [],
+   "inert": 11
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 82
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 3 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 11,
+   "unread": [],
+   "inert": 11
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 83
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 3 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 84
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": {
+   "(A)Kim": 1,
+   "(B)Mahr": 2,
+   "(C)Stuckey": 3,
+   "(D)Tiao": 4,
+   "(E)Udall": 5
+  },
+  "evidence": {
+   "statements": 7,
+   "groups": 1,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "assumptions": [
+   "positions are labels; group 'choices' pinned"
+  ],
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 85,
+  "_correct": false
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 6 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 11,
+   "unread": [],
+   "inert": 11
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 86
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 5 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 87
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": {
+   "(A)zero": 1,
+   "(B)one": 2,
+   "(C)two": 3,
+   "(D)three": 4,
+   "(E)four": 5
+  },
+  "evidence": {
+   "statements": 9,
+   "groups": 1,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "assumptions": [
+   "positions are labels; group 'choices' pinned"
+  ],
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 88,
+  "_correct": false
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 8 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 13,
+   "unread": [],
+   "inert": 13
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 13,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 89
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": {
+   "(A)one": 1,
+   "(B)two": 2,
+   "(C)three": 3,
+   "(D)four": 4,
+   "(E)five": 5
+  },
+  "evidence": {
+   "statements": 9,
+   "groups": 1,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "assumptions": [
+   "positions are labels; group 'choices' pinned"
+  ],
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 90,
+  "_correct": false
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 8 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 13,
+   "unread": [],
+   "inert": 13
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 13,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 91
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": {
+   "(A)K, 0, L, M, N, J, P": 1,
+   "(B)N, L, P, K, M, 0, J": 2,
+   "(C)0, P, K, L, N, M, J": 3,
+   "(D)0, P, M, N, K, L, J": 4,
+   "(E)P, 0, K, J, L, N, M": 5
+  },
+  "evidence": {
+   "statements": 6,
+   "groups": 1,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "assumptions": [
+   "positions are labels; group 'choices' pinned"
+  ],
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 92,
+  "_correct": false
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": {
+   "(A)J, K": 1,
+   "(B)J, M": 2,
+   "(C)J, O": 3,
+   "(D)J, P": 4,
+   "(E)M, P": 5
+  },
+  "evidence": {
+   "statements": 6,
+   "groups": 1,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "assumptions": [
+   "positions are labels; group 'choices' pinned"
+  ],
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 93,
+  "_correct": false
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 2 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 94
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 3 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 95
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 2 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 96
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 4 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 97
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 3 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 12,
+   "unread": [],
+   "inert": 12
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 98
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 5 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 12,
+   "unread": [],
+   "inert": 12
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 99
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 3 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 12,
+   "unread": [],
+   "inert": 12
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 100
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 3 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 12,
+   "unread": [],
+   "inert": 12
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 101
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "nothing licensed any variables"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 11,
+   "unread": [],
+   "inert": 11
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "_row": 102
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 2 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 11,
+   "unread": [],
+   "inert": 11
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 103
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 3 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 104
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 3 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 105
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 3 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 106
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 2 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 11,
+   "unread": [],
+   "inert": 11
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 107
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": {
+   "(A)H, S, J, Q, Y, G, R": 1,
+   "(B)J, Q, G, H, S, Y, R": 2,
+   "(C)Q, J, S, H, Y, G, R": 3,
+   "(D)Q, J, Y, S, G, R, H": 4,
+   "(E)S, G, Q, J, Y, R, H": 5
+  },
+  "evidence": {
+   "statements": 7,
+   "groups": 1,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "assumptions": [
+   "positions are labels; group 'choices' pinned"
+  ],
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 108,
+  "_correct": false
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 2 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 109
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 2 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 110
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 2 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 111
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 2 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 112
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": {
+   "(A)first": 1,
+   "(B)third": 2,
+   "(C)fourth": 3,
+   "(D)fifth": 4,
+   "(E)sixth": 5
+  },
+  "evidence": {
+   "statements": 7,
+   "groups": 1,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "assumptions": [
+   "positions are labels; group 'choices' pinned"
+  ],
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 113,
+  "_correct": false
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 2 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 11,
+   "unread": [],
+   "inert": 11
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 114
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": {
+   "(A)Uneasy": 1,
+   "(B)Veqemite": 2,
+   "(C)Wellspring": 3,
+   "(D)Xpert": 4,
+   "(E)Zircon": 5
+  },
+  "evidence": {
+   "statements": 9,
+   "groups": 1,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "assumptions": [
+   "positions are labels; group 'choices' pinned"
+  ],
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 115,
+  "_correct": false
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": {
+   "(A)two": 1,
+   "(B)three": 2,
+   "(C)four": 3,
+   "(D)five": 4,
+   "(E)six": 5
+  },
+  "evidence": {
+   "statements": 9,
+   "groups": 1,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "assumptions": [
+   "positions are labels; group 'choices' pinned"
+  ],
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 116,
+  "_correct": false
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 2 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 117
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 6 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 13,
+   "unread": [],
+   "inert": 13
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 13,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 118
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 3 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 119
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 5 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 13,
+   "unread": [],
+   "inert": 13
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 13,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 120
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 5 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 13,
+   "unread": [],
+   "inert": 13
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 13,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 121
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 3 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 122
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 3 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 123
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": {
+   "(A)Zayre": 1,
+   "(B)Thomson": 2,
+   "(C)Paine": 3,
+   "(D)Ortega": 4,
+   "(E)Myers": 5
+  },
+  "evidence": {
+   "statements": 6,
+   "groups": 1,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "assumptions": [
+   "positions are labels; group 'choices' pinned"
+  ],
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 124,
+  "_correct": false
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 7 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 125
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 3 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 126
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "14 statement(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 1,
+   "statements": 23,
+   "unread": [
+    "Screens 1 and 2 show two movies each, one beginning at 7 P.M.",
+    "and the other at 9 P.M.; screen 3 shows exactly one movie, at 8 P.M.",
+    "The sci-fi film is not shown on screen 3.",
+    "The romance is not shown on screen 2.",
+    "screen 2: western at 7 P.M., sci-fi film at 9 P.M.",
+    "screen 3: mystery at 8 P.M.",
+    "screen 2: horror film at 7 P.M., sci-fi film at 9 P.M.",
+    "screen 3: western at 8 P.M.",
+    "screen 2: mystery at 7 P.M., horror film at 9 P.M.",
+    "screen 3: romance at 8 P.M.",
+    "screen 2: western at 7 P.M., horror film at 9 P.M.",
+    "screen 3: sci-fi film at 8 P.M.",
+    "screen 2: sci-fi film at 7 P.M., romance at 9 P.M.",
+    "screen 3: horror film at 8 P.M."
+   ],
+   "inert": 8
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 23,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "_row": 127
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "5 statement(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 1,
+   "statements": 10,
+   "unread": [
+    "Screens 1 and 2 show two movies each, one beginning at 7 P.M.",
+    "and the other at 9 P.M.; screen 3 shows exactly one movie, at 8 P.M.",
+    "The sci-fi film is not shown on screen 3.",
+    "The romance is not shown on screen 2.",
+    "The horror film and the mystery are shown on different screens.Q: Which one of the following CANNOT be an accurate list of the movies scheduled to be shown on screen 2 this evening, listing the 7 P.M."
+   ],
+   "inert": 4
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "_row": 128
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "6 statement(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 1,
+   "statements": 13,
+   "unread": [
+    "Screens 1 and 2 show two movies each, one beginning at 7 P.M.",
+    "and the other at 9 P.M.; screen 3 shows exactly one movie, at 8 P.M.",
+    "The sci-fi film is not shown on screen 3.",
+    "The romance is not shown on screen 2.",
+    "Answer Choices: (A)The horror film is shown on screen 2.",
+    "(C)The romance is shown on screen 3."
+   ],
+   "inert": 6
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 13,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "_row": 129
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "6 statement(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 1,
+   "statements": 13,
+   "unread": [
+    "Screens 1 and 2 show two movies each, one beginning at 7 P.M.",
+    "and the other at 9 P.M.; screen 3 shows exactly one movie, at 8 P.M.",
+    "The sci-fi film is not shown on screen 3.",
+    "The romance is not shown on screen 2.",
+    "(C)The mystery is shown on screen 2.",
+    "(E)The sci-fi film is shown on screen 2."
+   ],
+   "inert": 6
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 13,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "_row": 130
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "4 statement(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 1,
+   "statements": 10,
+   "unread": [
+    "Screens 1 and 2 show two movies each, one beginning at 7 P.M.",
+    "and the other at 9 P.M.; screen 3 shows exactly one movie, at 8 P.M.",
+    "The sci-fi film is not shown on screen 3.",
+    "The romance is not shown on screen 2."
+   ],
+   "inert": 5
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "_row": 131
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "4 statement(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 1,
+   "statements": 13,
+   "unread": [
+    "Screens 1 and 2 show two movies each, one beginning at 7 P.M.",
+    "and the other at 9 P.M.; screen 3 shows exactly one movie, at 8 P.M.",
+    "The sci-fi film is not shown on screen 3.",
+    "The romance is not shown on screen 2."
+   ],
+   "inert": 8
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 13,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "_row": 132
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 5 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 133
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 5 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 11,
+   "unread": [],
+   "inert": 11
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 134
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 9 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 11,
+   "unread": [],
+   "inert": 11
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 135
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 9 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 11,
+   "unread": [],
+   "inert": 11
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 136
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 9 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 11,
+   "unread": [],
+   "inert": 11
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 137
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 3 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 138
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 3 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 11,
+   "unread": [],
+   "inert": 11
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 139
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "nothing licensed any variables"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 11,
+   "unread": [],
+   "inert": 11
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "_row": 140
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": {
+   "(A)guitarist": 1,
+   "(B)keyboard player": 2,
+   "(C)saxophonist": 3,
+   "(D)trumpeter": 4,
+   "(E)violinist": 5
+  },
+  "evidence": {
+   "statements": 7,
+   "groups": 1,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "assumptions": [
+   "positions are labels; group 'choices' pinned"
+  ],
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 141,
+  "_correct": false
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "nothing licensed any variables"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 11,
+   "unread": [],
+   "inert": 11
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "_row": 142
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 143
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 3 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 144
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 5 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 145
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 5 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 146
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 4 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 147
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 5 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 148
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 8 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 14,
+   "unread": [],
+   "inert": 14
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 14,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 149
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 7 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 14,
+   "unread": [],
+   "inert": 14
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 14,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 150
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "nothing licensed any variables"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "_row": 151
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 7 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 14,
+   "unread": [],
+   "inert": 14
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 14,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 152
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "nothing licensed any variables"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 14,
+   "unread": [],
+   "inert": 14
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 14,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "_row": 153
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 3 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 154
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 2 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 12,
+   "unread": [],
+   "inert": 12
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 155
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 3 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 156
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 3 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 157
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": {
+   "(A)Frost": 1,
+   "(B)Gonzalez": 2,
+   "(C)Knutson": 3,
+   "(D)Lai": 4,
+   "(E)Mays": 5
+  },
+  "evidence": {
+   "statements": 8,
+   "groups": 1,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "assumptions": [
+   "positions are labels; group 'choices' pinned"
+  ],
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 158,
+  "_correct": false
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 3 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 159
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 4 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 12,
+   "unread": [],
+   "inert": 12
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 160
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 3 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 161
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 3 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 162
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 7 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 163
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": {
+   "(A)first": 1,
+   "(B)second": 2,
+   "(C)third": 3,
+   "(D)fifth": 4,
+   "(E)seventh": 5
+  },
+  "evidence": {
+   "statements": 6,
+   "groups": 1,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "assumptions": [
+   "positions are labels; group 'choices' pinned"
+  ],
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 164,
+  "_correct": false
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 7 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 165
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": {
+   "(A)Quinn": 1,
+   "(B)Rovero": 2,
+   "(C)Stanton": 3,
+   "(D)Villas": 4,
+   "(E)White": 5
+  },
+  "evidence": {
+   "statements": 6,
+   "groups": 1,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "assumptions": [
+   "positions are labels; group 'choices' pinned"
+  ],
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 166,
+  "_correct": false
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "2 statement(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 1,
+   "statements": 7,
+   "unread": [
+    "The number of Hue's photographs in the Lifestyle section must be the same as the number of Fuentes photographs in the Sports section.",
+    "Answer Choices: (A)Lifestyle: both photographs by Fuentes Metro: one photograph by Fuentes and one by Hue Sports: one photograph by Gagnon and one by Hue (B)Lifestyle: one photograph by Fuentes and one by Gagnon Metro: one photograph by Fuentes and one by Gagnon Sports: both photographs by Hue (C)Lifestyle: both photographs by Fuentes Metro: both photographs by Gagnon Sports: both photographs by Hue (D)Lifestyle: both photographs by Gagnon Metro: one photograph by Fuentes and one by Gagnon Sports: one photograph by Fuentes and one by Hue (E)Lifestyle: one photograph by Gagnon and one by Hue Metro: both photographs by Hue Sports: one photograph by Fuentes and one by Hue"
+   ],
+   "inert": 4
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "_row": 167
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "6 statement(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 1,
+   "statements": 11,
+   "unread": [
+    "The number of Hue's photographs in the Lifestyle section must be the same as the number of Fuentes photographs in the Sports section.",
+    "Answer Choices: (A)Exactly one is by Fuentes.",
+    "(B)Exactly three are by Fuentes.",
+    "(C)Exactly one is by Gagnon.",
+    "(D)Exactly two are by Gagnon.",
+    "(E)Exactly two are by Hue."
+   ],
+   "inert": 4
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "_row": 168
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "6 statement(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 1,
+   "statements": 11,
+   "unread": [
+    "The number of Hue's photographs in the Lifestyle section must be the same as the number of Fuentes photographs in the Sports section.",
+    "Answer Choices: (A)Exactly one photograph in the Metro section is by Fuentes.",
+    "(B)Exactly one photograph in the Metro section is by Gagnon.",
+    "(C)Both photographs in the Metro section are by Gagnon.",
+    "(D)Exactly one photograph in the Sports section is by Hue.",
+    "(E)Both photographs in the Sports section are by Hue."
+   ],
+   "inert": 4
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "_row": 169
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "1 statement(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 1,
+   "statements": 11,
+   "unread": [
+    "The number of Hue's photographs in the Lifestyle section must be the same as the number of Fuentes photographs in the Sports section."
+   ],
+   "inert": 9
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "_row": 170
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "6 statement(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 1,
+   "statements": 11,
+   "unread": [
+    "The number of Hue's photographs in the Lifestyle section must be the same as the number of Fuentes photographs in the Sports section.",
+    "Answer Choices: (A)Both photographs in the Metro section are by Fuentes.",
+    "(B)Both photographs in the Metro section are by Gagnon.",
+    "(C)Exactly one photograph in the Metro section is by Hue.",
+    "(D)Both photographs in the Sports section are by Hue.",
+    "(E)Neither photograph in the Sports section is by Hue."
+   ],
+   "inert": 4
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "_row": 171
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "6 statement(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 1,
+   "statements": 11,
+   "unread": [
+    "The number of Hue's photographs in the Lifestyle section must be the same as the number of Fuentes photographs in the Sports section.",
+    "Answer Choices: (A)Both photographs in the Lifestyle section are by Hue.",
+    "(B)One photograph in the Lifestyle section is by Fuentes and one is by Hue.",
+    "(C)Both photographs in the Metro section are by Fuentes.",
+    "(D)One photograph in the Metro section is by Gagnon and one is by Hue.",
+    "(E)Both photographs in the Sports section are by Hue."
+   ],
+   "inert": 4
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "_row": 172
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "6 statement(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 1,
+   "statements": 11,
+   "unread": [
+    "The number of Hue's photographs in the Lifestyle section must be the same as the number of Fuentes photographs in the Sports section.",
+    "Answer Choices: (A)Both photographs in the Lifestyle section are by Fuentes.",
+    "(B)Both photographs in the Lifestyle section are by Gagnon.",
+    "(C)One photograph in the Lifestyle section is by Gagnon and one is by Hue.",
+    "(D)Both photographs in the Lifestyle section are by Hue.",
+    "(E)Both photographs in the Sports section are by Fuentes."
+   ],
+   "inert": 4
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "_row": 173
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 2 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 174
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 5 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 13,
+   "unread": [],
+   "inert": 13
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 13,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 175
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 2 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 176
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 5 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 13,
+   "unread": [],
+   "inert": 13
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 13,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 177
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 4 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 13,
+   "unread": [],
+   "inert": 13
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 13,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 178
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 2 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 9,
+   "unread": [],
+   "inert": 9
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 9,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 179
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 2 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 180
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "nothing licensed any variables"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "_row": 181
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 3 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 182
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 183
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 3 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 184
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "nothing licensed any variables"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "_row": 185
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 2 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 186
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": {
+   "(A)Quinn": 1,
+   "(B)Ruiz": 2,
+   "(C)Verma": 3,
+   "(D)Wells": 4,
+   "(E)Xue": 5
+  },
+  "evidence": {
+   "statements": 6,
+   "groups": 1,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "assumptions": [
+   "positions are labels; group 'choices' pinned"
+  ],
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 187,
+  "_correct": false
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 2 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 188
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 6 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 189
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 5 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 12,
+   "unread": [],
+   "inert": 12
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 190
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 5 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 12,
+   "unread": [],
+   "inert": 12
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 191
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": {
+   "(A)six": 1,
+   "(B)five": 2,
+   "(C)four": 3,
+   "(D)three": 4,
+   "(E)two": 5
+  },
+  "evidence": {
+   "statements": 8,
+   "groups": 1,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "assumptions": [
+   "positions are labels; group 'choices' pinned"
+  ],
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 192,
+  "_correct": false
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 7 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 12,
+   "unread": [],
+   "inert": 12
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 193
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": {
+   "(A)Louis": 1,
+   "(B)Mollie": 2,
+   "(C)Onyx": 3,
+   "(D)Ryan": 4,
+   "(E)Yoshio": 5
+  },
+  "evidence": {
+   "statements": 8,
+   "groups": 1,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "assumptions": [
+   "positions are labels; group 'choices' pinned"
+  ],
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 194,
+  "_correct": false
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 2 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 7,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 195
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 11,
+   "unread": [],
+   "inert": 11
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 196
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 2 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 11,
+   "unread": [],
+   "inert": 11
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 197
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 7,
+   "unread": [],
+   "inert": 7
+  },
+  "answer": {
+   "(A)the harmonica": 1,
+   "(B)the lamp": 2,
+   "(C)the mirror": 3,
+   "(D)the sundial": 4,
+   "(E)the table": 5
+  },
+  "evidence": {
+   "statements": 7,
+   "groups": 1,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "assumptions": [
+   "positions are labels; group 'choices' pinned"
+  ],
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 198,
+  "_correct": false
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 2 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 12,
+   "unread": [],
+   "inert": 12
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 199
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 11,
+   "unread": [],
+   "inert": 11
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 11,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 200
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "4 statement(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 1,
+   "statements": 8,
+   "unread": [
+    "Kammer's audition and Lugo's audition will be recorded; the other four will not be.",
+    "Waite's audition must take place earlier than the two recorded auditions.",
+    "Kammer's audition must take place earlier than Trillo's audition.",
+    "Answer Choices: (A)Kammer, Trillo, Zinn, Waite, Lugo, Yoshida (B)Waite, Kammer, Yoshida, Zinn, Lugo, Trillo (C)Waite, Lugo, Kammer, Trillo, Zinn, Yoshida (D)Waite, Zinn, Kammer, Trillo, Lugo, Yoshida (E)Zinn, Yoshida, Waite, Lugo, Kammer, Trillo"
+   ],
+   "inert": 3
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "_row": 201
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": {
+   "(A)Kammer's audition": 1,
+   "(B)Lugo's audition": 2,
+   "(C)Trillo's audition": 3,
+   "(D)Waite's audition": 4,
+   "(E)Zinn's audition": 5
+  },
+  "evidence": {
+   "statements": 8,
+   "groups": 1,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "assumptions": [
+   "positions are labels; group 'choices' pinned"
+  ],
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 202,
+  "_correct": false
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": {
+   "(A)Kammer's audition": 1,
+   "(B)Lugo's audition": 2,
+   "(C)Trillo's audition": 3,
+   "(D)Waite's audition": 4,
+   "(E)Zinn's audition": 5
+  },
+  "evidence": {
+   "statements": 8,
+   "groups": 1,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "assumptions": [
+   "positions are labels; group 'choices' pinned"
+  ],
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 203,
+  "_correct": false
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "3 statement(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 6,
+   "statements": 12,
+   "unread": [
+    "Kammer's audition and Lugo's audition will be recorded; the other four will not be.",
+    "Waite's audition must take place earlier than the two recorded auditions.",
+    "Kammer's audition must take place earlier than Trillo's audition."
+   ],
+   "inert": 3
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "_row": 204
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": {
+   "(A)fifth": 1,
+   "(B)fourth": 2,
+   "(C)third": 3,
+   "(D)second": 4,
+   "(E)first": 5
+  },
+  "evidence": {
+   "statements": 8,
+   "groups": 1,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "assumptions": [
+   "positions are labels; group 'choices' pinned"
+  ],
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 205,
+  "_correct": false
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "6 statement(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 2,
+   "statements": 12,
+   "unread": [
+    "Kammer's audition and Lugo's audition will be recorded; the other four will not be.",
+    "Waite's audition must take place earlier than the two recorded auditions.",
+    "Kammer's audition must take place earlier than Trillo's audition.",
+    "Answer Choices: (A)Zinn's audition is the only one that can take place earlier than Waite's.",
+    "(B)Waite's audition must take place either immediately before or immediately after Zinn's.",
+    "(C)Waite's audition must take place earlier than Lugo's."
+   ],
+   "inert": 4
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "_row": 206
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 207
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 3 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 12,
+   "unread": [],
+   "inert": 12
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 208
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 12,
+   "unread": [],
+   "inert": 12
+  },
+  "answer": "Unknown",
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 209,
+  "_correct": false
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 1 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 12,
+   "unread": [],
+   "inert": 12
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 210
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 3 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 12,
+   "unread": [],
+   "inert": 12
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 211
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": {
+   "(A)S, T, Z, X, U, W, R": 1,
+   "(B)T, X, U, W, S, R, Z": 2,
+   "(C)U, S, X, T, Z, R, W": 3,
+   "(D)X, U, T, Z, R, W, S": 4,
+   "(E)Z, R, T, U, X, W, S": 5
+  },
+  "evidence": {
+   "statements": 8,
+   "groups": 1,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "assumptions": [
+   "positions are labels; group 'choices' pinned"
+  ],
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 212,
+  "_correct": false
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 4 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 12,
+   "unread": [],
+   "inert": 12
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 213
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 4 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 12,
+   "unread": [],
+   "inert": 12
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 214
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 4 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 12,
+   "unread": [],
+   "inert": 12
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 215
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 4 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 12,
+   "unread": [],
+   "inert": 12
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 216
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 8 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 12,
+   "unread": [],
+   "inert": 12
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 217
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 5 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 8,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 218
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": {
+   "(A)Franz's watercolor": 1,
+   "(B)Greene's oil": 2,
+   "(C)Greene's watercolor": 3,
+   "(D)Hidalgo's oil": 4,
+   "(E)Hidalgo's watercolor": 5
+  },
+  "evidence": {
+   "statements": 8,
+   "groups": 1,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "assumptions": [
+   "positions are labels; group 'choices' pinned"
+  ],
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 219,
+  "_correct": false
+ },
+ {
+  "status": "SOLVED",
+  "reasons": [],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 8,
+   "unread": [],
+   "inert": 8
+  },
+  "answer": {
+   "(A)Franz's oil": 1,
+   "(B)Greene's watercolor": 2,
+   "(C)Greene's oil": 3,
+   "(D)Hidalgo's watercolor": 4,
+   "(E)Isaacs's watercolor": 5
+  },
+  "evidence": {
+   "statements": 8,
+   "groups": 1,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "assumptions": [
+   "positions are labels; group 'choices' pinned"
+  ],
+  "engine": {
+   "explanation": "unique solution certified",
+   "nodes": 1,
+   "failures": 0
+  },
+  "_row": 220,
+  "_correct": false
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 4 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 12,
+   "unread": [],
+   "inert": 12
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 221
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 5 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 12,
+   "unread": [],
+   "inert": 12
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 222
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 8 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 12,
+   "unread": [],
+   "inert": 12
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 223
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 5 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 12,
+   "unread": [],
+   "inert": 12
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 12,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 224
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 3 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 6,
+   "unread": [],
+   "inert": 6
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 6,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 225
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 7 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 226
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 7 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 227
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 6 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 228
+ },
+ {
+  "status": "UNGROUNDED",
+  "reasons": [
+   "claim route: 7 sentence(s) unread"
+  ],
+  "fired": [],
+  "coverage": {
+   "grounded": 0,
+   "statements": 10,
+   "unread": [],
+   "inert": 10
+  },
+  "answer": null,
+  "evidence": {
+   "statements": 10,
+   "groups": 0,
+   "roster": 0,
+   "assertions": 0,
+   "quarantined": 0
+  },
+  "algebra": "closure",
+  "_row": 229
+ }
+]
