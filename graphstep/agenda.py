@@ -86,11 +86,27 @@ def _derive_program(bb: Blackboard) -> Optional[dict]:
     reduces = [r for r in kb.KB if r.symbol == "REDUCE"
                and isinstance(r.pattern, str) and r.pattern in head_words]
 
-    # ARGUMENT COVERAGE: a candidate must reference every argument whose
-    # value varies across the examples — a program that ignores a varying
-    # input cannot have read the task, however the tests fall.
+    # ARGUMENT COVERAGE: a candidate must reference every INDEPENDENT
+    # varying argument — a program that ignores an independent input cannot
+    # have read the task. An argument derivable from another in EVERY
+    # example (the classic redundant length argument: n == len(arr)) is
+    # dependent and exempt.
+    def _dependent(i):
+        for j in range(sig.arity):
+            if j == i:
+                continue
+            try:    # affine in a length: i == len(j) + c, fixed c
+                c = sig.examples[0][0][i] - len(sig.examples[0][0][j])
+                if all(ex[0][i] == len(ex[0][j]) + c
+                       for ex in sig.examples):
+                    return True
+            except TypeError:
+                pass
+        return False
+
     varying = [i for i in range(sig.arity)
-               if len({repr(ex[0][i]) for ex in sig.examples}) > 1]
+               if len({repr(ex[0][i]) for ex in sig.examples}) > 1
+               and not _dependent(i)]
 
     def _covers(code: str) -> bool:
         return all(f"arg{i}" in code.split(":", 1)[1] for i in varying)
@@ -226,6 +242,22 @@ def _derive_program(bb: Blackboard) -> Optional[dict]:
                                 mk(f"sorted({params[si]}, "
                                    f"key=lambda _x: {kexpr})")))
         cands.extend(plain)
+    if op == "CONVERT" and frame.theme_token is not None:
+        # target representation = the 'to'-object of the spec
+        targets = [t for t in frame.theme_token.doc
+                   if t.dep_ == "pobj" and t.head.lemma_.lower() == "to"]
+        for tgt in targets:
+            tgt_words = [tgt.lemma_.lower()] + \
+                [c.lemma_.lower() for c in tgt.children
+                 if c.dep_ in ("amod", "compound")]
+            for w in tgt_words:
+                row = next((r for r in kb.KB if r.symbol == "REPR"
+                            and r.pattern == w), None)
+                if row is None:
+                    continue
+                for ai in range(sig.arity):
+                    cands.append((f"convert->{row.pattern}@arg{ai}",
+                                  mk(row.payload.format(src=params[ai]))))
     if op == "XFORM" and frame.verb:
         vrow = kb.match_word(frame.verb, "OP:", widen=False)
         if vrow and vrow.payload:
@@ -332,29 +364,181 @@ def _employ_procedure(bb: Blackboard) -> Optional[dict]:
     only if it passes the task's oracle after aliasing its entry point to
     the required name. Grade: verified (not certified — the program is
     example-sourced, not spec-derived)."""
-    import ast as _ast
+    import ast as _ast, re as _re
     from .reading.sources import Gap, retrieve
     spec = " ".join(t for t, _ in bb.evidence.statements)
     cands, _rej = retrieve(Gap(word="", kind="procedure", context=spec))
+
+    # INDEPENDENT-ARGUMENT COVERAGE for employed procedures: a variant
+    # ignoring an independent varying argument cannot have read the task
+    def _indep_varying():
+        out = []
+        for i in range(bb.sig.arity):
+            if len({repr(ex[0][i]) for ex in bb.sig.examples}) <= 1:
+                continue
+            dep = False
+            for j in range(bb.sig.arity):
+                if j == i:
+                    continue
+                try:    # affine in a length: i == len(j) + c, fixed c
+                    c = bb.sig.examples[0][0][i] - len(
+                        bb.sig.examples[0][0][j])
+                    if all(ex[0][i] == len(ex[0][j]) + c
+                           for ex in bb.sig.examples):
+                        dep = True
+                except TypeError:
+                    pass
+            if not dep:
+                out.append(i)
+        return out
+    _needed = _indep_varying()
+
+    # RECOGNIZED-CONFLICT LICENSE: if a word the store understands grounds
+    # to DIFFERENT meanings in task vs example specs (min vs max, or a
+    # negation marker differs on a shared grounded word), the example is a
+    # known lookalike — rejected, whatever the tests say.
+    def _grounded(text):
+        # "check whether X OR NOT" is an idiom, not a negation
+        cleaned = _re.sub(r"\bor not\b", "", text.lower())
+        words = set(_re.findall(r"[a-z]+", cleaned))
+        atoms, negs = {}, set()
+        for r in kb.KB:
+            if r.symbol in ("REDUCE", "PRED", "CPRED") and r.payload                     and isinstance(r.pattern, str) and r.pattern in words:
+                atoms[r.symbol] = atoms.get(r.symbol, set()) | {r.payload}
+        if words & {"non", "not", "without"}:
+            negs = {"NEG"}
+        return atoms, negs
+    task_atoms, task_negs = _grounded(spec)
+
+    from .reading.sources import _STOP as _GEN
+    from .reading.compose import _TYPE_HINT as _TH
+    _generic = set(_GEN) | set(_TH) | \
+        {r.pattern for r in kb.KB if isinstance(r.pattern, str)
+         and r.symbol.startswith(("OP:", "DISCOURSE:"))} | \
+        {"give", "value", "item", "element", "name", "use", "take",
+         "verify", "validity", "not", "non", "no", "two", "three",
+         "elements", "numbers"}
+
+    from .reading.sources import _variants, _tokens, _words as _wexp
+
+    _gen_vars = set()
+    for g in _generic:
+        _gen_vars |= _variants(str(g))
+    task_groups = [frozenset(_variants(t)) for t in set(_tokens(spec))
+                   if not (_variants(t) & _gen_vars)]
+
+    def _conflicts(cand_spec):
+        # DISCRIMINATIVE-WORD COVERAGE, variant-aware: a candidate that
+        # lacks EVERY form of one of the task's distinctive terms cannot
+        # mean the task, whatever the tests say
+        cand_words = _wexp(cand_spec)
+        missing = [sorted(g)[0] for g in task_groups
+                   if not (g & cand_words)]
+        if missing:
+            return f"missing discriminative term(s) {missing[:3]}"
+        c_atoms, c_negs = _grounded(cand_spec)
+        for ns in ("REDUCE", "PRED", "CPRED"):
+            t, c = task_atoms.get(ns, set()), c_atoms.get(ns, set())
+            if t and c and not (t & c):
+                return f"{ns} meaning differs"
+        shared = any((task_atoms.get(ns, set()) & c_atoms.get(ns, set()))
+                     for ns in ("REDUCE", "PRED", "CPRED"))
+        if shared and task_negs != c_negs:
+            return "negation marker differs on shared meaning"
+        return None
+
     for row in cands:
+        why = _conflicts(row.sig.get("spec", ""))
+        if why:
+            bb.log(f"PROCEDURE: {row.provenance} REJECTED (license: {why})")
+            continue
         code = row.payload
         try:
             names = [n.name for n in _ast.parse(code).body
                      if isinstance(n, _ast.FunctionDef)]
         except SyntaxError:
             continue
-        variants = ([code] if bb.sig.name in names else []) + \
-            [code + f"\n{bb.sig.name} = {nm}" for nm in names
+        allargs = frozenset(range(bb.sig.arity))
+        base = ([(code, allargs)] if bb.sig.name in names else []) + \
+            [(code + f"\n{bb.sig.name} = {nm}", allargs) for nm in names
              if nm != bb.sig.name]
-        for v in variants:
+        variants = list(base)
+        # ADAPTATION operators (diff-typed, general, all oracle-gated):
+        for nm in names:
+            n_ex = next((len(n.args.args) for n in _ast.parse(code).body
+                         if isinstance(n, _ast.FunctionDef)
+                         and n.name == nm), None)
+            if n_ex is None:
+                continue
+            ps = ", ".join(f"a{i}" for i in range(bb.sig.arity))
+            # output-format coercion: same value, different representation
+            for w in ("int", "str", "list", "tuple"):
+                if n_ex == bb.sig.arity:
+                    variants.append((
+                        code + f"\ndef {bb.sig.name}({ps}):\n"
+                        f"    return {w}({nm}({ps}))", allargs))
+            # dependent-argument bridge: the example lacks the task's
+            # redundant argument(s) — forwards ONLY the leading arguments,
+            # so it is licensed only when those cover the independent ones
+            if n_ex < bb.sig.arity:
+                variants.append((
+                    code + f"\ndef {bb.sig.name}({ps}):\n"
+                    f"    return {nm}({', '.join(f'a{i}' for i in range(n_ex))})",
+                    frozenset(range(n_ex))))
+            # argument-order permutation (small arities)
+            if n_ex == bb.sig.arity <= 3:
+                import itertools as _it
+                for perm in _it.permutations(range(bb.sig.arity)):
+                    if perm == tuple(range(bb.sig.arity)):
+                        continue
+                    variants.append((
+                        code + f"\ndef {bb.sig.name}({ps}):\n"
+                        f"    return {nm}({', '.join(f'a{i}' for i in perm)})",
+                        allargs))
+        for v, forwarded in variants:
+            if not set(_needed) <= set(forwarded):
+                continue          # drops an independent varying argument
             res = run_tests(v, bb.evidence.assert_texts)
             if res["ok"]:
+                adapted = (v, forwarded) not in base
+                if adapted:
+                    bb.log(f"PROCEDURE: {row.provenance} ADAPTED "
+                           f"(format/args) -> PASS")
+                    return {"code": v,
+                            "atoms": [f"procedure({row.provenance})"
+                                      "+adapted"],
+                            "grade": "verified (example-sourced, "
+                                     "adapted, oracle-passed)"}
                 bb.log(f"PROCEDURE: {row.provenance} "
                        f"(match {row.sig['match']}) -> PASS")
                 return {"code": v,
                         "atoms": [f"procedure({row.provenance})"],
                         "grade": "verified (example-sourced, "
                                  "oracle-passed)"}
+        # ADAPTATION (arity-fold): the diff between task and example is
+        # the ARITY — a binary procedure meeting N same-typed arguments
+        # folds across them. Oracle-gated like everything else.
+        if (names and bb.sig.arity >= 3
+                and len(set(bb.sig.arg_types)) == 1):
+            for nm in names:
+                arity = next((len(n.args.args) for n in
+                              _ast.parse(code).body
+                              if isinstance(n, _ast.FunctionDef)
+                              and n.name == nm), 0)
+                if arity != 2:
+                    continue
+                v = (code + f"\ndef {bb.sig.name}(*_args):\n"
+                     f"    return __import__('functools')"
+                     f".reduce({nm}, _args)")
+                res = run_tests(v, bb.evidence.assert_texts)
+                if res["ok"]:
+                    bb.log(f"PROCEDURE: {row.provenance} ADAPTED "
+                           f"(arity-fold) -> PASS")
+                    return {"code": v,
+                            "atoms": [f"procedure({row.provenance})"
+                                      "+arity-fold"],
+                            "grade": "verified (example-sourced, "
+                                     "adapted, oracle-passed)"}
         bb.log(f"PROCEDURE: {row.provenance} "
                f"(match {row.sig['match']}) -> fails oracle")
     return None
@@ -432,12 +616,20 @@ def solve_loop(sample: dict, question: Optional[str] = None,
                 ungrounded = []
                 if bb.frame.theme_token is not None:
                     theme_word = bb.frame.theme_token.lemma_.lower()
-                    # every ungrounded content word of the spec is a gap
-                    # candidate (parse-derived, domain-free)
+                    # EVERY content word is a query candidate: a failed
+                    # derivation means either a missing meaning or a wrong
+                    # SENSE of an existing one — the tribunal arbitrates
                     ungrounded = [t.lemma_.lower()
                                   for t in bb.frame.theme_token.doc
                                   if t.pos_ in ("NOUN", "ADJ", "VERB")
-                                  and default_leaf(t) is None][:6]
+                                  and not kb.match_word(t.lemma_,
+                                                        "DISCOURSE:",
+                                                        widen=False)][:8]
+                    import re as _re2
+                    ungrounded += [m.replace("-", "") for m in _re2.findall(
+                        r"[a-z]+(?:-[a-z]+)+",
+                        bb.frame.theme_token.doc.text.lower())]
+                all_admitted = []
                 for word in dict.fromkeys(
                         [theme_word, bb.frame.item, bb.frame.verb]
                         + list(bb.frame.item_mods) + ungrounded):
@@ -446,16 +638,26 @@ def solve_loop(sample: dict, question: Optional[str] = None,
                     admitted, rejected = retrieve(Gap(
                         word=word, kind="callable",
                         arity=bb.sig.arity if bb.sig else None))
+                    all_admitted += admitted
                     for r in rejected:
                         bb.log(f"RETRIEVE: rejected {r}")
                     if admitted:
                         bb.log(f"RETRIEVE: admitted "
                                f"{[r.provenance for r in admitted]}")
-                if any("RETRIEVE: admitted" in l for l in bb.trace):
+                if all_admitted:
                     derived = _derive_program(bb)
                     if derived:
                         derived["retrieved"] = [
                             l for l in bb.trace if "admitted" in l]
+                        # a composition standing on MINED rows is graded
+                        # verified, not certified
+                        if any(r.provenance.startswith("mined")
+                               and isinstance(r.pattern, str)
+                               and r.pattern in
+                               derived["atoms"][0].lower()
+                               for r in all_admitted):
+                            derived["grade"] = ("verified (mined meaning, "
+                                                "oracle-passed)")
             if derived is None and bb.sig is not None:
                 # PROCEDURE kind: worked examples from any registered
                 # corpus, employed strictly through the task's oracle,

@@ -110,6 +110,18 @@ def test_key_device_composes():
     print("ok key_device_composes")
 
 
+def test_collection_relative_predicate():
+    from graphstep.agenda import solve_loop
+    rec = solve_loop({
+        "text": "Write a python function to find the sum of repeated "
+                "elements in a given array.",
+        "test_list": ["assert f([1,2,3,1,1,4,5,6]) == 3",
+                      "assert f([1,2,2]) == 4"]})
+    assert rec["status"] == "SOLVED" and rec.get("grade") == "certified"
+    assert ".count(_e)" in rec["code"]
+    print("ok collection_relative_predicate")
+
+
 if __name__ == "__main__":
     test_code_algebra_depth2()
     test_code_algebra_binop()
@@ -117,4 +129,5 @@ if __name__ == "__main__":
     test_honest_none_on_unknown_head()
     test_fold_coercion_is_open_class()
     test_key_device_composes()
+    test_collection_relative_predicate()
     print("compose CI: all green")

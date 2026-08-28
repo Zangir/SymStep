@@ -142,11 +142,93 @@ def test_procedure_kind_oracle_gated():
     print("ok procedure_kind_oracle_gated")
 
 
+def test_fence_extraction():
+    """Prose-wrapped corpus payloads must yield their code, not the prose."""
+    from graphstep.reading.sources import _extract_code
+    wrapped = ("Here's a function in Python:\n\n```python\n"
+               "def f(x):\n    return x + 1\n```\nHope this helps!")
+    code = _extract_code(wrapped)
+    assert code.strip().startswith("def f"), code
+    assert "Hope" not in code
+    assert _extract_code("def g(y):\n    return y") .startswith("def g")
+    print("ok fence_extraction")
+
+
+def test_arity_fold_adaptation():
+    """The task/example gap is the ARITY: a binary example folds across
+    three same-typed arguments — adapted, oracle-passed, graded verified."""
+    from graphstep.reading import sources as S
+    pairs = [(frozenset({"merge", "two", "mapping"}),
+              "merge two mappings into one",
+              "def merge2(a, b):\n    c = dict(b)\n    c.update(a)\n"
+              "    return c")]
+    index = {}
+    for i, (ws, _, _) in enumerate(pairs):
+        for w in ws:
+            index.setdefault(w, []).append(i)
+    S.PROCEDURE_CORPORA.append(("test-adapt", pairs, index))
+    try:
+        rec = solve_loop({
+            "text": "Write a function to merge three mappings into one.",
+            "test_list": [
+                "assert m3({'a': 1}, {'b': 2}, {'c': 3}) == "
+                "{'a': 1, 'b': 2, 'c': 3}"]})
+        assert rec["status"] == "SOLVED", rec.get("reasons")
+        assert "reduce" in rec["code"]
+        assert "adapted" in rec.get("grade", ""), rec.get("grade")
+    finally:
+        S.PROCEDURE_CORPORA.pop()
+    print("ok arity_fold_adaptation")
+
+
+def test_mining_route_end_to_end():
+    """The question-3 design: a specific gap word is QUERIED against a
+    corpus; the retrieved function is DECOMPOSED by the code reader into a
+    typed row; the compiler recombines it for THIS task; the oracle judges;
+    the grade says 'mined'."""
+    from graphstep.reading import sources as S
+    pairs = [(frozenset({"check", "two", "glorp"}),
+              "check whether two numbers are glorp",
+              "def check_glorp(m, n):\n    return (m + n) % 7 == 0")]
+    index = {}
+    for i, (ws, _, _) in enumerate(pairs):
+        for w in ws:
+            index.setdefault(w, []).append(i)
+    S.PROCEDURE_CORPORA.append(("test-mine", pairs, index))
+    try:
+        rec = solve_loop({
+            "text": "Write a function to check whether the given numbers "
+                    "are glorp.",
+            "test_list": ["assert g(3, 4) == True", "assert g(3, 5) == False",
+                          "assert g(7, 7) == True"]})
+        assert rec["status"] == "SOLVED", rec.get("reasons")
+        assert "% 7 == 0" in rec["code"] or "%7==0" in rec["code"]
+        assert "mined" in rec.get("grade", ""), rec.get("grade")
+    finally:
+        S.PROCEDURE_CORPORA.pop()
+    print("ok mining_route_end_to_end")
+
+
+def test_code_reader_safety():
+    """Unsafe or unrecognized code yields NOTHING — never a guessed row."""
+    from graphstep.reading.codereader import read_functions
+    assert read_functions(
+        "def f(x):\n    return open(x).read()", "f", "mined:t") == []
+    assert read_functions(
+        "def f(x):\n    y = x + 1\n    z = y * 2\n    return z",
+        "f", "mined:t") == []          # unrecognized shape: no extraction
+    print("ok code_reader_safety")
+
+
 if __name__ == "__main__":
     test_introspection_finds_real_callables()
     test_runtime_plugged_new_domain_adapter()
     test_kind_ontology_contract()
     test_procedure_kind_oracle_gated()
+    test_fence_extraction()
+    test_arity_fold_adaptation()
+    test_mining_route_end_to_end()
+    test_code_reader_safety()
     test_tribunal_hand_rows_win()
     test_gap_solves_via_retrieval_and_oracle()
     test_unknown_word_refuses_honestly()

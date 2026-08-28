@@ -119,6 +119,21 @@ add(
     Row("return", "OP:FIND"),
     # ordering family
     Row("sort", "OP:SORT"),
+    # representation-conversion family: target named by the 'to'-object
+    Row("convert", "OP:CONVERT"), Row("transform", "OP:CONVERT"),
+)
+
+# -- representation atoms for the CONVERT family (numeral systems now;
+#    units and encodings are the same shape)
+add(
+    Row("binary", "REPR", payload="int(bin({src})[2:])"),
+    Row("octal", "REPR", payload="int(oct({src})[2:])"),
+    Row("hexadecimal", "REPR", payload="hex({src})[2:]"),
+    Row("decimal", "REPR", payload="int(str({src}), 2)"),  # from binary
+    Row("string", "REPR", payload="str({src})"),
+    Row("integer", "REPR", payload="int({src})"),
+    Row("list", "REPR", payload="list({src})"),
+    Row("tuple", "REPR", payload="tuple({src})"),
 )
 
 # -- selectors: which occurrences an operation applies to
@@ -182,6 +197,22 @@ add(
         payload="({x} % 4 == 0 and ({x} % 100 != 0 or {x} % 400 == 0))"),
     Row("square", "PRED", sig={"name": "IS_SQUARE", "arg": "NUM"},
         payload="({x} >= 0 and int({x} ** 0.5) ** 2 == {x})"),
+)
+
+# -- collection-relative predicates: a property of an element RELATIVE to
+#    its collection ("the sum of REPEATED elements": x is repeated iff the
+#    collection holds it more than once)
+add(
+    Row("repeated", "CPRED", sig={"name": "IS_REPEATED"},
+        payload="(list({seq}).count({x}) > 1)"),
+    Row("repeat", "CPRED", sig={"name": "IS_REPEATED"},   # spaCy lemma
+        payload="(list({seq}).count({x}) > 1)"),
+    Row("duplicate", "CPRED", sig={"name": "IS_REPEATED"},
+        payload="(list({seq}).count({x}) > 1)"),
+    Row("unique", "CPRED", sig={"name": "IS_UNIQUE"},
+        payload="(list({seq}).count({x}) == 1)"),
+    Row("distinct", "CPRED", sig={"name": "IS_UNIQUE"},
+        payload="(list({seq}).count({x}) == 1)"),
 )
 
 # -- reduction atoms: a theme noun/adjective -> one aggregation over a

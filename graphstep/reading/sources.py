@@ -129,8 +129,55 @@ def introspection_adapter(gap: Gap) -> List[kb.Row]:
 # returned as PROCEDURE rows — task-shaped knowledge, employed only through
 # the task's own oracle and NEVER stored (KINDS["procedure"]["stored"]).
 PROCEDURE_CORPORA: List[tuple] = []
+
+
+def _extract_code(text: str) -> str:
+    """Corpus payloads are often prose-wrapped ("Here's a function: ```python
+    ...```"). Knowledge must be code, not text ABOUT code: extract fenced
+    blocks when present; otherwise return the text unchanged."""
+    import re, textwrap
+    blocks = re.findall(r"```(?:python|py)?\s*\n(.*?)```", text, re.S)
+    keep = [b for b in blocks if "def " in b]
+    return textwrap.dedent("\n\n".join(keep)) if keep else text
+
 _STOP = {"write", "a", "an", "the", "to", "of", "in", "for", "and", "or",
          "python", "function", "given", "find", "that", "with", "is"}
+
+
+def _norm_text(text: str) -> str:
+    """Hyphenated compounds collapse ('co-prime' -> 'coprime') so the same
+    concept is the same token on BOTH sides of every lookup."""
+    import re
+    return re.sub(r"(?<=[a-z])-(?=[a-z])", "", text.lower())
+
+
+def _norm_word(w: str) -> str:
+    """Trailing plural/3rd-person 's' strips ('checks' -> 'check')."""
+    return w[:-1] if w.endswith("s") and len(w) > 3 else w
+
+
+def _variants(w: str) -> set:
+    """ALL forms of a word — surface AND normalized — so variants meet
+    without ever losing the original: {co-prime, coprime}, {checks, check}.
+    Matching = any variant in common; nothing is replaced or lost."""
+    w = w.lower()
+    out = {w, w.replace("-", "")}
+    for f in list(out):
+        if f.endswith("s") and len(f) > 3:
+            out.add(f[:-1])
+    return out
+
+
+def _tokens(text: str):
+    import re
+    return re.findall(r"[a-z]+(?:-[a-z]+)*", text.lower())
+
+
+def _words(text: str) -> frozenset:
+    out = set()
+    for t in _tokens(text):
+        out |= _variants(t)
+    return frozenset(out) - _STOP
 
 
 def register_procedure_corpus(source: str) -> None:
@@ -150,9 +197,9 @@ def register_procedure_corpus(source: str) -> None:
         ds = load_dataset(name, config, split=split) if config             else load_dataset(name, split=split)
         for x in ds:
             spec, code = str(x.get(tf, "")), str(x.get(cf, ""))
+            code = _extract_code(code)
             if spec and code and "def " in code and len(code) < 4000:
-                words = frozenset(re.findall(r"[a-z]+", spec.lower())
-                                  ) - _STOP
+                words = _words(spec)
                 if words:
                     pairs.append((words, spec, code))
     index = defaultdict(list)
@@ -170,8 +217,24 @@ def procedure_adapter(gap: Gap) -> List[kb.Row]:
     lexical overlap."""
     if gap.kind != "procedure" or not gap.context or not PROCEDURE_CORPORA:
         return []
-    import re
-    q = frozenset(re.findall(r"[a-z]+", gap.context.lower())) - _STOP
+    q = _words(gap.context)
+    # FOCUSED REQUEST: the query is the conjunction of the task's
+    # DISCRIMINATIVE words (generic words carry no identity). A candidate
+    # containing ALL of them is fetched no matter how the rest of the
+    # wording differs; lexical overlap only RANKS within the fetched set.
+    from .compose import _TYPE_HINT
+    generic = set(_TYPE_HINT) | _STOP |         {r.pattern for r in kb.KB if isinstance(r.pattern, str)
+         and r.symbol.startswith(("OP:", "DISCOURSE:"))} |         {"give", "value", "item", "element", "name", "use", "take",
+         "whether", "one", "two", "three", "number", "code", "program",
+         "not", "no", "if", "they", "are", "it", "this", "when", "from",
+         "into", "out", "up", "down", "all", "any", "each", "which"}
+    gen_vars = set()
+    for g in generic:
+        gen_vars |= _variants(g)
+    # each discriminative task word is a VARIANT GROUP; a candidate covers
+    # it if ANY variant is present (surface or normalized)
+    disc_groups = [frozenset(_variants(t)) for t in set(_tokens(gap.context))
+                   if not (_variants(t) & (gen_vars | _STOP))]
     scored = []
     for src, pairs, index in PROCEDURE_CORPORA:
         cand_ids = set()
@@ -180,18 +243,62 @@ def procedure_adapter(gap: Gap) -> List[kb.Row]:
         for i in cand_ids:
             words, spec, code = pairs[i]
             j = len(q & words) / max(1, len(q | words))
-            if j >= 0.25:
+            if disc_groups and all(g & words for g in disc_groups):
+                scored.append((1.0 + j, spec, code, src))   # conjunctive hit
+            elif j >= 0.25:
                 scored.append((j, spec, code, src))
     scored.sort(key=lambda t: -t[0])
     return [kb.Row(("PROCEDURE", spec[:64]), "PROCEDURE", payload=code,
                    sig={"match": round(j, 3), "spec": spec},
                    provenance=f"corpus:{src}", confidence=j)
-            for j, spec, code, src in scored[:5]]
+            for j, spec, code, src in scored[:8]]
+
+
+def mining_adapter(gap: Gap) -> List[kb.Row]:
+    """The STRUCTURED query route: for a missing WORD, search the corpora
+    for functions whose descriptions feature that word (a specific request,
+    not sentence similarity), and DECOMPOSE them through the code reader
+    into candidate meaning rows. The tribunal and the oracles judge what
+    survives — mined knowledge is composable, not a replayed black box."""
+    if gap.kind != "callable" or not PROCEDURE_CORPORA:
+        return []
+    from .codereader import read_functions
+    from .compose import _TYPE_HINT
+    w = _norm_word(_norm_text(gap.word))
+    # a mined meaning may only be keyed by a DISCRIMINATIVE word: type
+    # nouns, operation verbs, and function words appear in almost every
+    # spec, so rows keyed on them are licensed everywhere — the imposter
+    # recipe. (Caught empirically: an oddness test mined under 'number'
+    # passed a Woodall task's three asserts.)
+    generic = set(_TYPE_HINT) | _STOP |         {r.pattern for r in kb.KB if isinstance(r.pattern, str)
+         and r.symbol.startswith("OP:")} |         {"give", "value", "item", "element", "name", "use", "take",
+         "verify", "validity", "input", "output", "result", "program"}
+    if w in generic:
+        return []
+    out: List[kb.Row] = []
+    for src, pairs, index in PROCEDURE_CORPORA:
+        ids = []
+        for v in _variants(w):
+            ids += list(index.get(v, ()))
+        for i in ids[:40]:                   # the word itself IS the query
+            words, spec, code = pairs[i]
+            out.extend(read_functions(
+                code, w, provenance=f"mined:{src.split('@')[0]}"))
+            if len(out) >= 12:
+                break
+    # dedupe identical payloads
+    seen, uniq = set(), []
+    for r in out:
+        if (r.symbol, r.payload) not in seen:
+            seen.add((r.symbol, r.payload))
+            uniq.append(r)
+    return uniq[:8]
 
 
 # ------------------------------------------------------------ the registry
 
 ADAPTERS: List[Callable[[Gap], List[kb.Row]]] = [introspection_adapter,
+                                                 mining_adapter,
                                                  procedure_adapter]
 
 

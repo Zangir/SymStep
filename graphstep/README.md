@@ -125,8 +125,8 @@ graphstep/
 | ProofWriter depths 0-5 + ext + birds-electricity (800) | 800/800; paraphrased split abstains | 0 |
 | StepGame spatial (500) | 387 correct, 112 abstain | 1* |
 | Story QA, 20 tasks (20,000) | 19,238 correct + 755 abstain honest; 19,654/20,000 closed-world | 7* |
-| MBPP, internal knowledge only | 28 certified, 7 proven-UNSAT | 0 |
-| MBPP + worked-example corpora (456k examples: own splits, instruction datasets, CodeSearchNet) | **99 solved** = 28 certified + 71 VERIFIED (example-sourced, oracle-passed) | 0 |
+| MBPP, internal reasoning only | **33 certified**, 7 proven-UNSAT | 0 |
+| MBPP + worked-example corpora (~438k pairs) | additional solves graded verified / adapted / mined, behind the license stack below; spot-audited case by case | 0 found |
 | AR-LSAT (230) | honest refusals — frame reading not built yet | 0 |
 
 \* All 8 disagreements are documented dataset-label noise: the StepGame gold
@@ -217,14 +217,41 @@ answers are always GRADED, never silently mixed with certified ones.
 `tests/test_sources.py` is CI: real callables found, hand rows win,
 oracle-gated employment, honest refusal on unknown words, grading+opt-in.
 
-Corpora scale: registration builds an inverted word index, so worked-
-example lookup is independent of corpus size (measured with 456k examples
-across four corpora). The measured lesson: **source fit beats source
-size** — an 18k corpus of instruction-phrased examples contributed as many
-verified solves as the benchmark's own training split, while 400k API-doc-
-style functions contributed three. Arming corpora does not touch any other
-reasoning path (verified empirically: puzzles, theories, stories, and
-truth-teller chains are bit-identical with sources armed).
+**Focused requests, not similarity.** A worked-example query is the
+CONJUNCTION of the task's discriminative words (generic words — type
+nouns, operation verbs, function words — carry no identity): a candidate
+containing some form of EVERY distinctive word is fetched no matter how
+the rest of its wording differs; lexical overlap only ranks within the
+fetched set. Words match by VARIANT SETS ({co-prime, coprime},
+{checks, check}) — surface and normalized forms are all searched, so
+nothing is ever lost to spelling.
+
+**The imposter license stack** (each entry added after a real caught
+imposter): discriminative-word coverage (a candidate lacking every form
+of one of the task's distinctive terms cannot mean the task — a
+prime-checker passing a Woodall task's asserts); recognized-conflict
+rejection (a shared word grounding to a DIFFERENT meaning, min vs max);
+negation-marker agreement (with "...or not" excluded as an idiom);
+independent-argument coverage (a variant dropping an independent varying
+input is refused, with length-affine arguments exempt as dependent);
+and mining restricted to discriminative key words. Zero wrong answers is
+the maintained invariant; grades (certified / verified / adapted / mined)
+keep every claim auditable.
+
+**The code reader** (`reading/codereader.py`): retrieved CODE passes
+through our own reader, as retrieved prose must — AST decomposition into
+typed rows (single-return expressions -> predicates/functions/operators;
+conditional-accumulator loops -> the predicate inside), with a purity
+whitelist and the capture-tier rule: unrecognized shapes yield nothing.
+Mined meanings compose through the same compiler under the same licenses.
+
+Corpora scale via an inverted variant-word index (lookup independent of
+corpus size; ~438k pairs registered across four corpora). Measured lesson:
+**source fit beats source size** — 18k instruction-phrased examples
+contributed as many solves as the benchmark's own training split; 400k
+API-doc functions contributed three. Arming corpora does not touch any
+other reasoning path (verified empirically: puzzles, theories, stories,
+and truth-teller chains are bit-identical with sources armed).
 
 ## The solver loop (`agenda.py`)
 
@@ -259,7 +286,9 @@ Two honesty guards keep derivation from gaming weak test suites:
 **head-licensing** (an atom may only fill the frame's head position —
 "find the SMALLEST number" licenses min; "find the frequency of the
 smallest value" does not) and **argument coverage** (a candidate must use
-every argument whose value varies across the examples). Both were added
+every INDEPENDENT varying argument — an argument derivable from another in
+every example, like the classic redundant length argument n == len(arr),
+is dependent and exempt). Both were added
 after they caught real test-overfits ("co-prime" answered by primality of
 one argument; lexicographic max passing a longest-sublist task) — and a
 learned row carries its license with it, so reuse obeys the same gates.
@@ -288,7 +317,37 @@ elements" -> `reduce(gcd, xs)` — open-class, proven in CI with a
 runtime-plugged operator), and (APPLY, SEQ) maps an element-level chain
 ("the maximum sum of the sublists" -> `max([sum(e) for e in xs])`). The
 KEY device ("sort BY / ACCORDING TO k") parameterizes by a compiled key
-function. All are rows; none knows a task.
+function. COLLECTION-RELATIVE predicates ("the sum of REPEATED elements":
+a property of an element relative to its collection) ride modifiers into
+the mapped comprehension's condition. All are rows; none knows a task.
+
+Retrieved procedures can also be ADAPTED, not just replayed: when the
+parsed diff between task and example is recognized, an adaptation operator
+bridges it under the same oracle gate — the first shipped operator is
+arity-fold ("merge THREE dictionaries" from a retrieved "merge two" ->
+reduce(merge2, args)), graded "verified (adapted)". Corpus ingestion
+extracts fenced code from prose-wrapped payloads (knowledge must be code,
+not text about code).
+
+## One task, end to end (how it all fits)
+
+Task: *"check whether the given number is co-prime or not"* + three asserts.
+
+1. The asserts reveal the signature: `is_coprime`, two integers, boolean.
+2. The parse reads the frame (CHECK family) and the content words.
+3. Internal derivation tries `is_prime` on one argument — the coverage
+   guard refuses it (a two-input task answered from one input).
+4. Word-gap retrieval (runtime, mining) finds no usable meaning.
+5. The focused fetch queries the corpora with the variant group
+   {co-prime, coprime} — the ONE matching example among 13k is fetched
+   despite sharing almost no other wording with the task.
+6. The license stack clears it (all distinctive words covered, no meaning
+   conflicts, "...or not" recognized as an idiom, all independent
+   arguments forwarded).
+7. The sandbox runs it against the asserts: an Euclid gcd loop, `== 1`.
+8. Answer: SOLVED, graded `verified (example-sourced, oracle-passed)` —
+   not certified, because the program came from an example, and the
+   grade says so. Nothing task-shaped enters the permanent store.
 
 ## Extending the system
 
@@ -313,9 +372,11 @@ metric will show it.
   selection ("exactly six will report"), nested unless-conditionals, and
   schedule-shaped options — all as rows over the existing machinery.
 - **Code synthesis growth** (MBPP → BigCodeBench → SWE-bench Verified):
-  more instruction-style worked-example corpora (the measured best yield),
-  the example-kind gap (request a discriminating test when candidates tie),
-  and loop/accumulate composition devices; the protocol is fixed — measure,
+  the example-kind gap (request a discriminating test when a weak oracle
+  can't separate candidates — the principled cure for 3-assert tasks),
+  typed queries (head + roles + argument types), loop/state composition
+  devices, more instruction-style corpora, and live web sources through
+  the same reader-and-license stack; the protocol is fixed — measure,
   explain every failure, the maintainer picks the fix, re-run, advance.
 - **Reading enrichment**: promote captured clauses to proof grade in place
   (grounding bridge), causal/discourse rows ("because", "so"), WordNet

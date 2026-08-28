@@ -64,17 +64,26 @@ def default_leaf(tok) -> Optional[Node]:
             except ValueError:
                 pass          # number-like words ("first") fall through
     lemma = tok.lemma_.lower()
-    for ns in ("REDUCE", "FUNC", "BINOP", "PPRED", "PRED"):
-        pass
     for r in kb.KB:
         if r.symbol == "GEOMHEAD" and r.pattern == lemma:
             return Node("atom", row=r, word=lemma)
+    best = None
     for ns in ("REDUCE", "FUNC", "BINOP", "PPRED", "PRED"):
         for r in kb.KB:
             if r.symbol == ns and r.pattern == lemma and r.payload:
-                return Node("atom", row=r, word=lemma)
+                best = r
+                break
+        if best is not None:
+            break
     if lemma in _TYPE_HINT:
-        return Node("var", hint=_TYPE_HINT[lemma], word=lemma)
+        # a TYPE noun's architectural reading is "a variable"; only a
+        # high-trust row (hand/calibrated/derived) may override it —
+        # low-trust retrieved rows must not shadow the type system
+        from .sources import rank
+        if best is None or rank(best.provenance) < 2:
+            return Node("var", hint=_TYPE_HINT[lemma], word=lemma)
+    if best is not None:
+        return Node("atom", row=best, word=lemma)
     return None
 
 
@@ -130,6 +139,12 @@ def compile_tree(tok, leaf: Callable = default_leaf,
                 if sub:
                     node.children.append(sub)
         elif ch.dep_ == "amod":
+            cp = next((r for r in kb.KB if r.symbol == "CPRED"
+                       and r.pattern == ch.lemma_.lower()), None)
+            if cp is not None:      # collection-relative: rides the node
+                node.children.append(Node("cpred", row=cp,
+                                          word=ch.lemma_.lower()))
+                continue
             mod = leaf(ch)
             if mod and mod.kind == "atom":         # "LARGEST value"
                 mod.children.append(node)
@@ -176,8 +191,12 @@ def emit_code(node: Node, binding: dict) -> Optional[str]:
             co = kb.match_key(("COERCE", "APPLY", "SEQ"))
             if co is None:
                 return None
-            return r.payload.format(
-                src=co.payload.format(f=kids[0], seq=seq))
+            body = co.payload.format(f=kids[0], seq=seq)
+            conds = [n.row.payload.format(x="_e", seq=seq)
+                     for n in _walk_cpreds(node)]
+            if conds:
+                body = body[:-1] + " if " + " and ".join(conds) + "]"
+            return r.payload.format(src=body)
         src = kids[0] if kids else binding.get(("free", id(node)))
         return r.payload.format(src=src) if src else None
     if r.symbol == "BINOP":
@@ -214,6 +233,13 @@ def emit_code(node: Node, binding: dict) -> Optional[str]:
         x = kids[0] if kids else binding.get(("free", id(node)))
         return r.payload.format(x=x) if x else None
     return None
+
+
+def _walk_cpreds(node: Node) -> List[Node]:
+    out = [c for c in node.children if c.kind == "cpred"]
+    for c in node.children:
+        out += _walk_cpreds(c)
+    return out
 
 
 def free_slots(node: Node) -> List[tuple]:
