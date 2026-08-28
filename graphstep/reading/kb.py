@@ -138,6 +138,28 @@ add(
     Row("make", "DISCOURSE:WRAPPER"),
 )
 
+# -- predicate atoms: property words -> executable boolean tests over one
+#    element `{x}`. These are the ATOMS the derivation stage composes when
+#    no ready-made block covers a task ("remove EMPTY lists" -> filter by
+#    not-empty). Same Row schema as everything else.
+add(
+    Row("empty", "PRED", sig={"name": "IS_EMPTY"}, payload="len({x}) == 0"),
+    Row("blank", "PRED", sig={"name": "IS_EMPTY"}, payload="len({x}) == 0"),
+    Row("odd", "PRED", sig={"name": "IS_ODD"}, payload="{x} % 2 == 1"),
+    Row("even", "PRED", sig={"name": "IS_EVEN"}, payload="{x} % 2 == 0"),
+    Row("negative", "PRED", sig={"name": "IS_NEG"}, payload="{x} < 0"),
+    Row("positive", "PRED", sig={"name": "IS_POS"}, payload="{x} > 0"),
+    Row("duplicate", "PRED", sig={"name": "IS_DUP", "needs_seen": True},
+        payload=None),                    # handled by the DEDUP transform
+)
+
+# -- transform atoms: structure-level operations with typed holes
+add(
+    Row(("ATOM", "FILTER"), "BLOCK", sig={"needs": {"src": "SEQ",
+                                                    "keep": "PRED"}},
+        payload="[x for x in {src} if {keep}]"),
+)
+
 # -- assembly blocks: (operation, selector) -> code fragment. Fragments
 #    operate on the accumulator `s`; `{item}` is the typed hole. The
 #    renderer supplies `s = <src>` before and `return s` after.

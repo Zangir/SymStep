@@ -15,7 +15,7 @@ import ast, os, re, sys
 
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-UNIFIED_MODULES = ["unified.py", "run.py",
+UNIFIED_MODULES = ["unified.py", "run.py", "agenda.py",
                    "engine/core.py", "engine/constraints.py",
                    "engine/ir.py", "engine/sandbox.py",
                    "reading/kb.py", "reading/semgraph.py",

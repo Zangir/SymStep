@@ -125,7 +125,7 @@ graphstep/
 | ProofWriter depths 0-5 + ext + birds-electricity (800) | 800/800; paraphrased split abstains | 0 |
 | StepGame spatial (500) | 387 correct, 112 abstain | 1* |
 | Story QA, 20 tasks (20,000) | 19,238 correct + 755 abstain honest; 19,654/20,000 closed-world | 7* |
-| MBPP code synthesis (500) | 1 certified, 1 proven-UNSAT, 498 refused (reading frontier) | 0 |
+| MBPP code synthesis (500, solver loop) | 3 certified (1 assembled, 2 DERIVED from atoms), 497 refused (reading frontier) | 0 |
 | AR-LSAT (230) | honest refusals — frame reading not built yet | 0 |
 
 \* All 8 disagreements are documented dataset-label noise: the StepGame gold
@@ -173,6 +173,35 @@ python3 graphstep/tests/test_generality.py      # no per-task code, ever
 python3 graphstep/tests/test_semgraph.py        # capture/attribution honesty
 python3 graphstep/tests/test_unified_parity.py  # puzzle results vs gold
 ```
+
+## The solver loop (`agenda.py`)
+
+Above the six steps sits a general while-loop that works a task part by
+part — the knowledge escalation ladder run per subgoal:
+
+```
+while open goals remain:
+    GROUND      known rows / the one-shot pipeline answer the goal
+    DECOMPOSE   split it by structure into subgoals
+    RETRIEVE    ask an external source, admit typed rows (provenance)
+    DERIVE      spec-guided composition of ATOMS for this subgoal only;
+                every candidate faces the oracle
+    VERIFY      tests / uniqueness proofs / closure judge the artifact
+    REPAIR      a failure names the guilty subgoal; reopen exactly it
+    LEARN       a verified composition becomes a new row — tomorrow's
+                GROUND is today's DERIVE (session scope; persistence
+                must be earned: verified + reusable + provenance-stamped)
+    REFUSE      nothing applies -> a named gap, honestly closed
+```
+
+When knowledge suffices, the loop is one iteration (all benchmark parity
+is preserved by construction). When it doesn't, the loop reasons down to
+atoms: "remove empty lists" — once proven UNSAT for the hand-written
+blocks — is now solved in 3 iterations by deriving `filter(not is_empty)`
+from atom rows, verifying it in the sandbox, and caching the result; the
+same atoms then solved "remove odd numbers" unprompted. Knowledge is
+scoped: bindings and story states die with the task, caches are
+disposable, and only verified reusable compositions become rows.
 
 ## Extending the system
 

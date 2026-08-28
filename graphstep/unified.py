@@ -252,6 +252,7 @@ class Frame:
     selectors: List[str]
     item: Optional[str]
     source: Optional[str]
+    item_mods: List[str] = field(default_factory=list)  # "EMPTY lists"
 
 
 _NLP = None
@@ -284,12 +285,15 @@ def parse_frame(text: str) -> Frame:
     theme = themes[0]
 
     selectors: List[str] = []
+    item_mods: List[str] = []
     for m in theme.children:
         if m.dep_ == "amod":
             for tok in sorted([m] + list(m.conjuncts), key=lambda t: t.i):
                 row = kb.match_word(tok.lemma_, "SEL:")
                 if row and row.symbol[4:] not in selectors:
                     selectors.append(row.symbol[4:])
+                elif not row:
+                    item_mods.append(tok.lemma_.lower())
 
     def pobj_of(head, preps) -> Optional[str]:
         for p in head.children:
@@ -312,7 +316,7 @@ def parse_frame(text: str) -> Frame:
         item = theme.lemma_.lower()
     return Frame(op=op_row.symbol[3:], op_provenance=op_row.provenance,
                  theme_kind=kind, selectors=selectors, item=item,
-                 source=source)
+                 source=source, item_mods=item_mods)
 
 
 # ================================================================ program CSP

@@ -45,6 +45,9 @@ def main() -> None:
                     help="knowledge-acquisition hooks run once before "
                          "solving (e.g. template calibration from a "
                          "caller-named training source)")
+    ap.add_argument("--loop", action="store_true",
+                    help="solve via the agenda loop (ground -> decompose -> "
+                         "derive -> verify -> learn) instead of one-shot")
     ap.add_argument("--out", default=None)
     args = ap.parse_args()
 
@@ -80,8 +83,11 @@ def main() -> None:
     t0 = time.time()
     for i, row in enumerate(rows, 1):
         bag = {k: v for k, v in row.items() if k not in hidden}
-        rec = solve(bag, question=row.get(args.question)
-                    if args.question else None)
+        solver = solve
+        if args.loop:
+            from .agenda import solve_loop as solver
+        rec = solver(bag, question=row.get(args.question)
+                     if args.question else None)
         rec["_row"] = i - 1
         if args.gold and rec["status"] == "SOLVED":
             gold = str(row.get(args.gold, "")).strip().strip("()").lower()
