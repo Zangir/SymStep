@@ -57,15 +57,15 @@ def add(*rows: Row) -> None:
 
 # ------------------------------------------------------------------ lookup
 
-def match_word(word: str, namespace: str) -> Optional[Row]:
-    """Exact word row in a namespace; on a miss, WordNet synonym sets are
-    searched for a word the store knows — the derived row is cached back
-    with the synset as provenance."""
+def match_word(word: str, namespace: str, widen: bool = True) -> Optional[Row]:
+    """Exact word row in a namespace; on a miss (and widen=True), WordNet
+    synonym sets are searched for a word the store knows — the derived row
+    is cached back with the synset as provenance."""
     w = word.lower()
     for r in KB:
         if r.pattern == w and r.symbol.startswith(namespace):
             return r
-    if namespace == "OP:":                       # widen verbs via WordNet
+    if widen and namespace == "OP:":             # widen verbs via WordNet
         try:
             from .retrieval import _ensure_wordnet
             wn = _ensure_wordnet()
@@ -107,6 +107,18 @@ add(
     Row("erase",  "OP:REMOVE", sig={"roles": {"item": "of", "src": "from|in"}}),
     Row("strip",  "OP:REMOVE", sig={"roles": {"item": "of", "src": "from|in"}}),
     Row("drop",   "OP:REMOVE", sig={"roles": {"item": "of", "src": "from|in"}}),
+    # boolean-predicate family: the program returns a truth value
+    Row("check", "OP:CHECK"), Row("verify", "OP:CHECK"),
+    Row("test", "OP:CHECK"), Row("determine", "OP:CHECK"),
+    Row("whether", "OP:CHECK"),
+    # counting family
+    Row("count", "OP:COUNT"),
+    # compute-dispatcher family: what to compute comes from the theme noun
+    Row("find", "OP:FIND"), Row("calculate", "OP:FIND"),
+    Row("compute", "OP:FIND"), Row("get", "OP:FIND"),
+    Row("return", "OP:FIND"),
+    # ordering family
+    Row("sort", "OP:SORT"),
 )
 
 # -- selectors: which occurrences an operation applies to
@@ -143,14 +155,182 @@ add(
 #    no ready-made block covers a task ("remove EMPTY lists" -> filter by
 #    not-empty). Same Row schema as everything else.
 add(
-    Row("empty", "PRED", sig={"name": "IS_EMPTY"}, payload="len({x}) == 0"),
-    Row("blank", "PRED", sig={"name": "IS_EMPTY"}, payload="len({x}) == 0"),
-    Row("odd", "PRED", sig={"name": "IS_ODD"}, payload="{x} % 2 == 1"),
-    Row("even", "PRED", sig={"name": "IS_EVEN"}, payload="{x} % 2 == 0"),
-    Row("negative", "PRED", sig={"name": "IS_NEG"}, payload="{x} < 0"),
-    Row("positive", "PRED", sig={"name": "IS_POS"}, payload="{x} > 0"),
-    Row("duplicate", "PRED", sig={"name": "IS_DUP", "needs_seen": True},
-        payload=None),                    # handled by the DEDUP transform
+    Row("empty", "PRED", sig={"name": "IS_EMPTY", "arg": "SIZED"},
+        payload="len({x}) == 0"),
+    Row("blank", "PRED", sig={"name": "IS_EMPTY", "arg": "SIZED"},
+        payload="len({x}) == 0"),
+    Row("odd", "PRED", sig={"name": "IS_ODD", "arg": "NUM"},
+        payload="{x} % 2 == 1"),
+    Row("even", "PRED", sig={"name": "IS_EVEN", "arg": "NUM"},
+        payload="{x} % 2 == 0"),
+    Row("negative", "PRED", sig={"name": "IS_NEG", "arg": "NUM"},
+        payload="{x} < 0"),
+    Row("positive", "PRED", sig={"name": "IS_POS", "arg": "NUM"},
+        payload="{x} > 0"),
+    Row("prime", "PRED", sig={"name": "IS_PRIME", "arg": "NUM"},
+        payload="({x} > 1 and all({x} % _i for _i in "
+                "range(2, int({x} ** 0.5) + 1)))"),
+    Row("palindrome", "PRED", sig={"name": "IS_PAL", "arg": "ANY"},
+        payload="str({x}) == str({x})[::-1]"),
+    Row("true", "PRED", sig={"name": "IS_TRUE", "arg": "ANY"},
+        payload="bool({x})"),
+    Row("false", "PRED", sig={"name": "IS_FALSE", "arg": "ANY"},
+        payload="not bool({x})"),
+    Row("vowel", "PRED", sig={"name": "IS_VOWEL", "arg": "ANY"},
+        payload="str({x}).lower() in 'aeiou'"),
+    Row("leap", "PRED", sig={"name": "IS_LEAP", "arg": "NUM"},
+        payload="({x} % 4 == 0 and ({x} % 100 != 0 or {x} % 400 == 0))"),
+    Row("square", "PRED", sig={"name": "IS_SQUARE", "arg": "NUM"},
+        payload="({x} >= 0 and int({x} ** 0.5) ** 2 == {x})"),
+)
+
+# -- reduction atoms: a theme noun/adjective -> one aggregation over a
+#    sequence ("find the MAXIMUM of the list")
+add(
+    # keys are LEMMAS (the parser lemmatizes: "smallest" -> "small")
+    Row("maximum", "REDUCE", payload="max({src})"),
+    Row("max", "REDUCE", payload="max({src})"),
+    Row("large", "REDUCE", payload="max({src})"),
+    Row("big", "REDUCE", payload="max({src})"),
+    Row("high", "REDUCE", payload="max({src})"),
+    Row("great", "REDUCE", payload="max({src})"),
+    Row("minimum", "REDUCE", payload="min({src})"),
+    Row("min", "REDUCE", payload="min({src})"),
+    Row("small", "REDUCE", payload="min({src})"),
+    Row("low", "REDUCE", payload="min({src})"),
+    Row("little", "REDUCE", payload="min({src})"),
+    Row("sum", "REDUCE", payload="sum({src})"),
+    Row("total", "REDUCE", payload="sum({src})"),
+    Row("length", "REDUCE", payload="len({src})"),
+    Row("product", "REDUCE", payload="__import__('math').prod({src})"),
+    Row("average", "REDUCE", payload="sum({src}) / len({src})"),
+    Row("mean", "REDUCE", payload="sum({src}) / len({src})"),
+    Row("first", "REDUCE", payload="{src}[0]"),
+    Row("last", "REDUCE", payload="{src}[-1]"),
+)
+
+# -- composition DEVICES: grammatical connectives -> how grounded meanings
+#    combine. Pure data: the compiler (reading/compose.py) reads these; the
+#    devices are English, not any domain's.
+add(
+    Row(("DEVICE", "of"), "DEVICE", payload="apply"),
+    Row(("DEVICE", "between"), "DEVICE", payload="binop_pair"),
+    Row(("DEVICE", "than"), "DEVICE", payload="param"),
+    Row(("DEVICE", "and"), "DEVICE", payload="combine"),
+    Row(("DEVICE", "if"), "DEVICE", payload="condition"),
+    Row(("DEVICE", "unless"), "DEVICE", payload="condition_neg"),
+    # "sort X BY k" / "ACCORDING TO k": parameterization by a function —
+    # an English device, knows nothing about sorting or any task
+    Row(("DEVICE", "by"), "DEVICE", payload="keyparam"),
+    Row(("DEVICE", "accord"), "DEVICE", payload="keyparam"),
+    Row(("DEVICE", "according"), "DEVICE", payload="keyparam"),
+)
+
+# -- type coercions: rules of the ALGEBRA, quantified over open classes.
+#    (BINOP, SEQ): when a binary operation meets a sequence argument,
+#    iterate it across the sequence — true for ANY binary atom, present
+#    or future (hand-written, retrieved, or learned).
+add(
+    Row(("COERCE", "BINOP", "SEQ"), "COERCE",
+        payload="__import__('functools').reduce("
+                "lambda _a, _b: {op}, {seq})"),
+    # (APPLY, SEQ): an element-level expression meeting a sequence maps
+    # across it — any inner chain, any sequence
+    Row(("COERCE", "APPLY", "SEQ"), "COERCE",
+        payload="[{f} for _e in {seq}]"),
+)
+
+# -- function atoms: one value -> one value (LEMMA-keyed)
+add(
+    Row("digit", "FUNC", payload="[int(_c) for _c in str({src})]",
+        sig={"out": "LIST"}),
+    Row("square", "FUNC", payload="(({src}) ** 2)"),
+    Row("cube", "FUNC", payload="(({src}) ** 3)"),
+    Row("double", "FUNC", payload="(2 * ({src}))"),
+    Row("half", "FUNC", payload="(({src}) / 2)"),
+    Row("word", "FUNC", payload="str({src}).split()", sig={"out": "LIST"}),
+    Row("letter", "FUNC", payload="list(str({src}))", sig={"out": "LIST"}),
+    Row("character", "FUNC", payload="list(str({src}))", sig={"out": "LIST"}),
+    Row("absolute", "FUNC", payload="abs({src})"),
+    Row("factorial", "FUNC", payload="__import__('math').factorial({src})"),
+    Row("median", "FUNC",
+        payload="(lambda _s: _s[len(_s) // 2] if len(_s) % 2 else "
+                "(_s[len(_s) // 2 - 1] + _s[len(_s) // 2]) / 2)"
+                "(sorted({src}))"),
+    Row("count", "REDUCE", payload="len({src})"),
+)
+
+# -- binary operators over two composed values
+add(
+    Row("difference", "BINOP", payload="(({a}) - ({b}))"),
+    Row("ratio", "BINOP", payload="(({a}) / ({b}))"),
+    Row("frequency", "BINOP", payload="(list({b}).count({a}))"),
+    Row("occurrence", "BINOP", payload="(list({b}).count({a}))"),
+    Row("power", "BINOP", payload="(({a}) ** ({b}))"),
+    Row("remainder", "BINOP", payload="(({a}) % ({b}))"),
+    Row("quotient", "BINOP", payload="(({a}) // ({b}))"),
+    Row("index", "BINOP", payload="(list({b}).index({a}))"),
+)
+
+# -- geometry: formulas keyed by measure + shape ("the AREA of a RECTANGLE")
+add(
+    Row("area", "GEOMHEAD"), Row("perimeter", "GEOMHEAD"),
+    Row("volume", "GEOMHEAD"), Row("circumference", "GEOMHEAD"),
+    Row(("GEOM", "area", "rectangle"), "GEOM", payload="(({a}) * ({b}))"),
+    Row(("GEOM", "area", "square"), "GEOM", payload="(({a}) ** 2)"),
+    Row(("GEOM", "area", "circle"), "GEOM",
+        payload="(3.141592653589793 * ({a}) ** 2)"),
+    Row(("GEOM", "area", "triangle"), "GEOM",
+        payload="(0.5 * ({a}) * ({b}))"),
+    Row(("GEOM", "area", "rhombus"), "GEOM",
+        payload="(0.5 * ({a}) * ({b}))"),
+    Row(("GEOM", "area", "trapezium"), "GEOM",
+        payload="(0.5 * (({a}) + ({b})) * ({c}))"),
+    Row(("GEOM", "perimeter", "square"), "GEOM", payload="(4 * ({a}))"),
+    Row(("GEOM", "perimeter", "rectangle"), "GEOM",
+        payload="(2 * (({a}) + ({b})))"),
+    Row(("GEOM", "circumference", "circle"), "GEOM",
+        payload="(2 * 3.141592653589793 * ({a}))"),
+    Row(("GEOM", "volume", "cube"), "GEOM", payload="(({a}) ** 3)"),
+    Row(("GEOM", "volume", "sphere"), "GEOM",
+        payload="((4 / 3) * 3.141592653589793 * ({a}) ** 3)"),
+    Row(("GEOM", "volume", "cylinder"), "GEOM",
+        payload="(3.141592653589793 * ({a}) ** 2 * ({b}))"),
+    Row(("GEOM", "volume", "cone"), "GEOM",
+        payload="((1 / 3) * 3.141592653589793 * ({a}) ** 2 * ({b}))"),
+    Row(("GEOM", "volume", "prism"), "GEOM",
+        payload="(({a}) * ({b}) * ({c}) / 2)"),
+)
+
+# -- parameterized predicates: a value from the spec or an argument fills {k}
+add(
+    Row("divisible", "PPRED", sig={"arg": "NUM"},
+        payload="(({x}) % ({k}) == 0)"),
+    Row("multiple", "PPRED", sig={"arg": "NUM"},
+        payload="(({x}) % ({k}) == 0)"),
+    Row("longer", "PPRED", sig={"arg": "SIZED"},
+        payload="(len({x}) > ({k}))"),
+    Row("shorter", "PPRED", sig={"arg": "SIZED"},
+        payload="(len({x}) < ({k}))"),
+    Row("greater", "PPRED", sig={"arg": "NUM"}, payload="(({x}) > ({k}))"),
+    Row("smaller", "PPRED", sig={"arg": "NUM"}, payload="(({x}) < ({k}))"),
+)
+
+# -- whole-value transforms keyed by the verb itself ("REVERSE a list")
+add(
+    Row("reverse", "OP:XFORM", payload="{src}[::-1]"),
+    Row("invert", "OP:XFORM", payload="{src}[::-1]"),
+)
+
+# -- binary predicates: relations between two arguments
+add(
+    Row("identical", "BPRED", payload="{a} == {b}"),
+    Row("equal", "BPRED", payload="{a} == {b}"),
+    Row("same", "BPRED", payload="{a} == {b}"),
+    Row("substring", "BPRED", payload="(({a}) in ({b}))"),
+    Row("contain", "BPRED", payload="(({b}) in ({a}))"),
+    Row("greater", "BPRED", payload="{a} > {b}"),
+    Row("smaller", "BPRED", payload="{a} < {b}"),
 )
 
 # -- transform atoms: structure-level operations with typed holes
@@ -158,6 +338,11 @@ add(
     Row(("ATOM", "FILTER"), "BLOCK", sig={"needs": {"src": "SEQ",
                                                     "keep": "PRED"}},
         payload="[x for x in {src} if {keep}]"),
+    Row(("ATOM", "COUNT"), "BLOCK", sig={"needs": {"src": "SEQ",
+                                                   "keep": "PRED"}},
+        payload="sum(1 for x in {src} if {keep})"),
+    Row(("ATOM", "SORT"), "BLOCK", sig={"needs": {"src": "SEQ"}},
+        payload="sorted({src})"),
 )
 
 # -- assembly blocks: (operation, selector) -> code fragment. Fragments

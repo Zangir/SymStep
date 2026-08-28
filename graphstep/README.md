@@ -125,7 +125,8 @@ graphstep/
 | ProofWriter depths 0-5 + ext + birds-electricity (800) | 800/800; paraphrased split abstains | 0 |
 | StepGame spatial (500) | 387 correct, 112 abstain | 1* |
 | Story QA, 20 tasks (20,000) | 19,238 correct + 755 abstain honest; 19,654/20,000 closed-world | 7* |
-| MBPP code synthesis (500, solver loop) | 3 certified (1 assembled, 2 DERIVED from atoms), 497 refused (reading frontier) | 0 |
+| MBPP, internal knowledge only | 28 certified, 7 proven-UNSAT | 0 |
+| MBPP + worked-example corpora (456k examples: own splits, instruction datasets, CodeSearchNet) | **99 solved** = 28 certified + 71 VERIFIED (example-sourced, oracle-passed) | 0 |
 | AR-LSAT (230) | honest refusals — frame reading not built yet | 0 |
 
 \* All 8 disagreements are documented dataset-label noise: the StepGame gold
@@ -164,6 +165,11 @@ python3 -m spacy download en_core_web_sm
 python3 -m graphstep.run --hf <org/dataset> [--config X] [--split test]
     [--gold <answer-field>] [--question <query-field>] [--drop <gold fields>]
     [--calibrate module:function[:source@split]] [--limit N] [--per FIELD=N]
+    [--loop]        # the solver loop: decompose / derive / retrieve / learn
+
+# arm worked-example corpora (any dataset of (description, code) pairs):
+#   --calibrate "graphstep.reading.sources:register_procedure_corpus:\
+#                <org/dataset>[#config]@<split>[+split]:<textfield>:<codefield>"
 
 # one sample from JSON / stdin:
 python3 -m graphstep.unified sample.json
@@ -172,7 +178,53 @@ python3 -m graphstep.unified sample.json
 python3 graphstep/tests/test_generality.py      # no per-task code, ever
 python3 graphstep/tests/test_semgraph.py        # capture/attribution honesty
 python3 graphstep/tests/test_unified_parity.py  # puzzle results vs gold
+python3 graphstep/tests/test_compose.py         # compiler algebra-neutrality
+python3 graphstep/tests/test_sources.py         # retrieval kinds + tribunal
 ```
+
+## Gap-driven retrieval (`reading/sources.py`)
+
+**The knowledge-kind ontology** (`KINDS`): a CLOSED set — meaning,
+callable, formula, fact, procedure, example, policy — where every kind
+declares its representation, its admission oracle, the GRADE its use
+confers (certified / verified / likely / calibrated), and whether it may
+persist. No oracle, no kind. Procedures are task-shaped: a worked example
+from any registered corpus is matched to the spec, its entry point aliased,
+and it is employed ONLY if it passes the task's own oracle — graded
+"verified", never "certified", and never stored. The CI proves the gating
+with a trap: a wrong candidate with a better lexical match must lose to a
+correct one with a worse match.
+
+A complete atom set is impossible; knowledge is PULLED BY THE GAP instead.
+A refusal names its missing word; that name becomes a Gap; SOURCE ADAPTERS
+answer it with candidate rows in the one Row schema, provenance-stamped;
+the ADMISSION TRIBUNAL rejects anything a higher-trust row already defines
+(hand = calibrated > derived = introspected > WordNet/Wikidata > web);
+EMPLOYMENT stays oracle-gated — a retrieved meaning is used only if the
+composition it enters survives the tests or proofs. Nothing is absorbed
+as text.
+
+Two adapters ship: **introspection** (the Python runtime is interrogated
+for real callables and their true signatures — the entire standard library
+becomes an on-demand atom space: "find the gcd of two numbers" retrieves
+math.gcd, passes the oracle, and is certified with provenance
+`introspected:math.gcd`) and the existing **WordNet/Wikidata** route for
+the claim algebra ("Rex is a wolf" + "Rex is a canine?" -> True, graded
+`likely`, proof quoting `[retrieved:wordnet] every wolf is a canine`).
+Background-knowledge retrieval is OPT-IN per run (synthetic theory
+benchmarks must not be answered from real-world knowledge); retrieved-tier
+answers are always GRADED, never silently mixed with certified ones.
+`tests/test_sources.py` is CI: real callables found, hand rows win,
+oracle-gated employment, honest refusal on unknown words, grading+opt-in.
+
+Corpora scale: registration builds an inverted word index, so worked-
+example lookup is independent of corpus size (measured with 456k examples
+across four corpora). The measured lesson: **source fit beats source
+size** — an 18k corpus of instruction-phrased examples contributed as many
+verified solves as the benchmark's own training split, while 400k API-doc-
+style functions contributed three. Arming corpora does not touch any other
+reasoning path (verified empirically: puzzles, theories, stories, and
+truth-teller chains are bit-identical with sources armed).
 
 ## The solver loop (`agenda.py`)
 
@@ -196,12 +248,47 @@ while open goals remain:
 
 When knowledge suffices, the loop is one iteration (all benchmark parity
 is preserved by construction). When it doesn't, the loop reasons down to
-atoms: "remove empty lists" — once proven UNSAT for the hand-written
-blocks — is now solved in 3 iterations by deriving `filter(not is_empty)`
-from atom rows, verifying it in the sandbox, and caching the result; the
-same atoms then solved "remove odd numbers" unprompted. Knowledge is
-scoped: bindings and story states die with the task, caches are
-disposable, and only verified reusable compositions become rows.
+atoms — predicate atoms (empty, odd, prime, true, vowel, leap, ...),
+reduction atoms (min, max, sum, average, ...), transform atoms (filter,
+count, sort, reverse), binary relations (equal, greater) — composed by
+schema per operation family and judged candidate-by-candidate in the
+sandbox. Knowledge is scoped: bindings and story states die with the
+task; only verified reusable compositions become rows.
+
+Two honesty guards keep derivation from gaming weak test suites:
+**head-licensing** (an atom may only fill the frame's head position —
+"find the SMALLEST number" licenses min; "find the frequency of the
+smallest value" does not) and **argument coverage** (a candidate must use
+every argument whose value varies across the examples). Both were added
+after they caught real test-overfits ("co-prime" answered by primality of
+one argument; lexicographic max passing a longest-sublist task) — and a
+learned row carries its license with it, so reuse obeys the same gates.
+
+Parse-first reading feeds all of this: when the parser mis-attaches the
+action verb, structure is recovered lexicon-guided (first verb-like or
+operation-grounded token after the imperative wrapper) — spec frames read
+on MBPP went from 139/500 to 387/500, turning silent structural failures
+into precisely named vocabulary gaps.
+
+**The composition compiler (`reading/compose.py`)**: grammatical structure
+determines how grounded meanings combine — "the sum OF the digits OF the
+number" IS `sum(digits(n))`, because "of" means apply in every domain.
+Composition devices (of-application, between-pairs, comparative
+parameters, coordination, conditionals) are DEVICE rows in the one store;
+domain enters through exactly one plug, the leaf grounder each algebra
+supplies (proven algebra-neutral in `tests/test_compose.py`: the identical
+compiler builds `sum(digits(arg0))` for code and `owner_of(DOG)` for a toy
+relational algebra, and refuses unknown heads). A compiled tree is
+licensed BY CONSTRUCTION — every atom sits exactly where the parse put its
+word — which generalizes head-licensing to arbitrary depth.
+
+Type COERCIONS extend composition beyond the sentence's surface: (BINOP,
+SEQ) folds a binary atom across a sequence ("the gcd of the array
+elements" -> `reduce(gcd, xs)` — open-class, proven in CI with a
+runtime-plugged operator), and (APPLY, SEQ) maps an element-level chain
+("the maximum sum of the sublists" -> `max([sum(e) for e in xs])`). The
+KEY device ("sort BY / ACCORDING TO k") parameterizes by a compiled key
+function. All are rows; none knows a task.
 
 ## Extending the system
 
@@ -226,9 +313,10 @@ metric will show it.
   selection ("exactly six will report"), nested unless-conditionals, and
   schedule-shaped options — all as rows over the existing machinery.
 - **Code synthesis growth** (MBPP → BigCodeBench → SWE-bench Verified):
-  more operation families and a FILTER-by-predicate block family; the
-  protocol is fixed — measure, explain every failure, the maintainer picks
-  the fix, re-run until solved, then advance.
+  more instruction-style worked-example corpora (the measured best yield),
+  the example-kind gap (request a discriminating test when candidates tie),
+  and loop/accumulate composition devices; the protocol is fixed — measure,
+  explain every failure, the maintainer picks the fix, re-run, advance.
 - **Reading enrichment**: promote captured clauses to proof grade in place
   (grounding bridge), causal/discourse rows ("because", "so"), WordNet
   is-a edges on every graph node, and induction over the accumulated graph.

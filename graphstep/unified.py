@@ -253,6 +253,8 @@ class Frame:
     item: Optional[str]
     source: Optional[str]
     item_mods: List[str] = field(default_factory=list)  # "EMPTY lists"
+    verb: Optional[str] = None
+    theme_token: object = None      # parse anchor for the composition compiler
 
 
 _NLP = None
@@ -268,18 +270,37 @@ def parse_frame(text: str) -> Frame:
     doc = _nlp()(text)
     sent = next(doc.sents)
     verb = sent.root
-    if kb.match_word(verb.lemma_, "DISCOURSE:"):
+    if kb.match_word(verb.lemma_, "DISCOURSE:", widen=False):
         inner = [c for c in verb.children if c.pos_ == "VERB"
                  and c.dep_ in ("advcl", "xcomp", "ccomp")]
-        if not inner:
-            raise ValueError("imperative framing with no inner action verb")
-        verb = inner[0]
+        if inner:
+            verb = inner[0]
+        else:
+            # parse-first recovery: the parser mis-attached or mis-tagged
+            # the infinitive. The action is the first token after the
+            # wrapper that is verb-like OR grounds to a known operation
+            # row (lexicon-guided structure repair; the oracle still
+            # gates whatever gets assembled downstream).
+            cands = [t for t in sent if t.i > verb.i
+                     and t.lemma_.lower() != "function"
+                     and not kb.match_word(t.lemma_, "DISCOURSE:",
+                                           widen=False)
+                     and (t.pos_ == "VERB"
+                          or kb.match_word(t.lemma_, "OP:", widen=False))]
+            if not cands:
+                raise ValueError("imperative framing with no inner "
+                                 "action verb")
+            verb = cands[0]
 
     op_row = kb.match_word(verb.lemma_, "OP:")
     if op_row is None:
         raise ValueError(f"ungrounded verb: '{verb.lemma_}'")
 
     themes = [c for c in verb.children if c.dep_ in ("dobj", "obj")]
+    if not themes:
+        # recovery for mis-tagged actions: nearest noun to the right
+        themes = [t for t in sent if t.i > verb.i and t.pos_ == "NOUN"
+                  and t.lemma_.lower() != "function"][:1]
     if not themes:
         raise ValueError(f"no direct object under '{verb.text}'")
     theme = themes[0]
@@ -316,7 +337,8 @@ def parse_frame(text: str) -> Frame:
         item = theme.lemma_.lower()
     return Frame(op=op_row.symbol[3:], op_provenance=op_row.provenance,
                  theme_kind=kind, selectors=selectors, item=item,
-                 source=source, item_mods=item_mods)
+                 source=source, item_mods=item_mods,
+                 verb=verb.lemma_.lower(), theme_token=theme)
 
 
 # ================================================================ program CSP
@@ -784,9 +806,36 @@ def _claim_route(rec: Dict, ev: Evidence) -> Dict:
         rec["reasons"].append("WH-question: value query kind not supported "
                               "by the claim route")
         return rec
+    verdict = str(wm.ask(ev.question))
+    if verdict == "Unknown" and KNOWLEDGE_RETRIEVAL:
+        # RETRIEVE for the claim algebra: background rules from external
+        # sources (WordNet/Wikidata), admitted with text-authority conflict
+        # rejection, then re-asked. Retrieved-tier answers are GRADED, and
+        # the proof quotes its sources.
+        try:
+            wm.retrieve_for(ev.question)
+            wm.closure()
+            exp = wm.ask_explained(ev.question)
+            if exp["verdict"] != "Unknown":
+                rec["status"] = "SOLVED"
+                rec["answer"] = str(exp["verdict"])
+                rec["grade"] = f"likely (tier {exp['tier']}, " \
+                               f"sources {exp['sources']})"
+                rec["proof"] = exp.get("proof", "")
+                return rec
+        except Exception:                          # noqa: BLE001
+            pass
     rec["status"] = "SOLVED"
-    rec["answer"] = str(wm.ask(ev.question))
+    rec["answer"] = verdict
     return rec
+
+
+KNOWLEDGE_RETRIEVAL = False        # external background knowledge: opt-in
+
+
+def enable_knowledge_retrieval():
+    global KNOWLEDGE_RETRIEVAL
+    KNOWLEDGE_RETRIEVAL = True
 
 
 # ================================================================ CLI
