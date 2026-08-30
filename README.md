@@ -19,7 +19,7 @@
 
 ---
 
-## The Problem: Every Unverified Step Is a Ticking Time Bomb
+## The problem: unverified steps compound
 
 LLMs reason in free-form text. Each step can silently introduce an error. By step 7, the model deduces Alice owns the dog — without noticing it proved Alice owns a cat in step 3. Chain-of-thought makes this **worse**: it generates *more* steps, each a fresh opportunity for contradiction.
 
@@ -27,7 +27,7 @@ This is not a model capability problem. It is an **architecture problem** — th
 
 ---
 
-## The Fix: One Claim. One Check. Every Time.
+## The fix: one claim, one check, every time
 
 SymStep couples an LLM with a lightweight symbolic **constraint propagator** operating at the granularity of individual deduction steps:
 
@@ -47,7 +47,7 @@ The propagator also **cascades arc-consistency** — automatically deriving new 
 
 ---
 
-## Results That Speak for Themselves
+## Results
 
 ### Published External Benchmarks
 
@@ -87,9 +87,7 @@ The propagator also **cascades arc-consistency** — automatically deriving new 
 
 ---
 
-## The Ablation That Changes the Story
-
-> *If you only read one table, read this one.*
+## Ablation: what actually matters
 
 | Config | Acc | Std | Contradictions |
 |--------|-----|-----|----------------|
@@ -249,16 +247,10 @@ Regex-parseable. No Prolog. No Z3. No formal logic training required.
 
 ## Reproducibility
 
-All results are single-run on Claude Haiku (`claude-haiku-4-5`) unless noted. Multi-run ablation on LGP-6 (N=3 independent runs):
-
-| Config | Mean Acc | Std | Evaluations |
-|--------|----------|-----|-------------|
-| CoT | 0.0% | 0.0 | 18/18 fail |
-| Verification only | 72.2% | 9.6 | — |
-| Guidance only | 100.0% | 0.0 | 18/18 pass |
-| **SymStep+G** | **100.0%** | **0.0** | **18/18 pass** |
-
-Zero-variance reproducibility confirmed across all guided configurations.
+All results are single-run on Claude Haiku (`claude-haiku-4-5`) unless
+noted. The multi-run ablation (N=3 independent runs, table above) showed
+zero variance across all guided configurations: 18/18 puzzles solved in
+every run.
 
 ---
 
@@ -274,23 +266,23 @@ verifier per domain. That makes it easy to extend, and contributions are very we
 
 Open an issue to discuss an idea, or send a PR. If you build on SymStep, we'd love to hear about it.
 
-If the project is useful to you, please **⭐ star it** — it genuinely helps others discover the work.
-
 ---
 
 ## GraphStep: the successor framework
 
 SymStep verifies an LLM's reasoning step by step. Its successor,
-**[GraphStep](graphstep/)**, removes the LLM from the loop entirely: one
-general algorithm reads any input (logic puzzles, code-synthesis tasks,
-stories, open prose), compiles what it understood into a typed constraint
-graph or logical rules, and reasons symbolically — every answer certified,
-every failure a named refusal, **zero LLM calls** across all benchmarks:
-ZebraLogicBench 959/959 certified, BBH logical deduction 750/750 and
-web-of-lies 250/250, ProofWriter 800/800, the 20-task story-QA suite at
-98.3%, plus certified program synthesis. No per-task code exists anywhere
-(enforced by CI); a benchmark is only where samples come from. See
-[graphstep/README.md](graphstep/README.md).
+**[GraphStep](graphstep/)**, removes the LLM entirely: one general
+algorithm reads any input — logic puzzles, coding tasks, stories, open
+prose, even "write a summary of X" — grounds it in a single knowledge
+store, and solves it symbolically. Every answer is checked (uniqueness
+proofs, test suites, proof chains), every failure names exactly what
+could not be read, and missing knowledge is fetched from general sources
+(WordNet, Wikidata, Wiktionary, OEIS, Wikipedia, worked-example corpora,
+the Python runtime itself) — with **zero LLM calls** everywhere:
+ZebraLogicBench 959/959 certified, BBH logical deduction 750/750,
+web-of-lies 250/250, ProofWriter 800/800, story QA 98.3%, plus graded
+program synthesis. No per-task code exists anywhere (enforced by CI).
+See [graphstep/README.md](graphstep/README.md).
 
 ---
 
@@ -309,5 +301,5 @@ web-of-lies 250/250, ProofWriter 800/800, the 20-task story-QA suite at
 
 By Aida Usmanova, Rui Gao, Dilshod Azizov, Ricardo Usbeck, and Zangir Iklassov
 (Leuphana University of Lüneburg · MBZUAI). Maintained by
-[Zangir Iklassov](https://github.com/Zangir). If SymStep is useful to you,
-please ⭐ the repo — issues and pull requests are welcome.
+[Zangir Iklassov](https://github.com/Zangir). Issues and pull requests
+are welcome.

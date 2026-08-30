@@ -564,6 +564,37 @@ def solve_loop(sample: dict, question: Optional[str] = None,
         if goal.desc == "solve the task":
             rec = unified.solve(sample, question=question)
             bb.log(f"GROUND: one-shot pipeline -> {rec['status']}")
+            # ARTIFACT-DEMAND shape: an imperative whose theme is a
+            # text-artifact noun (ENG:ARTIFACT row) and which carries no
+            # I/O examples asks for a DIGEST — a certified selection
+            # graph over a read source (rendering is another engine's
+            # job). Evidence-shape dispatch, same as everywhere.
+            ev0 = unified.recognize(sample)
+            if not ev0.assert_texts and ev0.statements:
+                # the demand noun is the imperative's object; the frame
+                # parser rightly refuses (no action verb), so the shape is
+                # read directly: WRAPPER verb + ENG:ARTIFACT object
+                doc0 = unified._nlp()(ev0.statements[0][0])
+                theme0 = next(
+                    (t for t in doc0
+                     if t.dep_ in ("dobj", "obj")
+                     and any(r.symbol == "ENG:ARTIFACT"
+                             and r.pattern == t.lemma_.lower()
+                             for r in kb.KB)
+                     and kb.match_word(t.head.lemma_, "DISCOURSE:",
+                                       widen=False)), None)
+                if theme0 is not None:
+                    from .reading import questions as _q
+
+                    class _F:                 # frame shim: theme only
+                        theme_token = theme0
+                    bb.log("DIGEST: artifact-demand shape recognized "
+                           f"({theme0.lemma_} of ...)")
+                    rec2 = _q.digest_route(_F, ev0.statements)
+                    rec.update(rec2)
+                    goal.status = "PROVEN" if rec["status"] == "SOLVED" \
+                        else "REFUSED"
+                    break
             if rec["status"] in ("SOLVED", "CONCLUSIONS", "CAPTURED",
                                  "EXCLUDED", "AMBIGUOUS"):
                 goal.status = "PROVEN" if rec["status"] == "SOLVED" \
@@ -664,6 +695,29 @@ def solve_loop(sample: dict, question: Optional[str] = None,
                 # graded 'verified', never stored (task-shaped). Needs
                 # only the signature and spec text — NOT the frame.
                 derived = _employ_procedure(bb)
+            if derived is None and bb.sig is not None:
+                # QUESTIONS: the last method — typed questions over the
+                # sample's subgraphs and groups (reading/questions.py):
+                # DENOTE with typed gaps, usage mining, evidence-group
+                # contrast, licensed analog reuse. Fires only after every
+                # earlier path refused, so nothing previously solved can
+                # change. A CONJECTURE (an unlicensed separator that
+                # merely passes the tests) is reported, never answered.
+                from .reading import questions as _q
+                got = _q.derive(
+                    " ".join(t for t, _ in bb.evidence.statements),
+                    bb.sig, bb.evidence.assert_texts, frame=bb.frame)
+                for ln in got.get("trace", [])[:10]:
+                    bb.log(f"QUESTIONS: {ln}")
+                if got["status"] == "SOLVED":
+                    derived = {"code": got["code"],
+                               "atoms": got.get("prov", ["questions"]),
+                               "grade": got.get("grade",
+                                                "verified (questions)")}
+                elif got["status"] == "CONJECTURE":
+                    rec["conjecture"] = got["code"]
+                    bb.log("QUESTIONS: conjecture withheld "
+                           "(separator unconnected to the task's words)")
             if derived:
                 goal.status = "PROVEN"
                 goal.artifact = derived

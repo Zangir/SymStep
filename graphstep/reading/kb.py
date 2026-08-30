@@ -388,6 +388,68 @@ add(
         payload="s = s.replace({item}, '')"),
 )
 
+# -- ENGLISH facts: the closed word classes as rows, beside the DEVICE
+#    rows they belong with. Combinator meanings of function words —
+#    facts about English, never about tasks; consumed by the question
+#    layer (reading/questions.py) the way DEVICE rows feed the compiler.
+add(
+    Row("all", "ENG:QUANT", payload="all({p} for {v} in {g})"),
+    Row("every", "ENG:QUANT", payload="all({p} for {v} in {g})"),
+    Row("each", "ENG:QUANT", payload="all({p} for {v} in {g})"),
+    Row("any", "ENG:QUANT", payload="any({p} for {v} in {g})"),
+    Row("some", "ENG:QUANT", payload="any({p} for {v} in {g})"),
+    Row("no", "ENG:QUANT", payload="not any({p} for {v} in {g})"),
+    Row("each other", "ENG:RECIP",
+        payload="all({r} for _i, {v} in enumerate({g}) "
+                "for {v2} in {g}[_i+1:])"),
+    Row("one another", "ENG:RECIP",
+        payload="all({r} for _i, {v} in enumerate({g}) "
+                "for {v2} in {g}[_i+1:])"),
+    Row("each", "ENG:MAP", payload="[{b} for {v} in {g}]"),
+    Row("every", "ENG:MAP", payload="[{b} for {v} in {g}]"),
+    Row("of", "ENG:APPLY"), Row("be", "ENG:COPULA"),
+    Row("not", "ENG:NEG", payload="not ({x})"),
+    Row("non", "ENG:NEG", payload="not ({x})"),
+    Row("count", "ENG:SIZE", payload="len({g})"),
+    Row("number of", "ENG:SIZE", payload="len({g})"),
+    Row("number", "ENG:SIZE", payload="len({g})"),
+)
+
+# -- type-denoting nouns (English facts: these nouns NAME kinds of values;
+#    a fresh namespace so the CSP route's TYPE: rows are untouched) and
+#    imperative-wrapper stopwords (words carrying no task identity).
+add(
+    Row("number", "ENG:TYPENOUN", sig={"t": "NUM"}),
+    Row("integer", "ENG:TYPENOUN", sig={"t": "NUM"}),
+    Row("digit", "ENG:TYPENOUN", sig={"t": "NUM"}),
+    Row("list", "ENG:TYPENOUN", sig={"t": "COLL"}),
+    Row("array", "ENG:TYPENOUN", sig={"t": "COLL"}),
+    Row("sequence", "ENG:TYPENOUN", sig={"t": "COLL"}),
+    Row("tuple", "ENG:TYPENOUN", sig={"t": "COLL"}),
+    Row("string", "ENG:TYPENOUN", sig={"t": "STR"}),
+    Row("word", "ENG:TYPENOUN", sig={"t": "STR"}),
+    Row("sentence", "ENG:TYPENOUN", sig={"t": "STR"}),
+    Row("value", "ENG:TYPENOUN", sig={"t": "ANY"}),
+    Row("element", "ENG:TYPENOUN", sig={"t": "ANY"}),
+    Row("item", "ENG:TYPENOUN", sig={"t": "ANY"}),
+    Row("of", "ENG:TOPIC"), Row("about", "ENG:TOPIC"),
+    Row("on", "ENG:TOPIC"),
+    Row("summary", "ENG:ARTIFACT"), Row("overview", "ENG:ARTIFACT"),
+    Row("abstract", "ENG:ARTIFACT"), Row("digest", "ENG:ARTIFACT"),
+    Row("outline", "ENG:ARTIFACT"), Row("synopsis", "ENG:ARTIFACT"),
+    # digest selection policy: DATA with provenance, not engine code —
+    # calibration (mining article-body vs lead-section pairs) replaces
+    # this hand row with a calibrated one
+    Row(("DIGEST", "POLICY"), "ENG:POLICY",
+        sig={"centrality": 1, "anchored": 2}, provenance="hand"),
+    Row("check", "ENG:STOP"), Row("whether", "ENG:STOP"),
+    Row("get", "ENG:STOP"), Row("return", "ENG:STOP"),
+    Row("take", "ENG:STOP"), Row("use", "ENG:STOP"),
+    Row("find", "ENG:STOP"), Row("give", "ENG:STOP"),
+    Row("write", "ENG:STOP"), Row("function", "ENG:STOP"),
+    Row("python", "ENG:STOP"),
+)
+
 
 # ------------------------------------------------------- CLUE emitters
 # ctx: {"values": [...], "entities": [...], "text": str, "negated": bool,

@@ -19,7 +19,8 @@ UNIFIED_MODULES = ["unified.py", "run.py", "agenda.py",
                    "engine/core.py", "engine/constraints.py",
                    "engine/ir.py", "engine/sandbox.py",
                    "reading/kb.py", "reading/semgraph.py",
-                   "reading/narrative.py", "reading/compose.py", "reading/sources.py"]
+                   "reading/narrative.py", "reading/compose.py",
+                   "reading/sources.py", "reading/questions.py"]
 
 BANNED_NAMES = re.compile(
     r"(?i)\b(mbpp|zebra|zebralogic|lsat|babi|lgp\b|proofwriter|stepgame|"
